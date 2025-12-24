@@ -170,6 +170,25 @@
     ],
     "closeBracketAliases": [
         "）"
+    ],
+    "hourlyAliases": [
+        "hourly"
+    ],
+    "dailyAliases": [
+        "daily"
+    ],
+    "monthlyAliases": [
+        "monthly"
+    ],
+    "quarterlyAliases": [
+        "quarterly"
+    ],
+    "weeklyAliases": [
+        "weekly"
+    ],
+    "yearlyAliases": [
+        "yearly",
+        "annual"
     ]
   }
 }

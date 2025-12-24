@@ -1787,7 +1787,7 @@
       "aliases": [
         "micrometre",
         "micrometres",
-        "micrometre",
+        "micrometer",
         "micrometers",
         "μm"
       ],
@@ -2536,7 +2536,7 @@
         "kilogram",
         "kilograms",
         "kilo",
-        "kilos",
+        "kilos"
       ],
       "identifier": "kilograms",
       "symbol": "kg"

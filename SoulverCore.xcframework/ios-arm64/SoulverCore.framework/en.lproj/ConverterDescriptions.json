@@ -63,6 +63,14 @@
           "rounded to nearest 10"
         ],
         "identifier": "roundedToNearestX"
+      },
+      {
+        "prototypeExpressions": [
+          "to nearest __ordinal_number",
+          "round to nearest __ordinal_number",
+          "rounded to nearest __ordinal_number"
+        ],
+        "identifier": "roundedToNearestFraction"
       }
   ],
   "compoundUnits": [

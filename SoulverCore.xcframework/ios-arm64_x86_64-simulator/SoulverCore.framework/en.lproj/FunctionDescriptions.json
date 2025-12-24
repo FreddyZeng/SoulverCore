@@ -549,7 +549,11 @@
     {
       "prototypeExpressions": [
         "random number between 1 and 5",
-        "random between 1 and 5"
+        "random between 1 and 5",
+        "random number 1 to 5",
+        "random number from 1 to 5",
+        "random number from 1 through 5",
+        "random number 1 through 5"
       ],
       "identifier": "makeRandomNumber"
     },
@@ -689,8 +693,8 @@
     },
     {
       "prototypeExpressions": [
-        "yearly return on 500 invested 1000 returned after __timespan",
-        "yearly return on 500 invested 1000 returned over __timespan"
+        "__period return on 500 invested 1000 returned after __timespan",
+        "__period return on 500 invested 1000 returned over __timespan"
       ],
       "identifier": "returnOnInvestmentAfter"
     },
@@ -716,24 +720,10 @@
     },
     {
       "prototypeExpressions": [
-        "yearly repayment on 10000 for __timespan __at __percentage",
-        "yearly repayment on 10000 __at __percentage for __timespan"
+        "__period repayment on 10000 for __timespan __at __percentage",
+        "__period repayment on 10000 __at __percentage for __timespan"
       ],
-      "identifier": "annualLoanRepayment"
-    },
-    {
-      "prototypeExpressions": [
-        "monthly repayment on 10000 for __timespan __at __percentage",
-        "monthly repayment on 10000 __at __percentage for __timespan"
-      ],
-      "identifier": "monthlyLoanRepayment"
-    },
-    {
-      "prototypeExpressions": [
-        "daily repayment on 10000 for __timespan __at __percentage",
-        "daily repayment on 10000 __at __percentage for __timespan"
-      ],
-      "identifier": "dailyLoanRepayment"
+      "identifier": "periodicLoanRepayment"
     },
     {
       "prototypeExpressions": [
@@ -748,38 +738,17 @@
     },
     {
       "prototypeExpressions": [
-        "yearly interest repayment on 10000 for __timespan __at __percentage",
-        "yearly interest on 10000 for __timespan __at __percentage"
+        "__period interest repayment on 10000 for __timespan __at __percentage",
+        "__period interest on 10000 for __timespan __at __percentage"
       ],
-      "identifier": "annualInterestOnLoanRepayment"
+      "identifier": "periodicInterestOnLoanRepayment"
     },
     {
       "prototypeExpressions": [
-        "monthly interest repayment on 10000 for __timespan __at __percentage",
-        "monthly interest on 10000 for __timespan __at __percentage"
+        "100 for __timespan __at __percentage compounding __period",
+        "100 __at __percentage for __timespan compounding __period"
       ],
-      "identifier": "monthlyInterestOnLoanRepayment"
-    },
-    {
-      "prototypeExpressions": [
-        "daily interest repayment on 10000 for __timespan __at __percentage",
-        "daily interest on 10000 for __timespan __at __percentage"
-      ],
-      "identifier": "dailyInterestOnLoanRepayment"
-    },
-    {
-      "prototypeExpressions": [
-        "100 for __timespan __at __percentage compounding monthly",
-        "100 __at __percentage for __timespan compounding monthly"
-      ],
-      "identifier": "compoundInterestCompoundingMonthly"
-    },
-    {
-      "prototypeExpressions": [
-        "100 for __timespan __at __percentage compounding quarterly",
-        "100 __at __percentage for __timespan compounding quarterly"
-      ],
-      "identifier": "compoundInterestCompoundingQuarterly"
+      "identifier": "compoundInterestCompoundingOverPeriod"
     },
     {
       "prototypeExpressions": [
@@ -790,6 +759,8 @@
     },
     {
       "prototypeExpressions": [
+        "__period interest on 100 for __timespan __at __percentage",
+        "__period interest on 100 __at __percentage for __timespan",
         "interest on 100 for __timespan __at __percentage",
         "interest on 100 __at __percentage for __timespan"
       ],
@@ -797,17 +768,12 @@
     },
     {
       "prototypeExpressions": [
-        "interest on 100 for __timespan __at __percentage compounding monthly",
-        "interest on 100 __at __percentage for __timespan compounding monthly"
+        "__period interest on 100 for __timespan __at __percentage compounding __period",
+        "__period interest on 100 __at __percentage for __timespan compounding __period",
+        "interest on 100 for __timespan __at __percentage compounding __period",
+        "interest on 100 __at __percentage for __timespan compounding __period"
       ],
-      "identifier": "compoundInterestSansPrincipalCompoundingMonthly"
-    },
-    {
-      "prototypeExpressions": [
-        "interest on 100 for __timespan __at __percentage compounding quarterly",
-        "interest on 100 __at __percentage for __timespan compounding quarterly"
-      ],
-      "identifier": "compoundInterestSansPrincipalCompoundingQuarterly"
+      "identifier": "compoundInterestSansPrincipalCompoundingOverPeriod"
     },
     {
       "prototypeExpressions": [
@@ -1403,7 +1369,8 @@
         "10 is % off 20",
         "10 as a % off 20",
         "10 as % off 20",
-        "10 as discount off 20"
+        "10 as discount off 20",
+        "10 is what discount off 20"
       ],
       "identifier": "isWhatPercentOff"
     },
