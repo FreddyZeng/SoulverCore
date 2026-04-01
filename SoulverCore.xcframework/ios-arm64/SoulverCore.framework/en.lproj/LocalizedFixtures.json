@@ -98,8 +98,7 @@
     ],
     "amAliases": [
       "am",
-      "a.m.",
-      "A.M."
+      "a.m."
     ],
     "todayDateAliases": [
       "today"
@@ -123,7 +122,8 @@
     ],
     "averageAliases": [
       "average",
-      "mean"
+      "mean",
+      "avg"
     ],
     "totalAliases": [
       "total",

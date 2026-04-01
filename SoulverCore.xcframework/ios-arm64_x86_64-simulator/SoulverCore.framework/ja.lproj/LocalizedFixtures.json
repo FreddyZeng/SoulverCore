@@ -17,26 +17,11 @@
     "thisDateQualifiers": [
       "今"
     ],
-    "midiTypes": [
-      "ミディ番号"
-    ],
-    "numberTypes": [
-      "数値",
-      "数字",
-      "通常の数字",
-      "10進数"
-    ],
-    "octalTypes": [
-      "8進数"
-    ],
     "lcmAliases": [
       "最小公倍数"
     ],
     "prepositionWordsAt": [
       "時点"
-    ],
-    "timestampTypes": [
-      "タイムスタンプ"
     ],
     "conjunctionWordsOr": [
       "または"
@@ -56,11 +41,6 @@
       "合計",
       "総和"
     ],
-    "fractionTypes": [
-      "分数"
-    ],
-    "iso8601Types": [
-    ],
     "isNotEqualToOperators": [
     ],
     "colons": [
@@ -71,41 +51,20 @@
     "gcdAliases": [
       "最大公約数"
     ],
-    "hexadecimalTypes": [
-      "16進数"
-    ],
     "greaterAliases": [
       "より大きい",
       "より大きな",
       "最大"
     ],
-    "hoursAndMinutesTypes": [
-      "時間と分",
-      "時と分",
-      "時間分",
-      "時分"
-    ],
     "multiplicationOperators": [
     ],
-    "prepositionWordsWith": [
-      "と"
-    ],
+    "prepositionWordsWith": [],
     "reverseSubtractionOperators": [
     ],
     "openBracketAliases": [
     ],
     "medianAliases": [
       "中央値"
-    ],
-    "pitchTypes": [
-      "音程",
-      "音符"
-    ],
-    "daysAndHoursTypes": [
-      "日と時間",
-      "日と時",
-      "時間と日",
-      "時と日"
     ],
     "pmAliases": [
       "午後"
@@ -115,19 +74,9 @@
       "より小さな",
       "最小"
     ],
-    "scientificNotationTypes": [
-      "科学的記数法",
-      "科学表記",
-      "指数表記"
-    ],
     "percentWords": [
       "パーセント",
       "割合"
-    ],
-    "feetAndInchesTypes": [
-      "フィートとインチ",
-      "フィートインチ",
-      "インチとフィート"
     ],
     "standardDeviationAliases": [
       "標準偏差"
@@ -138,31 +87,14 @@
     "additionOperators": [
       "プラス"
     ],
-    "weeksAndDaysTypes": [
-      "週と日",
-      "週間と日",
-      "日と週"
-    ],
     "middayAliases": [
       "正午",
       "昼"
     ],
     "lessThanOrEqualToOperators": [
     ],
-    "minutesAndSecondsTypes": [
-      "分と秒",
-      "分秒"
-    ],
-    "monthsAndDaysTypes": [
-      "月と日",
-      "日と月"
-    ],
     "todayDateAliases": [
       "今日"
-    ],
-    "yearsAndMonthsTypes": [
-      "年と月",
-      "月と年"
     ],
     "previousDateQualifiers": [
       "前の",
@@ -175,13 +107,6 @@
     "yesterdayDateAliases": [
       "昨日"
     ],
-    "frequencyRateTypes": [
-      "毎秒"
-    ],
-    "monthsAndWeeksTypes": [
-      "月と週",
-      "週と月"
-    ],
     "averageAliases": [
       "平均",
       "平均値"
@@ -192,30 +117,10 @@
     "nextDateQualifiers": [
       "次の"
     ],
-    "dateTypes": [
-      "日付"
-    ],
     "subtractionOperators": [
       "マイナス"
     ],
     "closeBracketAliases": [
-    ],
-    "binaryTypes": [
-      "2進数"
-    ],
-    "multiplierTypes": [
-      "乗数",
-      "倍数"
-    ],
-    "laptimeTypes": [
-      "ラップタイム"
-    ],
-    "dmsTypes": [
-      "度分秒"
-    ],
-    "poundsAndOuncesTypes": [
-      "ポンドとオンス",
-      "ポンドオンス"
     ],
     "grammerWordsOf": [
       "の"
@@ -227,6 +132,27 @@
     "timespanWords": [
       "期間",
       "時間間隔"
+    ],
+    "monthlyAliases": [
+      "月額"
+    ],
+    "yearlyAliases": [
+      "年間"
+    ],
+    "timeWords": [
+      "時刻"
+    ],
+    "hourlyAliases": [
+      "時間単位"
+    ],
+    "dailyAliases": [
+      "日額"
+    ],
+    "weeklyAliases": [
+      "週単位"
+    ],
+    "quarterlyAliases": [
+      "四半期"
     ]
   }
 }

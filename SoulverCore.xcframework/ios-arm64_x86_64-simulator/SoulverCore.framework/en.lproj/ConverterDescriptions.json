@@ -160,8 +160,13 @@
     {
       "prototypeExpressions": [
         "__converter_symbol feet and inches",
+        "__converter_symbol foot and inches",
+        "__converter_symbol ft and inches",
         "__converter_symbol feet and inch",
+        "__converter_symbol foot and inch",
         "__converter_symbol inches and feet",
+        "__converter_symbol inches and foot",
+        "__converter_symbol inches and ft",
         "__converter_symbol feet inches",
         "__converter_symbol foot inch",
         "__converter_symbol feet inch",

@@ -151,7 +151,6 @@
     {
       "prototypeExpressions": [
         "восход луны в __timezone",
-        "луна в __timezone",
         "__timezone восход луны"
       ],
       "identifier": "moonrise"
@@ -170,6 +169,15 @@
         "__timezone фаза луны"
       ],
       "identifier": "moonPhase"
+    },
+    {
+      "prototypeExpressions": [
+        "лунный день __datestamp",
+        "лунный день на __datestamp",
+        "день луны __datestamp",
+        "лунный день"
+      ],
+      "identifier": "lunarDay"
     }
   ],
   "percentage": [
@@ -202,7 +210,8 @@
     {
       "prototypeExpressions": [
         "30 это __percentage отняли от чего",
-        "30 это __percentage отняли от"
+        "30 это __percentage отняли от",
+        "30 это __percentage скидка от чего"
       ],
       "identifier": "isPercentOffWhat"
     },
@@ -215,7 +224,8 @@
     {
       "prototypeExpressions": [
         "30 это __percentage к чему",
-        "30 это __percentage к"
+        "30 это __percentage к",
+        "30 это __percentage наценка на что"
       ],
       "identifier": "isPercentOnWhat"
     },
@@ -235,6 +245,24 @@
     },
     {
       "prototypeExpressions": [
+        "10 как % с 20",
+        "10 сколько % с 20",
+        "10 сколько процентов с 20",
+        "10 как % с __list",
+        "10 сколько % с __list"
+      ],
+      "identifier": "isWhatPercentWith"
+    },
+    {
+      "prototypeExpressions": [
+        "15 как % после добавления 3",
+        "15 сколько % после +3",
+        "15 сколько % после 3"
+      ],
+      "identifier": "isWhatPercentChangeAfterDelta"
+    },
+    {
+      "prototypeExpressions": [
         "10 сколько % отняли от 20",
         "10 сколько процентов отняли от 20"
       ],
@@ -249,43 +277,88 @@
     },
     {
       "prototypeExpressions": [
-        "50 до 70 как %"
+        "если 30 это __percentage, сколько __percentage",
+        "если 30 это __percentage, сколько 60",
+        "если __percentage это 30, сколько __percentage",
+        "если __percentage это 30, сколько 60",
+        "30 это __percentage, сколько __percentage",
+        "30 это __percentage, сколько 60",
+        "__percentage это 30, сколько __percentage",
+        "__percentage это 30, сколько 60"
       ],
-      "identifier": "xToYIsWhatPercentage"
+      "identifier": "percentageRuleOfThree"
+    },
+    {
+      "prototypeExpressions": [
+        "__sales_tax в 500",
+        "__sales_tax от 500",
+        "__sales_tax из 500"
+      ],
+      "identifier": "salesTaxIn"
+    },
+    {
+      "prototypeExpressions": [
+        "__sales_tax из 100"
+      ],
+      "identifier": "salesTaxOff"
+    },
+    {
+      "prototypeExpressions": [
+        "__percentage скидка от 100",
+        "__percentage с 100",
+        "убрать __percentage от 100",
+        "__percentage скидка с 100"
+      ],
+      "identifier": "percentOff"
     }
   ],
   "general": [
     {
       "prototypeExpressions": [
-        "остаток от 20 разделенного на 3"
+        "остаток от 20 разделенного на 3",
+        "остаток от деления 20 на 3",
+        "остаток от 20 делённого на 3"
       ],
       "identifier": "remainder"
     },
-      {
-        "prototypeExpressions": [
-          "56 до ближайших 10",
-          "16 округлить до ближайших 10",
-          "16 округлено до ближайших 10"
-        ],
-        "identifier": "upToNearestX"
-      },
-      {
-        "prototypeExpressions": [
-          "56 вниз до ближайших 10",
-          "16 округлить вниз до ближайших 10",
-          "16 округлено вниз до ближайших 10"
-        ],
-        "identifier": "downToNearestX"
-      },
-      {
-        "prototypeExpressions": [
-          "56 до ближайших 10",
-          "16 округлить до ближайших 10",
-          "16 округлено до ближайших 10"
-        ],
-        "identifier": "toNearestX"
-      },
-    
+    {
+      "prototypeExpressions": [
+        "7 простое число",
+        "7 это простое число",
+        "является ли 7 простым числом"
+      ],
+      "identifier": "isPrime"
+    },
+    {
+      "prototypeExpressions": [
+        "ограничить 20 между 5 и 25",
+        "ограничить 20 от 5 до 25"
+      ],
+      "identifier": "clamp"
+    },
+    {
+      "prototypeExpressions": [
+        "21 делённое на 7",
+        "21 разделённое на 7",
+        "21 разделить на 7"
+      ],
+      "identifier": "dividedBy"
+    },
+    {
+      "prototypeExpressions": [
+        "21 умноженное на 7",
+        "21 умножить на 7"
+      ],
+      "identifier": "multipliedBy"
+    },
+    {
+      "prototypeExpressions": [
+        "3 в степени 9",
+        "3 степень 9",
+        "3 возвести в степень 9"
+      ],
+      "identifier": "toThePowerOf"
+    },
     {
       "prototypeExpressions": [
         "половина 20"
@@ -294,21 +367,98 @@
     },
     {
       "prototypeExpressions": [
-        "меньшее из 2 и 30"
+        "округлить 56 вверх"
+      ],
+      "identifier": "roundXUp"
+    },
+    {
+      "prototypeExpressions": [
+        "округлить 56 вниз"
+      ],
+      "identifier": "roundXDown"
+    },
+    {
+      "prototypeExpressions": [
+        "56 вверх до ближайших 10",
+        "16 округлить вверх до ближайших 10",
+        "16 округлено вверх до ближайших 10"
+      ],
+      "identifier": "upToNearestX"
+    },
+    {
+      "prototypeExpressions": [
+        "56 вниз до ближайших 10",
+        "16 округлить вниз до ближайших 10",
+        "16 округлено вниз до ближайших 10"
+      ],
+      "identifier": "downToNearestX"
+    },
+    {
+      "prototypeExpressions": [
+        "56 до ближайших 10",
+        "16 округлить до ближайших 10",
+        "16 округлено до ближайших 10",
+        "56 до ближайшей сотни",
+        "56 до ближайшей тысячи"
+      ],
+      "identifier": "toNearestX"
+    },
+    {
+      "prototypeExpressions": [
+        "округлить 56 вверх до ближайших 10",
+        "округлить вверх 56 до ближайших 10"
+      ],
+      "identifier": "roundUpXToNearestY"
+    },
+    {
+      "prototypeExpressions": [
+        "округлить 56 вниз до ближайших 10",
+        "округлить вниз 56 до ближайших 10"
+      ],
+      "identifier": "roundDownXToNearestY"
+    },
+    {
+      "prototypeExpressions": [
+        "округлить 56 до ближайших 10",
+        "округлить 56 до ближайшей сотни",
+        "округлить 56 до ближайшей тысячи"
+      ],
+      "identifier": "roundXToNearestY"
+    },
+    {
+      "prototypeExpressions": [
+        "меньшее из 2 и 30",
+        "меньшее из __literal и __literal"
       ],
       "identifier": "lesserOf"
     },
     {
       "prototypeExpressions": [
-        "большее из 2 и 30"
+        "большее из 2 и 30",
+        "большее из __literal и __literal"
       ],
       "identifier": "greaterOf"
     },
     {
       "prototypeExpressions": [
-        "середина между 2 и 32"
+        "середина между 2 и 32",
+        "середина 2 и 32"
       ],
       "identifier": "midpoint"
+    },
+    {
+      "prototypeExpressions": [
+        "НОК 5 и 8",
+        "наименьшее общее кратное 5 и 8"
+      ],
+      "identifier": "lcm"
+    },
+    {
+      "prototypeExpressions": [
+        "НОД 20 и 30",
+        "наибольший общий делитель 20 и 30"
+      ],
+      "identifier": "gcd"
     },
     {
       "prototypeExpressions": [
@@ -331,6 +481,111 @@
         "число между 1 и 5"
       ],
       "identifier": "makeRandomNumber"
+    },
+    {
+      "prototypeExpressions": [
+        "5 как кратное 1",
+        "5 это какое кратное 1"
+      ],
+      "identifier": "isWhatMultiplierOf"
+    },
+    {
+      "prototypeExpressions": [
+        "5 как кратное из 1",
+        "5 это какое кратное из 1"
+      ],
+      "identifier": "isWhatMultiplierOff"
+    },
+    {
+      "prototypeExpressions": [
+        "5 как кратное к 1",
+        "5 это какое кратное к 1"
+      ],
+      "identifier": "isWhatMultiplierOn"
+    },
+    {
+      "prototypeExpressions": [
+        "квадратный корень из 100",
+        "квадратный корень 100"
+      ],
+      "identifier": "squareRoot"
+    },
+    {
+      "prototypeExpressions": [
+        "кубический корень из 100",
+        "кубический корень 100"
+      ],
+      "identifier": "cubedRoot"
+    },
+    {
+      "prototypeExpressions": [
+        "корень 5 степени из 100",
+        "корень 5 из 100"
+      ],
+      "identifier": "nthRoot"
+    },
+    {
+      "prototypeExpressions": [
+        "логарифм 20 по основанию 4",
+        "логарифм 20 основание 4",
+        "20 это 4 в какой степени",
+        "log 20 по основанию 4"
+      ],
+      "identifier": "nthLog"
+    },
+    {
+      "prototypeExpressions": [
+        "логарифм по основанию 4 от 20",
+        "логарифм 4 от 20",
+        "4 в какой степени равно 20"
+      ],
+      "identifier": "nthLogReversed"
+    },
+    {
+      "prototypeExpressions": [
+        "комбинация из 5 по 3",
+        "5 комбинация 3",
+        "сочетание из 5 по 3"
+      ],
+      "identifier": "combination"
+    },
+    {
+      "prototypeExpressions": [
+        "перестановка из 5 по 3",
+        "5 перестановка 3",
+        "размещение из 5 по 3"
+      ],
+      "identifier": "permutation"
+    },
+    {
+      "prototypeExpressions": [
+        "3 комбинации из 5",
+        "3 сочетания из 5"
+      ],
+      "identifier": "reversedCombination"
+    },
+    {
+      "prototypeExpressions": [
+        "3 перестановки из 5",
+        "3 размещения из 5"
+      ],
+      "identifier": "reversedPermutation"
+    },
+    {
+      "prototypeExpressions": [
+        "новая единица",
+        "новый тип единицы",
+        "пользовательская единица"
+      ],
+      "identifier": "declareGenericUnit"
+    },
+    {
+      "prototypeExpressions": [
+        "ползунок 10 от 0 до 10",
+        "скруббер 10 от 0 до 10",
+        "ползунок 10 между 0 и 10"
+      ],
+      "identifier": "scrubNumberWithSpecifiedRange"
     }
   ],
   "datetime": [
@@ -356,10 +611,51 @@
     },
     {
       "prototypeExpressions": [
+        "__duration до __datespan"
+      ],
+      "identifier": "calendarUnitToDatespan"
+    },
+    {
+      "prototypeExpressions": [
+        "__duration в __datestamp"
+      ],
+      "identifier": "calendarUnitInDate"
+    },
+    {
+      "prototypeExpressions": [
+        "__duration %"
+      ],
+      "identifier": "calendarUnitPercentage"
+    },
+    {
+      "prototypeExpressions": [
+        "__duration осталось в __datestamp",
+        "__duration остаётся в __datestamp"
+      ],
+      "identifier": "calendarUnitLeftInDate"
+    },
+    {
+      "prototypeExpressions": [
         "__datestamp до __datestamp",
-        "__datestamp по __datestamp"
+        "__datestamp по __datestamp",
+        "с __datestamp до __datestamp",
+        "разница между __datestamp и __datestamp"
       ],
       "identifier": "intervalBetweenDates"
+    },
+    {
+      "prototypeExpressions": [
+        "__duration от __datestamp по __datestamp включительно",
+        "__duration с __datestamp по __datestamp включительно"
+      ],
+      "identifier": "inclusiveCalendarUnitBetweenDates"
+    },
+    {
+      "prototypeExpressions": [
+        "с __datestamp по __datestamp включительно",
+        "__datestamp по __datestamp включительно"
+      ],
+      "identifier": "inclusiveIntervalBetweenDates"
     },
     {
       "prototypeExpressions": [
@@ -367,6 +663,13 @@
         "__timestamp по __timestamp"
       ],
       "identifier": "intervalBetweenTimestamps"
+    },
+    {
+      "prototypeExpressions": [
+        "__laptime до __laptime",
+        "__laptime по __laptime"
+      ],
+      "identifier": "intervalBetweenLaptimes"
     },
     {
       "prototypeExpressions": [
@@ -383,13 +686,15 @@
     },
     {
       "prototypeExpressions": [
-        "новая метка времени"
+        "новая метка времени",
+        "текущая метка времени"
       ],
       "identifier": "generateTimestamp"
     },
     {
       "prototypeExpressions": [
-        "__timespan после __datestamp"
+        "__timespan после __datestamp",
+        "__timespan от __datestamp"
       ],
       "identifier": "calendarUnitExpressionAfterDate"
     },
@@ -403,9 +708,28 @@
       "prototypeExpressions": [
         "__timezone время",
         "время __timezone",
-        "время в __timezone"
+        "время в __timezone",
+        "время сейчас в __timezone",
+        "время сейчас"
       ],
       "identifier": "timeInTimezone"
+    },
+    {
+      "prototypeExpressions": [
+        "время через __timespan в __timezone",
+        "время в __timezone через __timespan",
+        "время через __timespan"
+      ],
+      "identifier": "timeAfterCalendarUnit"
+    },
+    {
+      "prototypeExpressions": [
+        "__timezone дата",
+        "дата __timezone",
+        "дата в __timezone",
+        "дата сейчас"
+      ],
+      "identifier": "dateInTimezone"
     },
     {
       "prototypeExpressions": [
@@ -413,20 +737,538 @@
         "разница __timezone и __timezone"
       ],
       "identifier": "differenceBetweenTimezones"
+    },
+    {
+      "prototypeExpressions": [
+        "разница во времени __timezone",
+        "разница __timezone"
+      ],
+      "identifier": "differenceBetweenHereAndTimezone"
+    },
+    {
+      "prototypeExpressions": [
+        "__datestamp через __timespan",
+        "__datestamp после __timespan"
+      ],
+      "identifier": "weekdayAfterTimespan"
+    },
+    {
+      "prototypeExpressions": [
+        "номер недели на __datestamp",
+        "номер недели __datestamp",
+        "неделя года на __datestamp"
+      ],
+      "identifier": "weekOfYearOnDate"
+    },
+    {
+      "prototypeExpressions": [
+        "неделя года"
+      ],
+      "identifier": "weekOfYear"
+    },
+    {
+      "prototypeExpressions": [
+        "неделя месяца на __datestamp"
+      ],
+      "identifier": "weekOfMonthOnDate"
+    },
+    {
+      "prototypeExpressions": [
+        "неделя месяца"
+      ],
+      "identifier": "weekOfMonth"
+    },
+    {
+      "prototypeExpressions": [
+        "номер дня на __datestamp",
+        "номер дня __datestamp",
+        "день года на __datestamp"
+      ],
+      "identifier": "dayOfYearOnDate"
+    },
+    {
+      "prototypeExpressions": [
+        "день месяца на __datestamp"
+      ],
+      "identifier": "dayOfMonthOnDate"
+    },
+    {
+      "prototypeExpressions": [
+        "день года",
+        "номер дня"
+      ],
+      "identifier": "dayOfYear"
+    },
+    {
+      "prototypeExpressions": [
+        "день месяца"
+      ],
+      "identifier": "dayOfMonth"
+    },
+    {
+      "prototypeExpressions": [
+        "середина между __datestamp и __datestamp",
+        "посередине между __datestamp и __datestamp"
+      ],
+      "identifier": "halfwayBetweenDates"
+    },
+    {
+      "prototypeExpressions": [
+        "день недели на __datestamp",
+        "день недели __datestamp",
+        "__datestamp день недели",
+        "__duration на __datestamp"
+      ],
+      "identifier": "dayOfWeekOnDate"
+    },
+    {
+      "prototypeExpressions": [
+        "__frames от __frametime до __frametime",
+        "__frames между __frametime и __frametime",
+        "__frames в __frametime до __frametime"
+      ],
+      "identifier": "framesBetweenFrametimes"
+    },
+    {
+      "prototypeExpressions": [
+        "от __frametime до __frametime",
+        "__frametime до __frametime"
+      ],
+      "identifier": "intervalBetweenFrametimes"
     }
   ],
   "unitRelated": [
     {
       "prototypeExpressions": [
-        "__unit в __unit_expression"
+        "__unit_expression это сколько в __unit",
+        "перевести __unit_expression в __unit",
+        "конвертировать __unit_expression в __unit"
+      ],
+      "identifier": "unitConversion"
+    },
+    {
+      "prototypeExpressions": [
+        "__currency_expression __converter_symbol __currency на __datestamp",
+        "__currency_expression __converter_symbol __currency __datestamp"
+      ],
+      "identifier": "historicalCurrencyConversion"
+    },
+    {
+      "prototypeExpressions": [
+        "обменный курс __currency_expression в __currency_expression",
+        "курс __currency_expression в __currency_expression",
+        "курс обмена __currency_expression в __currency_expression"
+      ],
+      "identifier": "exchangeRateForCurrencyConversion"
+    },
+    {
+      "prototypeExpressions": [
+        "__unit в __unit_expression",
+        "__unit в __unit"
       ],
       "identifier": "unitInUnitExpression"
+    },
+    {
+      "prototypeExpressions": [
+        "__unit_expression __substance в __unit",
+        "__unit_expression __substance как __unit"
+      ],
+      "identifier": "substanceWeightToVolumeConversion"
+    },
+    {
+      "prototypeExpressions": [
+        "плотность __substance",
+        "__substance плотность"
+      ],
+      "identifier": "densityOfSubstance"
     },
     {
       "prototypeExpressions": [
         "__unit в __timespan"
       ],
       "identifier": "calendarUnitInTimespan"
+    },
+    {
+      "prototypeExpressions": [
+        "__unit_rate это сколько / __unit",
+        "__unit_rate как / __unit",
+        "__unit_rate это сколько за __unit",
+        "__unit_rate как за __unit"
+      ],
+      "identifier": "rateUnitChange"
+    },
+    {
+      "prototypeExpressions": [
+        "__unit_rate за __duration"
+      ],
+      "identifier": "rateForADuration"
+    },
+    {
+      "prototypeExpressions": [
+        "ppi экрана __length __at __resolution",
+        "плотность экрана __length __at __resolution",
+        "плотность __length дисплея __at __resolution"
+      ],
+      "identifier": "screenDensity"
+    },
+    {
+      "prototypeExpressions": [
+        "__length __converter_symbol пкс __at __screenDensity",
+        "__length __converter_symbol пикселей __at __screenDensity"
+      ],
+      "identifier": "pixelsInLengthAtPPI"
+    },
+    {
+      "prototypeExpressions": [
+        "__length_expression __converter_symbol __length __at __screenDensity"
+      ],
+      "identifier": "lengthToPixelsAtPPI"
+    },
+    {
+      "prototypeExpressions": [
+        "__speed_expression за __duration_expression"
+      ],
+      "identifier": "speedForTime"
+    },
+    {
+      "prototypeExpressions": [
+        "__power_expression __at __angularVelocity_expression"
+      ],
+      "identifier": "powerAtRotation"
+    },
+    {
+      "prototypeExpressions": [
+        "скорость шины __length __at __angularVelocity",
+        "скорость колеса __length __at __angularVelocity"
+      ],
+      "identifier": "tyreSpeed"
+    }
+  ],
+  "financial": [
+    {
+      "prototypeExpressions": [
+        "текущая стоимость 1000 за __timespan под __percentage",
+        "текущая стоимость 1000 через __timespan под __percentage",
+        "приведённая стоимость 1000 за __timespan под __percentage"
+      ],
+      "identifier": "presentValue"
+    },
+    {
+      "prototypeExpressions": [
+        "__period доход на 500 вложено 1000 возврат за __timespan",
+        "__period доходность на 500 вложено 1000 возврат за __timespan"
+      ],
+      "identifier": "returnOnInvestmentAfter"
+    },
+    {
+      "prototypeExpressions": [
+        "500 вложено 1000 возврат",
+        "500 вложено 1000 получено"
+      ],
+      "identifier": "returnOnInvestment"
+    },
+    {
+      "prototypeExpressions": [
+        "необходимые вложения для __unit_rate под __percentage",
+        "необходимые вложения для __decimal_rate под __percentage"
+      ],
+      "identifier": "investmentRequiredForReturn"
+    },
+    {
+      "prototypeExpressions": [
+        "общая выплата по кредиту 10000 за __timespan под __percentage",
+        "общая выплата по кредиту 10000 под __percentage за __timespan"
+      ],
+      "identifier": "totalLoanRepayment"
+    },
+    {
+      "prototypeExpressions": [
+        "__period выплата по кредиту 10000 за __timespan под __percentage",
+        "__period выплата по кредиту 10000 под __percentage за __timespan",
+        "__period платёж по 10000 за __timespan под __percentage",
+        "__period платёж по 10000 под __percentage за __timespan"
+      ],
+      "identifier": "periodicLoanRepayment"
+    },
+    {
+      "prototypeExpressions": [
+        "общие проценты по кредиту 10 за __timespan под __percentage",
+        "общие проценты по кредиту 10 под __percentage за __timespan",
+        "проценты по кредиту 10 за __timespan под __percentage"
+      ],
+      "identifier": "totalInterestOnLoanRepayment"
+    },
+    {
+      "prototypeExpressions": [
+        "__period проценты по кредиту 10000 за __timespan под __percentage",
+        "__period проценты по 10000 за __timespan под __percentage",
+        "__period проценты по 10000 под __percentage за __timespan"
+      ],
+      "identifier": "periodicInterestOnLoanRepayment"
+    },
+    {
+      "prototypeExpressions": [
+        "100 за __timespan под __percentage с капитализацией __period",
+        "100 под __percentage за __timespan с капитализацией __period"
+      ],
+      "identifier": "compoundInterestCompoundingOverPeriod"
+    },
+    {
+      "prototypeExpressions": [
+        "100 за __timespan под __percentage",
+        "100 под __percentage за __timespan",
+        "100 через __timespan при __percentage",
+        "100 при __percentage через __timespan",
+        "сложный процент на 100 за __timespan под __percentage",
+        "сложный процент на 100 через __timespan при __percentage"
+      ],
+      "identifier": "compoundInterest"
+    },
+    {
+      "prototypeExpressions": [
+        "__period проценты на 100 за __timespan под __percentage",
+        "проценты на 100 за __timespan под __percentage"
+      ],
+      "identifier": "compoundInterestSansPrincipal"
+    },
+    {
+      "prototypeExpressions": [
+        "__period проценты на 100 за __timespan под __percentage с капитализацией __period",
+        "проценты на 100 за __timespan под __percentage с капитализацией __period"
+      ],
+      "identifier": "compoundInterestSansPrincipalCompoundingOverPeriod"
+    },
+    {
+      "prototypeExpressions": [
+        "500 из __datestamp стоят сколько в __datestamp",
+        "500 от __datestamp стоят сколько в __datestamp",
+        "500 в __datestamp стоят сколько в __datestamp",
+        "что стоят 500 из __datestamp в __datestamp",
+        "сколько стоят 500 из __datestamp в __datestamp",
+        "стоимость 500 из __datestamp в __datestamp"
+      ],
+      "identifier": "dollarWorthAdjustedForInflation"
+    },
+    {
+      "prototypeExpressions": [
+        "сколько стоят 500 в __datestamp",
+        "что стоят 500 в __datestamp",
+        "стоимость 500 в __datestamp",
+        "500 сегодня в __datestamp"
+      ],
+      "identifier": "dollarWorthFromTodayAdjustedForInflation"
+    },
+    {
+      "prototypeExpressions": [
+        "500 из __datestamp стоят сколько сегодня",
+        "500 в __datestamp стоят сколько сегодня",
+        "сколько стоят 500 из __datestamp",
+        "стоимость 500 из __datestamp",
+        "500 из __datestamp сегодня"
+      ],
+      "identifier": "dollarWorthToTodayAdjustedForInflation"
+    },
+    {
+      "prototypeExpressions": [
+        "сколько будут стоить 500 в __datestamp при инфляции __percentage",
+        "стоимость 500 в __datestamp при инфляции __percentage",
+        "покупательная способность 500 в __datestamp при инфляции __percentage",
+        "500 в __datestamp при __percentage инфляции"
+      ],
+      "identifier": "predictedDollarWorthGivenInflation"
+    }
+  ],
+  "videoRelated": [
+    {
+      "prototypeExpressions": [
+        "__frametime __at __frameRate_expression",
+        "__laptime __at __frameRate_expression",
+        "__timespan __at __frameRate_expression"
+      ],
+      "identifier": "formFrametime"
+    },
+    {
+      "prototypeExpressions": [
+        "__frames_expression __at __frameRate_expression"
+      ],
+      "identifier": "framesToFrametime"
+    }
+  ],
+  "geographic": [
+    {
+      "prototypeExpressions": [
+        "координаты __timezone",
+        "gps __timezone",
+        "gps координаты __timezone",
+        "местоположение __timezone"
+      ],
+      "identifier": "gpsCoordinatesOfPlace"
+    },
+    {
+      "prototypeExpressions": [
+        "долгота __timezone",
+        "долгота __gpsCoordinates"
+      ],
+      "identifier": "longitudeOfPlace"
+    },
+    {
+      "prototypeExpressions": [
+        "широта __timezone",
+        "широта __gpsCoordinates"
+      ],
+      "identifier": "latitudeOfPlace"
+    },
+    {
+      "prototypeExpressions": [
+        "расстояние от __timezone до __timezone",
+        "расстояние между __timezone и __timezone",
+        "расстояние __timezone __timezone"
+      ],
+      "identifier": "distanceBetweenPlaces"
+    }
+  ],
+  "changeRelated": [
+    {
+      "prototypeExpressions": [
+        "20 через __timespan при __percentage каждые __timespan",
+        "20 через __timespan при __percentage каждые __duration",
+        "20 через __timespan при __percentage_rate"
+      ],
+      "identifier": "exponentialGrowth"
+    },
+    {
+      "prototypeExpressions": [
+        "20 через __timespan при −__percentage каждые __timespan",
+        "20 через __timespan при -__percentage каждые __timespan",
+        "20 через __timespan при __percentage убыль каждые __timespan"
+      ],
+      "identifier": "exponentialDecay"
+    },
+    {
+      "prototypeExpressions": [
+        "время от 20 до 30 при __percentage каждые __timespan",
+        "время от 20 до 30 при __percentage каждые __duration",
+        "время от 20 до 30 при __percentage_rate"
+      ],
+      "identifier": "timeRequiredForExponentialChange"
+    },
+    {
+      "prototypeExpressions": [
+        "время от 20 до 30 при 20 каждые __timespan",
+        "время от 20 до 30 при __decimal_rate",
+        "время от 20 до 30 при __unit_rate"
+      ],
+      "identifier": "timeRequiredForLinearChange"
+    },
+    {
+      "prototypeExpressions": [
+        "рост каждые __timespan от 20 до 30 за __timespan",
+        "убыль каждые __timespan от 20 до 30 за __timespan"
+      ],
+      "identifier": "growthOverExponentialChange"
+    },
+    {
+      "prototypeExpressions": [
+        "50 до 70 как %",
+        "50 до 70 как процент",
+        "50 до 70 это какой %"
+      ],
+      "identifier": "xToYIsWhatPercentage"
+    },
+    {
+      "prototypeExpressions": [
+        "10 до 20 как кратное",
+        "10 до 20 это какое кратное"
+      ],
+      "identifier": "xToYIsWhatMultiplier"
+    },
+    {
+      "prototypeExpressions": [
+        "10 до 20"
+      ],
+      "identifier": "xToY"
+    },
+    {
+      "prototypeExpressions": [
+        "__timespan при 1.5x",
+        "__timespan к 1.5x"
+      ],
+      "identifier": "timeAtMultiplier"
+    },
+    {
+      "prototypeExpressions": [
+        "сэкономленное время __timespan к 1.5x",
+        "сэкономленное время __timespan при 1.5x"
+      ],
+      "identifier": "timeSavedAtMultiplier"
+    },
+    {
+      "prototypeExpressions": [
+        "10 от 20"
+      ],
+      "identifier": "xOfY"
+    },
+    {
+      "prototypeExpressions": [
+        "10 с 20",
+        "10 скидка с 20"
+      ],
+      "identifier": "xOffY"
+    },
+    {
+      "prototypeExpressions": [
+        "10 к 20",
+        "10 на 20"
+      ],
+      "identifier": "xOnY"
+    }
+  ],
+  "statistics": [
+    {
+      "prototypeExpressions": [
+        "__statistic_type __list",
+        "__statistic_type из __list",
+        "__statistic_type между __list"
+      ],
+      "identifier": "statisticOfList"
+    },
+    {
+      "prototypeExpressions": [
+        "__statistic_type __tag",
+        "__statistic_type из __tag",
+        "__tag __statistic_type"
+      ],
+      "identifier": "statisticOfTag"
+    }
+  ],
+  "literalRelated": [
+    {
+      "prototypeExpressions": [
+        "количество __literal",
+        "длина __literal"
+      ],
+      "identifier": "countOfLiteral"
+    },
+    {
+      "prototypeExpressions": [
+        "первые 10 символов __literal",
+        "первые 10 из __literal"
+      ],
+      "identifier": "extractLiteralPrefix"
+    },
+    {
+      "prototypeExpressions": [
+        "последние 10 символов __literal",
+        "последние 10 из __literal"
+      ],
+      "identifier": "extractLiteralSuffix"
+    },
+    {
+      "prototypeExpressions": [
+        "разобрать __literal",
+        "парсить __literal"
+      ],
+      "identifier": "parseLiteral"
     }
   ]
 }

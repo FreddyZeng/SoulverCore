@@ -1,0 +1,208 @@
+{
+  "fixtures": {
+    "colons": [
+      ":",
+      "："
+    ],
+    "nextDateQualifiers": [
+      "prossimo",
+      "prossima"
+    ],
+    "converterSymbols": [
+      "in",
+      "come"
+    ],
+    "converterSymbolsIn": [
+      "in"
+    ],
+    "converterSymbolsAs": [
+      "come"
+    ],
+    "converterSymbolsTo": [
+      "a"
+    ],
+    "powerOperators": [
+      "^",
+      "ˆ",
+      "**"
+    ],
+    "percentWords": [
+      "percento",
+      "percentuale",
+      "per cento"
+    ],
+    "hereAliases": [
+      "qui"
+    ],
+    "nowDateAliases": [
+      "adesso",
+      "ora"
+    ],
+    "ordinalSuffixes": [
+      "°",
+      "ª"
+    ],
+    "conjunctionWordsAnd": [
+        "e"
+    ],
+    "conjunctionWordsOr": [
+        "o"
+    ],
+    "prepositionWordsUntil" : [
+      "fino a",
+      "fino al"
+    ],
+    "grammerWordsOf" : [
+      "di"
+    ],
+    "prepositionWordsWith" : [
+      "con"
+    ],
+    "prepositionWordsAt" : [
+      "alle",
+      "@"
+    ],
+    "piAliases": [
+      "π"
+    ],
+    "thisDateQualifiers": [
+      "questo",
+      "questa"
+    ],
+    "divisionOperators": [
+      "÷"
+    ],
+    "midnightAliases": [
+      "mezzanotte"
+    ],
+    "previousDateQualifiers": [
+      "scorso",
+      "scorsa",
+      "precedente",
+      "ultimo",
+      "ultima"
+    ],
+    "timeWords": [
+      "ora",
+      "tempo"
+    ],
+    "timespanWords": [
+      "intervallo di tempo",
+      "durata"
+    ],
+    "pmAliases": [
+      "pm",
+      "p.m.",
+      "P.M."
+    ],
+    "lessThanOrEqualToOperators": [
+      "<=",
+      "=<"
+    ],
+    "subtractionOperators": [
+      "−",
+      "–",
+      "meno"
+    ],
+    "middayAliases": [
+      "mezzogiorno"
+    ],
+    "reverseSubtractionOperators": [
+    ],
+    "amAliases": [
+      "am",
+      "a.m."
+    ],
+    "todayDateAliases": [
+      "oggi"
+    ],
+    "additionOperators": [
+      "più"
+    ],
+    "isNotEqualToOperators": [
+      "!=",
+      "=!"
+    ],
+    "greaterThanOrEqualToOperators": [
+      ">=",
+      "=>"
+    ],
+    "multiplicationOperators": [
+      "×",
+      "x",
+      "⋅",
+      "·"
+    ],
+    "averageAliases": [
+      "media"
+    ],
+    "totalAliases": [
+      "totale",
+      "somma"
+    ],
+    "medianAliases": [
+      "mediana"
+    ],
+    "countAliases": [
+      "conteggio"
+    ],
+    "greaterAliases": [
+      "maggiore",
+      "massimo"
+    ],
+    "lesserAliases": [
+      "minore",
+      "minimo"
+    ],
+    "standardDeviationAliases": [
+      "deviazione standard",
+      "dev std"
+    ],
+    "gcdAliases": [
+        "massimo comune divisore",
+        "mcd"
+    ],
+    "lcmAliases": [
+        "minimo comune multiplo",
+        "mcm"
+    ],
+    "yesterdayDateAliases": [
+      "ieri"
+    ],
+    "tomorrowDateAliases": [
+      "domani"
+    ],
+    "openBracketAliases": [
+        "（"
+    ],
+    "closeBracketAliases": [
+        "）"
+    ],
+    "hourlyAliases": [
+        "orario",
+        "all'ora"
+    ],
+    "dailyAliases": [
+        "giornaliero",
+        "al giorno",
+        "quotidiano"
+    ],
+    "monthlyAliases": [
+        "mensile",
+        "al mese"
+    ],
+    "quarterlyAliases": [
+        "trimestrale",
+        "al trimestre"
+    ],
+    "weeklyAliases": [
+        "settimanale",
+        "alla settimana"
+    ],
+    "yearlyAliases": [
+        "annuale",
+        "annuo",
+        "all'anno"
+    ]
+  }
+}

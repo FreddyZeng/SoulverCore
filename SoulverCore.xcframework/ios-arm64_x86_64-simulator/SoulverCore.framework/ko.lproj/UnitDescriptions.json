@@ -2,8 +2,7 @@
   "screenDensity": [
     {
       "aliases": [
-        "인치당 픽셀",
-        "ppi"
+        "인치당 픽셀"
       ],
       "identifier": "ppi",
       "symbol": "PPI"
@@ -54,32 +53,28 @@
     },
     {
       "aliases": [
-        "테라바이트",
-        "TB"
+        "테라바이트"
       ],
       "identifier": "terabytes",
       "symbol": "TB"
     },
     {
       "aliases": [
-        "기가바이트",
-        "GB"
+        "기가바이트"
       ],
       "identifier": "gigabytes",
       "symbol": "GB"
     },
     {
       "aliases": [
-        "메가바이트",
-        "MB"
+        "메가바이트"
       ],
       "identifier": "megabytes",
       "symbol": "MB"
     },
     {
       "aliases": [
-        "킬로바이트",
-        "KB"
+        "킬로바이트"
       ],
       "identifier": "kilobytes",
       "symbol": "kB"
@@ -142,64 +137,56 @@
     },
     {
       "aliases": [
-        "요비바이트",
-        "YiB"
+        "요비바이트"
       ],
       "identifier": "yobibytes",
       "symbol": "YiB"
     },
     {
       "aliases": [
-        "제비바이트",
-        "ZiB"
+        "제비바이트"
       ],
       "identifier": "zebibytes",
       "symbol": "ZiB"
     },
     {
       "aliases": [
-        "엑스비바이트",
-        "EiB"
+        "엑스비바이트"
       ],
       "identifier": "exbibytes",
       "symbol": "EiB"
     },
     {
       "aliases": [
-        "페비바이트",
-        "PiB"
+        "페비바이트"
       ],
       "identifier": "pebibytes",
       "symbol": "PiB"
     },
     {
       "aliases": [
-        "테비바이트",
-        "TiB"
+        "테비바이트"
       ],
       "identifier": "tebibytes",
       "symbol": "TiB"
     },
     {
       "aliases": [
-        "기비바이트",
-        "GiB"
+        "기비바이트"
       ],
       "identifier": "gibibytes",
       "symbol": "GiB"
     },
     {
       "aliases": [
-        "메비바이트",
-        "MiB"
+        "메비바이트"
       ],
       "identifier": "mebibytes",
       "symbol": "MiB"
     },
     {
       "aliases": [
-        "키비바이트",
-        "KiB"
+        "키비바이트"
       ],
       "identifier": "kibibytes",
       "symbol": "KiB"
@@ -308,24 +295,21 @@
     },
     {
       "aliases": [
-        "킬로줄",
-        "kj"
+        "킬로줄"
       ],
       "identifier": "kilojoules",
       "symbol": "킬로줄"
     },
     {
       "aliases": [
-        "메가줄",
-        "mj"
+        "메가줄"
       ],
       "identifier": "megajoules",
       "symbol": "메가줄"
     },
     {
       "aliases": [
-        "기가줄",
-        "gj"
+        "기가줄"
       ],
       "identifier": "gigajoules",
       "symbol": "기가줄"
@@ -339,8 +323,7 @@
     },
     {
       "aliases": [
-        "킬로칼로리",
-        "kcal"
+        "킬로칼로리"
       ],
       "identifier": "kilocalories",
       "symbol": "킬로칼로리"
@@ -368,43 +351,34 @@
     },
     {
       "aliases": [
-        "킬로와트시",
-        "kwh"
+        "킬로와트시"
       ],
       "identifier": "kilowattHours",
       "symbol": "킬로와트시"
     },
     {
       "aliases": [
-        "메가와트시",
-        "mwh"
+        "메가와트시"
       ],
       "identifier": "megawattHours",
       "symbol": "메가와트시"
     },
     {
       "aliases": [
-        "기가와트시",
-        "gwh"
+        "기가와트시"
       ],
       "identifier": "gigawattHours",
       "symbol": "기가와트시"
     },
     {
       "aliases": [
-        "테라와트시",
-        "twh"
+        "테라와트시"
       ],
       "identifier": "terawattHours",
       "symbol": "테라와트시"
     }
   ],
   "fuelEconomy": [
-    {
-      "aliases": [],
-      "identifier": "kilometersPerLiter",
-      "symbol": "km/L"
-    },
     {
       "aliases": [
         "갤런당 마일"
@@ -481,8 +455,7 @@
     },
     {
       "aliases": [
-        "마이크로볼트",
-        "uV"
+        "마이크로볼트"
       ],
       "identifier": "microvolts",
       "symbol": "µV"
@@ -491,25 +464,21 @@
   "duration": [
     {
       "aliases": [
-        "시간",
-        "hrs",
-        "h"
+        "시간"
       ],
       "identifier": "hours",
       "symbol": "시간"
     },
     {
       "aliases": [
-        "초",
-        "sec"
+        "초"
       ],
       "identifier": "seconds",
       "symbol": "초"
     },
     {
       "aliases": [
-        "분",
-        "mins"
+        "분"
       ],
       "identifier": "minutes",
       "symbol": "분"
@@ -538,8 +507,7 @@
     },
     {
       "aliases": [
-        "주",
-        "wk"
+        "주"
       ],
       "identifier": "weeks",
       "symbol": "주"
@@ -597,16 +565,14 @@
     },
     {
       "aliases": [
-        "섭씨",
-        "C"
+        "섭씨"
       ],
       "identifier": "celsius",
       "symbol": "℃"
     },
     {
       "aliases": [
-        "화씨",
-        "F"
+        "화씨"
       ],
       "identifier": "fahrenheit",
       "symbol": "℉"
@@ -664,24 +630,21 @@
     },
     {
       "aliases": [
-        "초당 기가바이트",
-        "gBps"
+        "초당 기가바이트"
       ],
       "identifier": "gigabytesPerSecond",
       "symbol": "GBps"
     },
     {
       "aliases": [
-        "초당 메가바이트",
-        "mBps"
+        "초당 메가바이트"
       ],
       "identifier": "megabytesPerSecond",
       "symbol": "MBps"
     },
     {
       "aliases": [
-        "초당 킬로바이트",
-        "kBps"
+        "초당 킬로바이트"
       ],
       "identifier": "kilobytesPerSecond",
       "symbol": "KBps"
@@ -709,40 +672,35 @@
     },
     {
       "aliases": [
-        "초당 페타비트",
-        "Pbps"
+        "초당 페타비트"
       ],
       "identifier": "petabitsPerSecond",
       "symbol": "Pbps"
     },
     {
       "aliases": [
-        "초당 테라비트",
-        "tbps"
+        "초당 테라비트"
       ],
       "identifier": "terabitsPerSecond",
       "symbol": "Tbps"
     },
     {
       "aliases": [
-        "초당 기가비트",
-        "gbps"
+        "초당 기가비트"
       ],
       "identifier": "gigabitsPerSecond",
       "symbol": "Gbps"
     },
     {
       "aliases": [
-        "초당 메가비트",
-        "mbps"
+        "초당 메가비트"
       ],
       "identifier": "megabitsPerSecond",
       "symbol": "Mbps"
     },
     {
       "aliases": [
-        "초당 킬로비트",
-        "kbps"
+        "초당 킬로비트"
       ],
       "identifier": "kilobitsPerSecond",
       "symbol": "Kbps"
@@ -863,8 +821,7 @@
   "frequency": [
     {
       "aliases": [
-        "헤르츠",
-        "hz"
+        "헤르츠"
       ],
       "identifier": "hertz",
       "symbol": "Hz"
@@ -941,152 +898,133 @@
   "volume": [
     {
       "aliases": [
-        "메가리터",
-        "ML"
+        "메가리터"
       ],
       "identifier": "megaliters",
       "symbol": "ML"
     },
     {
       "aliases": [
-        "킬로리터",
-        "kL"
+        "킬로리터"
       ],
       "identifier": "kiloliters",
       "symbol": "kL"
     },
     {
       "aliases": [
-        "리터",
-        "l"
+        "리터"
       ],
       "identifier": "liters",
       "symbol": "L"
     },
     {
       "aliases": [
-        "데시리터",
-        "dl"
+        "데시리터"
       ],
       "identifier": "deciliters",
       "symbol": "dL"
     },
     {
       "aliases": [
-        "센티리터",
-        "cl"
+        "센티리터"
       ],
       "identifier": "centiliters",
       "symbol": "cL"
     },
     {
       "aliases": [
-        "밀리리터",
-        "ml"
+        "밀리리터"
       ],
       "identifier": "milliliters",
       "symbol": "mL"
     },
     {
       "aliases": [
-        "마이크로리터",
-        "μl"
+        "마이크로리터"
       ],
       "identifier": "microliters",
       "symbol": "µL"
     },
     {
       "aliases": [
-        "나노리터",
-        "nL"
+        "나노리터"
       ],
       "identifier": "nanoliters",
       "symbol": "nL"
     },
     {
       "aliases": [
-        "세제곱킬로미터",
-        "km^3"
+        "세제곱킬로미터"
       ],
       "symbol": "km³",
       "identifier": "cubicKilometers"
     },
     {
       "aliases": [
-        "세제곱미터",
-        "m^3"
+        "세제곱미터"
       ],
       "identifier": "cubicMeters",
       "symbol": "m³"
     },
     {
       "aliases": [
-        "세제곱센티미터",
-        "cm^3"
+        "세제곱센티미터"
       ],
       "identifier": "cubicCentimeters",
       "symbol": "cm³"
     },
     {
       "aliases": [
-        "세제곱데시미터",
-        "dm^3"
+        "세제곱데시미터"
       ],
       "identifier": "cubicDecimeters",
       "symbol": "dm³"
     },
     {
       "aliases": [
-        "세제곱밀리미터",
-        "mm^3"
+        "세제곱밀리미터"
       ],
       "identifier": "cubicMillimeters",
       "symbol": "mm³"
     },
     {
       "aliases": [
-        "세제곱마이크로미터",
-        "µm^3"
+        "세제곱마이크로미터"
       ],
       "identifier": "cubicMicrometers",
       "symbol": "µm³"
     },
     {
       "aliases": [
-        "세제곱나노미터",
-        "nm^3"
+        "세제곱나노미터"
       ],
       "identifier": "cubicNanometers",
       "symbol": "nm³"
     },
     {
       "aliases": [
-        "세제곱인치",
-        "in^3"
+        "세제곱인치"
       ],
       "identifier": "cubicInches",
       "symbol": "in³"
     },
     {
       "aliases": [
-        "세제곱피트",
-        "ft^3"
+        "세제곱피트"
       ],
       "identifier": "cubicFeet",
       "symbol": "ft³"
     },
     {
       "aliases": [
-        "세제곱야드",
-        "yd^3"
+        "세제곱야드"
       ],
       "identifier": "cubicYards",
       "symbol": "yd³"
     },
     {
       "aliases": [
-        "세제곱마일",
-        "mi^3"
+        "세제곱마일"
       ],
       "identifier": "cubicMiles",
       "symbol": "mi³"
@@ -1135,32 +1073,28 @@
     },
     {
       "aliases": [
-        "갤런",
-        "gal"
+        "갤런"
       ],
       "identifier": "gallons",
       "symbol": "갤런"
     },
     {
       "aliases": [
-        "테이블스푼",
-        "tbsp"
+        "테이블스푼"
       ],
       "identifier": "tablespoons",
       "symbol": "테이블스푼"
     },
     {
       "aliases": [
-        "티스푼",
-        "tsp"
+        "티스푼"
       ],
       "identifier": "teaspoons",
       "symbol": "티스푼"
     },
     {
       "aliases": [
-        "액량 온스",
-        "floz"
+        "액량 온스"
       ],
       "identifier": "fluidOunces",
       "symbol": "액량 온스"
@@ -1215,88 +1149,77 @@
   "area": [
     {
       "aliases": [
-        "제곱킬로미터",
-        "km^2"
+        "제곱킬로미터"
       ],
       "identifier": "squareKilometers",
       "symbol": "km²"
     },
     {
       "aliases": [
-        "제곱미터",
-        "m^2"
+        "제곱미터"
       ],
       "identifier": "squareMeters",
       "symbol": "m²"
     },
     {
       "aliases": [
-        "제곱센티미터",
-        "cm^2"
+        "제곱센티미터"
       ],
       "identifier": "squareCentimeters",
       "symbol": "cm²"
     },
     {
       "aliases": [
-        "제곱데시미터",
-        "dm^2"
+        "제곱데시미터"
       ],
       "identifier": "squareDecimeters",
       "symbol": "dm²"
     },
     {
       "aliases": [
-        "제곱밀리미터",
-        "mm^2"
+        "제곱밀리미터"
       ],
       "identifier": "squareMillimeters",
       "symbol": "mm²"
     },
     {
       "aliases": [
-        "제곱마이크로미터",
-        "µm^2"
+        "제곱마이크로미터"
       ],
       "identifier": "squareMicrometers",
       "symbol": "µm²"
     },
     {
       "aliases": [
-        "제곱나노미터",
-        "nm^2"
+        "제곱나노미터"
       ],
       "identifier": "squareNanometers",
       "symbol": "nm²"
     },
     {
       "aliases": [
-        "제곱인치",
-        "in^2"
+        "제곱인치"
       ],
       "identifier": "squareInches",
       "symbol": "in²"
     },
     {
       "aliases": [
-        "제곱피트",
-        "ft^2"
+        "제곱피트"
       ],
       "identifier": "squareFeet",
       "symbol": "ft²"
     },
     {
       "aliases": [
-        "제곱야드",
-        "yd^2"
+        "제곱야드"
       ],
       "identifier": "squareYards",
       "symbol": "yd²"
     },
     {
       "aliases": [
-        "제곱마일",
-        "mi^2"
+        "제곱마일"
       ],
       "identifier": "squareMiles",
       "symbol": "mi²"
@@ -1314,11 +1237,6 @@
       ],
       "identifier": "hectares",
       "symbol": "헥타르"
-    },
-    {
-      "aliases": [],
-      "identifier": "ares",
-      "symbol": "아르"
     }
   ],
   "length": [
@@ -1380,8 +1298,7 @@
     },
     {
       "aliases": [
-        "피트",
-        "'"
+        "피트"
       ],
       "identifier": "feet",
       "symbol": "피트"
@@ -1443,19 +1360,8 @@
       "symbol": "픽셀"
     },
     {
-      "aliases": [],
-      "identifier": "em",
-      "symbol": "em"
-    },
-    {
-      "aliases": [],
-      "identifier": "rem",
-      "symbol": "rem"
-    },
-    {
       "aliases": [
-        "포인트",
-        "pts"
+        "포인트"
       ],
       "identifier": "point",
       "symbol": "포인트"
@@ -1543,8 +1449,7 @@
     },
     {
       "aliases": [
-        "마이크로뉴턴",
-        "μN"
+        "마이크로뉴턴"
       ],
       "symbol": "마이크로뉴턴",
       "identifier": "micronewtons"
@@ -1623,27 +1528,6 @@
     },
     {
       "aliases": [
-        "psi"
-      ],
-      "identifier": "poundsForcePerSquareInch",
-      "symbol": "psi"
-    },
-    {
-      "aliases": [
-        "ksi"
-      ],
-      "identifier": "kilopoundsForcePerSquareInch",
-      "symbol": "ksi"
-    },
-    {
-      "aliases": [
-        "Mpsi"
-      ],
-      "identifier": "megapoundsForcePerSquareInch",
-      "symbol": "Mpsi"
-    },
-    {
-      "aliases": [
         "바"
       ],
       "identifier": "bars",
@@ -1688,8 +1572,7 @@
     },
     {
       "aliases": [
-        "마이크로웨버",
-        "uWB"
+        "마이크로웨버"
       ],
       "identifier": "microwebers",
       "symbol": "µWb"
@@ -1698,8 +1581,7 @@
   "electricalConductance": [
     {
       "aliases": [
-        "지멘스",
-        "℧"
+        "지멘스"
       ],
       "identifier": "siemens",
       "symbol": "지멘스"
@@ -1810,7 +1692,6 @@
   "fuelConsumption": [
     {
       "aliases": [
-        "L/100 km",
         "리터당 100킬로미터"
       ],
       "identifier": "litersPer100Kilometers",
@@ -1827,16 +1708,14 @@
     },
     {
       "aliases": [
-        "분당 회전수",
-        "rpm"
+        "분당 회전수"
       ],
       "identifier": "revolutionsPerMinute",
       "symbol": "rpm"
     },
     {
       "aliases": [
-        "초당 회전수",
-        "rps"
+        "초당 회전수"
       ],
       "identifier": "revolutionsPerSecond",
       "symbol": "rps"
@@ -1845,32 +1724,28 @@
   "torque": [
     {
       "aliases": [
-        "뉴턴 미터",
-        "Nm"
+        "뉴턴 미터"
       ],
       "identifier": "newtonMeters",
       "symbol": "뉴턴 미터"
     },
     {
       "aliases": [
-        "파운드 피트",
-        "ft-lb"
+        "파운드 피트"
       ],
       "identifier": "poundFeet",
       "symbol": "파운드 피트"
     },
     {
       "aliases": [
-        "파운드 인치",
-        "lbf-in"
+        "파운드 인치"
       ],
       "identifier": "poundInches",
       "symbol": "파운드 인치"
     },
     {
       "aliases": [
-        "온스 인치",
-        "ozf-in"
+        "온스 인치"
       ],
       "identifier": "ounceInches",
       "symbol": "온스 인치"
@@ -1879,16 +1754,14 @@
   "acceleration": [
     {
       "aliases": [
-        "미터 매 초 제곱",
-        "m/s^2"
+        "미터 매 초 제곱"
       ],
       "identifier": "metersPerSecondSquared",
       "symbol": "m/s²"
     },
     {
       "aliases": [
-        "피트 매 초 제곱",
-        "ft/s^2"
+        "피트 매 초 제곱"
       ],
       "identifier": "feetPerSecondSquared",
       "symbol": "ft/s²"
@@ -1962,8 +1835,7 @@
     },
     {
       "aliases": [
-        "마이크로그램",
-        "μg"
+        "마이크로그램"
       ],
       "identifier": "micrograms",
       "symbol": "μg"
@@ -2029,24 +1901,21 @@
   "angle": [
     {
       "aliases": [
-        "도",
-        "º"
+        "도"
       ],
       "identifier": "degrees",
       "symbol": "°"
     },
     {
       "aliases": [
-        "분",
-        "arcmin"
+        "분"
       ],
       "identifier": "arcMinutes",
       "symbol": "′"
     },
     {
       "aliases": [
-        "초",
-        "arcsec"
+        "초"
       ],
       "identifier": "arcSeconds",
       "symbol": "″"
@@ -2064,13 +1933,6 @@
       ],
       "identifier": "revolutions",
       "symbol": "회전"
-    }
-  ],
-  "frameRate": [
-    {
-      "aliases": [],
-      "identifier": "framesPerSecond",
-      "symbol": "fps"
     }
   ],
   "amountOfSubstance": [
@@ -2120,8 +1982,7 @@
     },
     {
       "aliases": [
-        "킬로미터 매 시",
-        "kph"
+        "킬로미터 매 시"
       ],
       "identifier": "kilometersPerHour",
       "symbol": "km/h"
@@ -2144,32 +2005,28 @@
   "electricResistance": [
     {
       "aliases": [
-        "옴",
-        "Ω"
+        "옴"
       ],
       "identifier": "ohms",
       "symbol": "옴"
     },
     {
       "aliases": [
-        "킬로옴",
-        "kΩ"
+        "킬로옴"
       ],
       "identifier": "kiloohms",
       "symbol": "킬로옴"
     },
     {
       "aliases": [
-        "메가옴",
-        "MΩ"
+        "메가옴"
       ],
       "identifier": "megaohms",
       "symbol": "메가옴"
     },
     {
       "aliases": [
-        "밀리옴",
-        "mΩ"
+        "밀리옴"
       ],
       "identifier": "milliohms",
       "symbol": "밀리옴"

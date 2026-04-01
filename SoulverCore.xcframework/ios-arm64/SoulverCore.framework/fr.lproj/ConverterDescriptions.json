@@ -8,9 +8,8 @@
     },
     {
       "prototypeExpressions": [
-      "arrondi à l'inférieur",
-      "arrondi supérieur",
-      "arrondi vers le haut"
+        "arrondi supérieur",
+        "arrondi vers le haut"
       ],
       "identifier": "roundedUp"
     },
@@ -24,13 +23,11 @@
     },
     {
       "prototypeExpressions": [
-      "arrondi à 3 décimales",
-      "arrondi 3 décimales",
         "arrondi à 3 décimales",
+        "arrondi 3 décimales",
         "à 3 décimales",
         "à 3 chiffres",
         "à 3 chiffre",
-        "à 3 décimales",
         "à 1 décimale",
         "à 1 chiffre après la virgule",
         "à 3 chiffres après la virgule"
@@ -59,6 +56,14 @@
         "au plus proche 10"
       ],
       "identifier": "roundedToNearestX"
+    },
+    {
+      "prototypeExpressions": [
+        "au plus proche __ordinal_number",
+        "arrondi au plus proche __ordinal_number",
+        "arrondir au plus proche __ordinal_number"
+      ],
+      "identifier": "roundedToNearestFraction"
     }
   ],
   "compoundUnits": [
@@ -106,6 +111,16 @@
     },
     {
       "prototypeExpressions": [
+        "__converter_symbol livres et onces",
+        "__converter_symbol livre et once",
+        "__converter_symbol livres onces",
+        "__converter_symbol lb et oz",
+        "__converter_symbol lb oz"
+      ],
+      "identifier": "poundsAndOunces"
+    },
+    {
+      "prototypeExpressions": [
         "__converter_symbol pieds et pouces",
         "__converter_symbol pouces et pieds",
         "__converter_symbol pieds pouces",
@@ -113,7 +128,6 @@
       ],
       "identifier": "feetAndInches"
     }
-
   ],
   "dateTime": [
     {
@@ -130,17 +144,24 @@
     },
     {
       "prototypeExpressions": [
-          "__converter_symbol intervalle de temps",
-          "__converter_symbol durée"
+        "__converter_symbol intervalle de temps",
+        "__converter_symbol durée"
       ],
       "identifier": "toTimespan"
     },
     {
       "prototypeExpressions": [
-          "__converter_symbol temps au tour",
-          "__converter_symbol temps de tour"
+        "__converter_symbol temps au tour",
+        "__converter_symbol temps de tour"
       ],
       "identifier": "toLaptime"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol iso8601",
+        "__converter_symbol iso"
+      ],
+      "identifier": "toISO8601"
     }
   ],
   "numberForms": [
@@ -154,26 +175,50 @@
     },
     {
       "prototypeExpressions": [
-          "__converter_symbol hexadecimale",
-          "__converter_symbol hexadécimal",
-          "__converter_symbol hexadécimale"
-      ],
-      "identifier": "toHexadecimal"
-    },
-    {
-      "prototypeExpressions": [
         "__converter_symbol fraction"
       ],
       "identifier": "toFraction"
     },
     {
       "prototypeExpressions": [
-          "__converter_symbol multiplié par",
-          "__converter_symbol multiplicateur"
+        "__converter_symbol notation scientifique",
+        "__converter_symbol scientifique"
+      ],
+      "identifier": "toScientificNotation"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol multiplié par",
+        "__converter_symbol multiplicateur"
       ],
       "identifier": "toMultiplier"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol hexadecimale",
+        "__converter_symbol hexadécimal",
+        "__converter_symbol hexadécimale"
+      ],
+      "identifier": "toHexadecimal"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol binaire"
+      ],
+      "identifier": "toBinary"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol octal"
+      ],
+      "identifier": "toOctal"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol base 8"
+      ],
+      "identifier": "toBaseX"
     }
-
   ],
   "music": [
     {
@@ -181,6 +226,21 @@
         "__converter_symbol note musicale"
       ],
       "identifier": "toPitch"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol numéro midi",
+        "__converter_symbol midi"
+      ],
+      "identifier": "toMIDI"
+    }
+  ],
+  "unitRelated": [
+    {
+      "prototypeExpressions": [
+        "__converter_symbol dms"
+      ],
+      "identifier": "toDMS"
     }
   ]
 }

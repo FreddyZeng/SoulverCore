@@ -2,8 +2,7 @@
   "screenDensity": [
     {
       "aliases": [
-        "ピクセル毎インチ",
-        "ppi"
+        "ピクセル毎インチ"
       ],
       "identifier": "ppi",
       "symbol": "PPI"
@@ -54,32 +53,28 @@
     },
     {
       "aliases": [
-        "テラバイト",
-        "TB"
+        "テラバイト"
       ],
       "identifier": "terabytes",
       "symbol": "TB"
     },
     {
       "aliases": [
-        "ギガバイト",
-        "GB"
+        "ギガバイト"
       ],
       "identifier": "gigabytes",
       "symbol": "GB"
     },
     {
       "aliases": [
-        "メガバイト",
-        "MB"
+        "メガバイト"
       ],
       "identifier": "megabytes",
       "symbol": "MB"
     },
     {
       "aliases": [
-        "キロバイト",
-        "KB"
+        "キロバイト"
       ],
       "identifier": "kilobytes",
       "symbol": "kB"
@@ -142,64 +137,56 @@
     },
     {
       "aliases": [
-        "ヨビバイト",
-        "YiB"
+        "ヨビバイト"
       ],
       "identifier": "yobibytes",
       "symbol": "YiB"
     },
     {
       "aliases": [
-        "ゼビバイト",
-        "ZiB"
+        "ゼビバイト"
       ],
       "identifier": "zebibytes",
       "symbol": "ZiB"
     },
     {
       "aliases": [
-        "エクスビバイト",
-        "EiB"
+        "エクスビバイト"
       ],
       "identifier": "exbibytes",
       "symbol": "EiB"
     },
     {
       "aliases": [
-        "ペビバイト",
-        "PiB"
+        "ペビバイト"
       ],
       "identifier": "pebibytes",
       "symbol": "PiB"
     },
     {
       "aliases": [
-        "テビバイト",
-        "TiB"
+        "テビバイト"
       ],
       "identifier": "tebibytes",
       "symbol": "TiB"
     },
     {
       "aliases": [
-        "ギビバイト",
-        "GiB"
+        "ギビバイト"
       ],
       "identifier": "gibibytes",
       "symbol": "GiB"
     },
     {
       "aliases": [
-        "メビバイト",
-        "MiB"
+        "メビバイト"
       ],
       "identifier": "mebibytes",
       "symbol": "MiB"
     },
     {
       "aliases": [
-        "キビバイト",
-        "KiB"
+        "キビバイト"
       ],
       "identifier": "kibibytes",
       "symbol": "KiB"
@@ -308,24 +295,21 @@
     },
     {
       "aliases": [
-        "キロジュール",
-        "kj"
+        "キロジュール"
       ],
       "identifier": "kilojoules",
       "symbol": "kJ"
     },
     {
       "aliases": [
-        "メガジュール",
-        "mj"
+        "メガジュール"
       ],
       "identifier": "megajoules",
       "symbol": "MJ"
     },
     {
       "aliases": [
-        "ギガジュール",
-        "gj"
+        "ギガジュール"
       ],
       "identifier": "gigajoules",
       "symbol": "GJ"
@@ -339,8 +323,7 @@
     },
     {
       "aliases": [
-        "キロカロリー",
-        "kcal"
+        "キロカロリー"
       ],
       "identifier": "kilocalories",
       "symbol": "キロカロリー"
@@ -368,43 +351,34 @@
     },
     {
       "aliases": [
-        "キロワット時",
-        "kwh"
+        "キロワット時"
       ],
       "identifier": "kilowattHours",
       "symbol": "キロワット時"
     },
     {
       "aliases": [
-        "メガワット時",
-        "mwh"
+        "メガワット時"
       ],
       "identifier": "megawattHours",
       "symbol": "メガワット時"
     },
     {
       "aliases": [
-        "ギガワット時",
-        "gwh"
+        "ギガワット時"
       ],
       "identifier": "gigawattHours",
       "symbol": "ギガワット時"
     },
     {
       "aliases": [
-        "テラワット時",
-        "twh"
+        "テラワット時"
       ],
       "identifier": "terawattHours",
       "symbol": "テラワット時"
     }
   ],
   "fuelEconomy": [
-    {
-      "aliases": [],
-      "identifier": "kilometersPerLiter",
-      "symbol": "km/L"
-    },
     {
       "aliases": [
         "マイル毎ガロン"
@@ -481,8 +455,7 @@
     },
     {
       "aliases": [
-        "マイクロボルト",
-        "uV"
+        "マイクロボルト"
       ],
       "identifier": "microvolts",
       "symbol": "µV"
@@ -491,32 +464,30 @@
   "duration": [
     {
       "aliases": [
-        "時間",
-        "hrs",
-        "h"
+        "時間"
       ],
       "identifier": "hours",
       "symbol": "時間"
     },
     {
       "aliases": [
-        "秒",
-        "sec"
+        "秒"
       ],
       "identifier": "seconds",
       "symbol": "秒"
     },
     {
       "aliases": [
-        "分",
-        "mins"
+        "分"
       ],
       "identifier": "minutes",
       "symbol": "分"
     },
     {
       "aliases": [
-        "日"
+        "日",
+        "日間",
+        "日数"
       ],
       "identifier": "days",
       "symbol": "日"
@@ -524,7 +495,8 @@
     {
       "aliases": [
         "平日",
-        "営業日"
+        "営業日",
+        "営業日数"
       ],
       "identifier": "weekdays",
       "symbol": "営業日"
@@ -539,21 +511,24 @@
     {
       "aliases": [
         "週間",
-        "wk"
+        "週数"
       ],
       "identifier": "weeks",
       "symbol": "週"
     },
     {
       "aliases": [
-        "月"
+        "月",
+        "ヶ月",
+        "月数"
       ],
       "identifier": "months",
       "symbol": "月"
     },
     {
       "aliases": [
-        "年"
+        "年",
+        "年間"
       ],
       "identifier": "years",
       "symbol": "年"
@@ -597,16 +572,14 @@
     },
     {
       "aliases": [
-        "摂氏度",
-        "C"
+        "摂氏度"
       ],
       "identifier": "celsius",
       "symbol": "℃"
     },
     {
       "aliases": [
-        "華氏度",
-        "F"
+        "華氏度"
       ],
       "identifier": "fahrenheit",
       "symbol": "℉"
@@ -664,24 +637,21 @@
     },
     {
       "aliases": [
-        "毎秒ギガバイト",
-        "gBps"
+        "毎秒ギガバイト"
       ],
       "identifier": "gigabytesPerSecond",
       "symbol": "GBps"
     },
     {
       "aliases": [
-        "毎秒メガバイト",
-        "mBps"
+        "毎秒メガバイト"
       ],
       "identifier": "megabytesPerSecond",
       "symbol": "MBps"
     },
     {
       "aliases": [
-        "毎秒キロバイト",
-        "kBps"
+        "毎秒キロバイト"
       ],
       "identifier": "kilobytesPerSecond",
       "symbol": "KBps"
@@ -709,40 +679,35 @@
     },
     {
       "aliases": [
-        "毎秒ペタビット",
-        "Pbps"
+        "毎秒ペタビット"
       ],
       "identifier": "petabitsPerSecond",
       "symbol": "Pbps"
     },
     {
       "aliases": [
-        "毎秒テラビット",
-        "tbps"
+        "毎秒テラビット"
       ],
       "identifier": "terabitsPerSecond",
       "symbol": "Tbps"
     },
     {
       "aliases": [
-        "毎秒ギガビット",
-        "gbps"
+        "毎秒ギガビット"
       ],
       "identifier": "gigabitsPerSecond",
       "symbol": "Gbps"
     },
     {
       "aliases": [
-        "毎秒メガビット",
-        "mbps"
+        "毎秒メガビット"
       ],
       "identifier": "megabitsPerSecond",
       "symbol": "Mbps"
     },
     {
       "aliases": [
-        "毎秒キロビット",
-        "kbps"
+        "毎秒キロビット"
       ],
       "identifier": "kilobitsPerSecond",
       "symbol": "Kbps"
@@ -863,8 +828,7 @@
   "frequency": [
     {
       "aliases": [
-        "ヘルツ",
-        "hz"
+        "ヘルツ"
       ],
       "identifier": "hertz",
       "symbol": "Hz"
@@ -941,152 +905,133 @@
   "volume": [
     {
       "aliases": [
-        "メガリットル",
-        "ML"
+        "メガリットル"
       ],
       "identifier": "megaliters",
       "symbol": "ML"
     },
     {
       "aliases": [
-        "キロリットル",
-        "kL"
+        "キロリットル"
       ],
       "identifier": "kiloliters",
       "symbol": "kL"
     },
     {
       "aliases": [
-        "リットル",
-        "l"
+        "リットル"
       ],
       "identifier": "liters",
       "symbol": "L"
     },
     {
       "aliases": [
-        "デシリットル",
-        "dl"
+        "デシリットル"
       ],
       "identifier": "deciliters",
       "symbol": "dL"
     },
     {
       "aliases": [
-        "センチリットル",
-        "cl"
+        "センチリットル"
       ],
       "identifier": "centiliters",
       "symbol": "cL"
     },
     {
       "aliases": [
-        "ミリリットル",
-        "ml"
+        "ミリリットル"
       ],
       "identifier": "milliliters",
       "symbol": "mL"
     },
     {
       "aliases": [
-        "マイクロリットル",
-        "μl"
+        "マイクロリットル"
       ],
       "identifier": "microliters",
       "symbol": "µL"
     },
     {
       "aliases": [
-        "ナノリットル",
-        "nL"
+        "ナノリットル"
       ],
       "identifier": "nanoliters",
       "symbol": "nL"
     },
     {
       "aliases": [
-        "立方キロメートル",
-        "km^3"
+        "立方キロメートル"
       ],
       "symbol": "km³",
       "identifier": "cubicKilometers"
     },
     {
       "aliases": [
-        "立方メートル",
-        "m^3"
+        "立方メートル"
       ],
       "identifier": "cubicMeters",
       "symbol": "m³"
     },
     {
       "aliases": [
-        "立方センチメートル",
-        "cm^3"
+        "立方センチメートル"
       ],
       "identifier": "cubicCentimeters",
       "symbol": "cm³"
     },
     {
       "aliases": [
-        "立方デシメートル",
-        "dm^3"
+        "立方デシメートル"
       ],
       "identifier": "cubicDecimeters",
       "symbol": "dm³"
     },
     {
       "aliases": [
-        "立方ミリメートル",
-        "mm^3"
+        "立方ミリメートル"
       ],
       "identifier": "cubicMillimeters",
       "symbol": "mm³"
     },
     {
       "aliases": [
-        "立方マイクロメートル",
-        "µm^3"
+        "立方マイクロメートル"
       ],
       "identifier": "cubicMicrometers",
       "symbol": "µm³"
     },
     {
       "aliases": [
-        "立方ナノメートル",
-        "nm^3"
+        "立方ナノメートル"
       ],
       "identifier": "cubicNanometers",
       "symbol": "nm³"
     },
     {
       "aliases": [
-        "立方インチ",
-        "in^3"
+        "立方インチ"
       ],
       "identifier": "cubicInches",
       "symbol": "in³"
     },
     {
       "aliases": [
-        "立方フィート",
-        "ft^3"
+        "立方フィート"
       ],
       "identifier": "cubicFeet",
       "symbol": "ft³"
     },
     {
       "aliases": [
-        "立方ヤード",
-        "yd^3"
+        "立方ヤード"
       ],
       "identifier": "cubicYards",
       "symbol": "yd³"
     },
     {
       "aliases": [
-        "立方マイル",
-        "mi^3"
+        "立方マイル"
       ],
       "identifier": "cubicMiles",
       "symbol": "mi³"
@@ -1135,32 +1080,28 @@
     },
     {
       "aliases": [
-        "ガロン",
-        "gal"
+        "ガロン"
       ],
       "identifier": "gallons",
       "symbol": "ガロン"
     },
     {
       "aliases": [
-        "大さじ",
-        "tbsp"
+        "大さじ"
       ],
       "identifier": "tablespoons",
       "symbol": "大さじ"
     },
     {
       "aliases": [
-        "小さじ",
-        "tsp"
+        "小さじ"
       ],
       "identifier": "teaspoons",
       "symbol": "小さじ"
     },
     {
       "aliases": [
-        "液量オンス",
-        "floz"
+        "液量オンス"
       ],
       "identifier": "fluidOunces",
       "symbol": "液量オンス"
@@ -1215,88 +1156,77 @@
   "area": [
     {
       "aliases": [
-        "平方キロメートル",
-        "km^2"
+        "平方キロメートル"
       ],
       "identifier": "squareKilometers",
       "symbol": "km²"
     },
     {
       "aliases": [
-        "平方メートル",
-        "m^2"
+        "平方メートル"
       ],
       "identifier": "squareMeters",
       "symbol": "m²"
     },
     {
       "aliases": [
-        "平方センチメートル",
-        "cm^2"
+        "平方センチメートル"
       ],
       "identifier": "squareCentimeters",
       "symbol": "cm²"
     },
     {
       "aliases": [
-        "平方デシメートル",
-        "dm^2"
+        "平方デシメートル"
       ],
       "identifier": "squareDecimeters",
       "symbol": "dm²"
     },
     {
       "aliases": [
-        "平方ミリメートル",
-        "mm^2"
+        "平方ミリメートル"
       ],
       "identifier": "squareMillimeters",
       "symbol": "mm²"
     },
     {
       "aliases": [
-        "平方マイクロメートル",
-        "µm^2"
+        "平方マイクロメートル"
       ],
       "identifier": "squareMicrometers",
       "symbol": "µm²"
     },
     {
       "aliases": [
-        "平方ナノメートル",
-        "nm^2"
+        "平方ナノメートル"
       ],
       "identifier": "squareNanometers",
       "symbol": "nm²"
     },
     {
       "aliases": [
-        "平方インチ",
-        "in^2"
+        "平方インチ"
       ],
       "identifier": "squareInches",
       "symbol": "in²"
     },
     {
       "aliases": [
-        "平方フィート",
-        "ft^2"
+        "平方フィート"
       ],
       "identifier": "squareFeet",
       "symbol": "ft²"
     },
     {
       "aliases": [
-        "平方ヤード",
-        "yd^2"
+        "平方ヤード"
       ],
       "identifier": "squareYards",
       "symbol": "yd²"
     },
     {
       "aliases": [
-        "平方マイル",
-        "mi^2"
+        "平方マイル"
       ],
       "identifier": "squareMiles",
       "symbol": "mi²"
@@ -1314,11 +1244,6 @@
       ],
       "identifier": "hectares",
       "symbol": "ヘクタール"
-    },
-    {
-      "aliases": [],
-      "identifier": "ares",
-      "symbol": "アール"
     }
   ],
   "length": [
@@ -1380,8 +1305,7 @@
     },
     {
       "aliases": [
-        "フィート",
-        "'"
+        "フィート"
       ],
       "identifier": "feet",
       "symbol": "ft"
@@ -1443,19 +1367,8 @@
       "symbol": "ピクセル"
     },
     {
-      "aliases": [],
-      "identifier": "em",
-      "symbol": "em"
-    },
-    {
-      "aliases": [],
-      "identifier": "rem",
-      "symbol": "rem"
-    },
-    {
       "aliases": [
-        "ポイント",
-        "pts"
+        "ポイント"
       ],
       "identifier": "point",
       "symbol": "ポイント"
@@ -1543,8 +1456,7 @@
     },
     {
       "aliases": [
-        "マイクロニュートン",
-        "μN"
+        "マイクロニュートン"
       ],
       "symbol": "マイクロニュートン",
       "identifier": "micronewtons"
@@ -1623,27 +1535,6 @@
     },
     {
       "aliases": [
-        "psi"
-      ],
-      "identifier": "poundsForcePerSquareInch",
-      "symbol": "psi"
-    },
-    {
-      "aliases": [
-        "ksi"
-      ],
-      "identifier": "kilopoundsForcePerSquareInch",
-      "symbol": "ksi"
-    },
-    {
-      "aliases": [
-        "Mpsi"
-      ],
-      "identifier": "megapoundsForcePerSquareInch",
-      "symbol": "Mpsi"
-    },
-    {
-      "aliases": [
         "バール"
       ],
       "identifier": "bars",
@@ -1688,8 +1579,7 @@
     },
     {
       "aliases": [
-        "マイクロウェーバー",
-        "uWB"
+        "マイクロウェーバー"
       ],
       "identifier": "microwebers",
       "symbol": "µWb"
@@ -1698,8 +1588,7 @@
   "electricalConductance": [
     {
       "aliases": [
-        "ジーメンス",
-        "℧"
+        "ジーメンス"
       ],
       "identifier": "siemens",
       "symbol": "ジーメンス"
@@ -1810,7 +1699,6 @@
   "fuelConsumption": [
     {
       "aliases": [
-        "L/100 km",
         "リットル毎100キロメートル"
       ],
       "identifier": "litersPer100Kilometers",
@@ -1827,16 +1715,14 @@
     },
     {
       "aliases": [
-        "毎分回転数",
-        "rpm"
+        "毎分回転数"
       ],
       "identifier": "revolutionsPerMinute",
       "symbol": "rpm"
     },
     {
       "aliases": [
-        "毎秒回転数",
-        "rps"
+        "毎秒回転数"
       ],
       "identifier": "revolutionsPerSecond",
       "symbol": "rps"
@@ -1845,32 +1731,28 @@
   "torque": [
     {
       "aliases": [
-        "ニュートンメートル",
-        "Nm"
+        "ニュートンメートル"
       ],
       "identifier": "newtonMeters",
       "symbol": "ニュートンメートル"
     },
     {
       "aliases": [
-        "ポンドフィート",
-        "ft-lb"
+        "ポンドフィート"
       ],
       "identifier": "poundFeet",
       "symbol": "ポンドフィート"
     },
     {
       "aliases": [
-        "ポンドインチ",
-        "lbf-in"
+        "ポンドインチ"
       ],
       "identifier": "poundInches",
       "symbol": "ポンドインチ"
     },
     {
       "aliases": [
-        "オンスインチ",
-        "ozf-in"
+        "オンスインチ"
       ],
       "identifier": "ounceInches",
       "symbol": "オンスインチ"
@@ -1879,16 +1761,14 @@
   "acceleration": [
     {
       "aliases": [
-        "メートル毎秒毎秒",
-        "m/s^2"
+        "メートル毎秒毎秒"
       ],
       "identifier": "metersPerSecondSquared",
       "symbol": "m/s²"
     },
     {
       "aliases": [
-        "フィート毎秒毎秒",
-        "ft/s^2"
+        "フィート毎秒毎秒"
       ],
       "identifier": "feetPerSecondSquared",
       "symbol": "ft/s²"
@@ -1962,8 +1842,7 @@
     },
     {
       "aliases": [
-        "マイクログラム",
-        "μg"
+        "マイクログラム"
       ],
       "identifier": "micrograms",
       "symbol": "μg"
@@ -2000,7 +1879,7 @@
       "aliases": [
         "メートルトン",
         "トン"
-			],
+      ],
       "identifier": "metricTons",
       "symbol": "トン"
     },
@@ -2029,27 +1908,10 @@
   "angle": [
     {
       "aliases": [
-        "度",
-        "º"
+        "度"
       ],
       "identifier": "degrees",
       "symbol": "°"
-    },
-    {
-      "aliases": [
-        "分",
-        "arcmin"
-      ],
-      "identifier": "arcMinutes",
-      "symbol": "′"
-    },
-    {
-      "aliases": [
-        "秒",
-        "arcsec"
-      ],
-      "identifier": "arcSeconds",
-      "symbol": "″"
     },
     {
       "aliases": [
@@ -2064,13 +1926,6 @@
       ],
       "identifier": "revolutions",
       "symbol": "回転"
-    }
-  ],
-  "frameRate": [
-    {
-      "aliases": [],
-      "identifier": "framesPerSecond",
-      "symbol": "fps"
     }
   ],
   "amountOfSubstance": [
@@ -2120,8 +1975,7 @@
     },
     {
       "aliases": [
-        "キロメートル毎時",
-        "kph"
+        "キロメートル毎時"
       ],
       "identifier": "kilometersPerHour",
       "symbol": "km/h"
@@ -2144,32 +1998,28 @@
   "electricResistance": [
     {
       "aliases": [
-        "オーム",
-        "Ω"
+        "オーム"
       ],
       "identifier": "ohms",
       "symbol": "オーム"
     },
     {
       "aliases": [
-        "キロオーム",
-        "kΩ"
+        "キロオーム"
       ],
       "identifier": "kiloohms",
       "symbol": "キロオーム"
     },
     {
       "aliases": [
-        "メガオーム",
-        "MΩ"
+        "メガオーム"
       ],
       "identifier": "megaohms",
       "symbol": "メガオーム"
     },
     {
       "aliases": [
-        "ミリオーム",
-        "mΩ"
+        "ミリオーム"
       ],
       "identifier": "milliohms",
       "symbol": "ミリオーム"

@@ -3,9 +3,27 @@
     {
       "prototypeExpressions": [
         "__unit_expression を __unit に変換する",
-        "__unit を __unit に変換する"
+        "__unit を __unit に変換する",
+        "__unit_expression を __unit に",
+        "__unit_expression を __unit で",
+        "__timespan を __unit に",
+        "__unit_expression の __unit"
       ],
       "identifier": "unitConversion"
+    },
+    {
+      "prototypeExpressions": [
+        "__currency_expression __converter_symbol __currency __datestamp の",
+        "__currency_expression __converter_symbol __currency __datestamp"
+      ],
+      "identifier": "historicalCurrencyConversion"
+    },
+    {
+      "prototypeExpressions": [
+        "__currency_expression から __currency_expression への為替レート",
+        "__currency_expression と __currency_expression の為替レート"
+      ],
+      "identifier": "exchangeRateForCurrencyConversion"
     },
     {
       "prototypeExpressions": [
@@ -59,6 +77,12 @@
     },
     {
       "prototypeExpressions": [
+        "__length_expression __converter_symbol __length __screenDensity で"
+      ],
+      "identifier": "lengthToPixelsAtPPI"
+    },
+    {
+      "prototypeExpressions": [
         "__angularVelocity での __length タイヤの速度"
       ],
       "identifier": "tyreSpeed"
@@ -80,7 +104,8 @@
     {
       "prototypeExpressions": [
         "__datestamp と __datestamp の間の __duration",
-        "__datestamp から __datestamp までの __duration"
+        "__datestamp から __datestamp までの __duration",
+        "__datestamp から __datestamp まで の __duration"
       ],
       "identifier": "calendarUnitBetweenDates"
     },
@@ -107,6 +132,12 @@
         "__timespan の __duration"
       ],
       "identifier": "calendarUnitInTimespan"
+    },
+    {
+      "prototypeExpressions": [
+        "__duration %"
+      ],
+      "identifier": "calendarUnitPercentage"
     },
     {
       "prototypeExpressions": [
@@ -206,6 +237,15 @@
     },
     {
       "prototypeExpressions": [
+        "__timespan 後の __timezone の時刻",
+        "__timespan 後の時刻",
+        "__timespan の __timezone の時刻",
+        "__timespan の時刻"
+      ],
+      "identifier": "timeAfterCalendarUnit"
+    },
+    {
+      "prototypeExpressions": [
         "__timezone の日付"
       ],
       "identifier": "dateInTimezone"
@@ -215,6 +255,12 @@
         "__timezone と __timezone の時差"
       ],
       "identifier": "differenceBetweenTimezones"
+    },
+    {
+      "prototypeExpressions": [
+        "__timezone との時差"
+      ],
+      "identifier": "differenceBetweenHereAndTimezone"
     },
     {
       "prototypeExpressions": [
@@ -330,64 +376,16 @@
     },
     {
       "prototypeExpressions": [
-        "20 の半分"
+        "20 の半分",
+        "20 の 半分"
       ],
       "identifier": "halfOf"
     },
-      {
-        "prototypeExpressions": [
-          "56.5 四捨五入"
-        ],
-        "identifier": "rounded"
-      },
-      {
-        "prototypeExpressions": [
-          "56.5 切り上げ"
-        ],
-        "identifier": "roundedUp"
-      },
-      {
-        "prototypeExpressions": [
-          "56.5 切り捨て"
-        ],
-        "identifier": "roundedDown"
-      },
-      {
-        "prototypeExpressions": [
-          "56.5 小数点以下3桁",
-          "56.5 3桁に丸める",
-          "56.5 小数点以下1桁",
-          "56.5 小数点以下3桁まで",
-          "56.5 小数点以下3桁に四捨五入",
-          "56.5 四捨五入 小数点以下3桁"
-        ],
-        "identifier": "roundedToDp"
-      },
-      {
-        "prototypeExpressions": [
-          "56 最も近い10に切り上げ",
-          "16 最も近い10に丸める"
-        ],
-        "identifier": "upToNearestX"
-      },
-      {
-        "prototypeExpressions": [
-          "56 最も近い10に切り捨て",
-          "16 最も近い10に丸める"
-        ],
-        "identifier": "downToNearestX"
-      },
-      {
-        "prototypeExpressions": [
-          "56 を最も近い 10 に丸める"
-        ],
-        "identifier": "toNearestX"
-      },
-    
     {
       "prototypeExpressions": [
         "2 と 30 のうち小さい方",
-        "__literal と __literal のうち小さい方"
+        "__literal と __literal のうち小さい方",
+        "2 と 30 の 小さい方"
       ],
       "identifier": "lesserOf"
     },
@@ -400,7 +398,9 @@
     },
     {
       "prototypeExpressions": [
-        "2 と 32 の間の中間点"
+        "2 と 32 の間の中間点",
+        "2 と 32 の 中間点",
+        "2 と 32 の中間点"
       ],
       "identifier": "midpoint"
     },
@@ -420,14 +420,16 @@
     {
       "prototypeExpressions": [
         "6 は 600 として何に相当しますか",
-        "6 に対して 600 は何に相当しますか"
+        "6 に対して 600 は何に相当しますか",
+        "5 対 10 は 何 対 80か"
       ],
       "identifier": "proportionsFindNumerator"
     },
     {
       "prototypeExpressions": [
         "6 は 600 として 8 は何に相当しますか",
-        "6 に対して 600 は 8 に対して何ですか"
+        "6 に対して 600 は 8 に対して何ですか",
+        "6 対 60 は 8 対 何か"
       ],
       "identifier": "proportionsFindDenominator"
     },
@@ -461,13 +463,15 @@
     },
     {
       "prototypeExpressions": [
-        "100 の平方根"
+        "100 の平方根",
+        "100 の 平方根"
       ],
       "identifier": "squareRoot"
     },
     {
       "prototypeExpressions": [
-        "100 の立方根"
+        "100 の立方根",
+        "100 の 立方根"
       ],
       "identifier": "cubedRoot"
     },
@@ -479,8 +483,16 @@
     },
     {
       "prototypeExpressions": [
+        "100 の 5乗根"
+      ],
+      "identifier": "reversedNthRoot"
+    },
+    {
+      "prototypeExpressions": [
         "20 の 4 を底とした対数",
-        "20 の 4 を底とする対数"
+        "20 の 4 を底とする対数",
+        "log 20 底 4",
+        "81 は 9 の 何乗"
       ],
       "identifier": "nthLog"
     },
@@ -521,6 +533,39 @@
         "0 から 10 までの 10 のスクラバー"
       ],
       "identifier": "scrubNumberWithSpecifiedRange"
+    },
+    {
+      "prototypeExpressions": [
+        "56 を切り上げ"
+      ],
+      "identifier": "roundXUp"
+    },
+    {
+      "prototypeExpressions": [
+        "56 を切り捨て"
+      ],
+      "identifier": "roundXDown"
+    },
+    {
+      "prototypeExpressions": [
+        "56 を最も近い 10 に切り上げ",
+        "56 を 10 に切り上げ"
+      ],
+      "identifier": "roundUpXToNearestY"
+    },
+    {
+      "prototypeExpressions": [
+        "56 を最も近い 10 に切り捨て",
+        "56 を 10 に切り捨て"
+      ],
+      "identifier": "roundDownXToNearestY"
+    },
+    {
+      "prototypeExpressions": [
+        "56 を最も近い 10 に四捨五入",
+        "56 を 最も近い 10 に"
+      ],
+      "identifier": "roundXToNearestY"
     },
     {
       "prototypeExpressions": [
@@ -576,17 +621,25 @@
     },
     {
       "prototypeExpressions": [
-        "__timespan での __percentage で 10000 の年間返済額",
-        "__timespan 後の __percentage で 10000 の年間返済額"
+        "__timespan での __percentage で 10000 の __period 返済額",
+        "__timespan 後の __percentage で 10000 の __period 返済額",
+        "10000 の __timespan __percentage での __period 返済額",
+        "10000 の 6__period __percentage での 毎月の返済額",
+        "10000 の 6 __period __percentage での 毎月の返済額",
+        "10000 の __timespan __percentage での 毎月の返済額"
       ],
-      "identifier": "annualLoanRepayment"
+      "identifier": "periodicLoanRepayment"
     },
     {
       "prototypeExpressions": [
-        "__timespan での __percentage で 10000 の月額返済額",
-        "__timespan 後の __percentage で 10000 の月額返済額"
+        "__timespan での __percentage で 10000 の __period 返済額",
+        "__timespan 後の __percentage で 10000 の __period 返済額",
+        "10000 の __timespan __percentage での __period 返済額",
+        "10000 の 6__period __percentage での 毎月の返済額",
+        "10000 の 6 __period __percentage での 毎月の返済額",
+        "10000 の __timespan __percentage での 毎月の返済額"
       ],
-      "identifier": "monthlyLoanRepayment"
+      "identifier": "periodicLoanRepayment"
     },
     {
       "prototypeExpressions": [
@@ -597,17 +650,25 @@
     },
     {
       "prototypeExpressions": [
-        "__timespan での __percentage で 10000 の年間利息",
-        "__timespan 後の __percentage で 10000 の年間利息"
+        "__timespan での __percentage で 10000 の __period 利息",
+        "__timespan 後の __percentage で 10000 の __period 利息",
+        "10000 の __timespan __percentage での __period 利息",
+        "10000 の __timespan __percentage での 月利",
+        "10000 の 6__period __percentage での 月利",
+        "10000 の 6 __period __percentage での 月利"
       ],
-      "identifier": "annualInterestOnLoanRepayment"
+      "identifier": "periodicInterestOnLoanRepayment"
     },
     {
       "prototypeExpressions": [
-        "__timespan での __percentage で 10000 の月額利息",
-        "__timespan 後の __percentage で 10000 の月額利息"
+        "__timespan での __percentage で 10000 の __period 利息",
+        "__timespan 後の __percentage で 10000 の __period 利息",
+        "10000 の __timespan __percentage での __period 利息",
+        "10000 の __timespan __percentage での 月利",
+        "10000 の 6__period __percentage での 月利",
+        "10000 の 6 __period __percentage での 月利"
       ],
-      "identifier": "monthlyInterestOnLoanRepayment"
+      "identifier": "periodicInterestOnLoanRepayment"
     },
     {
       "prototypeExpressions": [
@@ -625,8 +686,18 @@
     },
     {
       "prototypeExpressions": [
+        "__timespan 後の __percentage で __period 複利の 100",
+        "__timespan で __period 複利の __percentage の 100"
+      ],
+      "identifier": "compoundInterestCompoundingOverPeriod"
+    },
+    {
+      "prototypeExpressions": [
         "__timespan 後の __percentage の 100",
-        "__timespan で __percentage の 100"
+        "__timespan で __percentage の 100",
+        "100 の __timespan __percentage 後",
+        "100 の 3__period __percentage 後",
+        "100 の 3 __period __percentage 後"
       ],
       "identifier": "compoundInterest"
     },
@@ -650,6 +721,13 @@
         "__timespan で四半期ごとに複利の __percentage の 100 の利息"
       ],
       "identifier": "compoundInterestSansPrincipalCompoundingQuarterly"
+    },
+    {
+      "prototypeExpressions": [
+        "__timespan 後の __percentage で __period 複利の 100 の利息",
+        "__timespan で __period 複利の __percentage の 100 の利息"
+      ],
+      "identifier": "compoundInterestSansPrincipalCompoundingOverPeriod"
     },
     {
       "prototypeExpressions": [
@@ -944,7 +1022,8 @@
       "prototypeExpressions": [
         "10 から 20 は何 % ですか",
         "10 から 20 は % ですか",
-        "10 から 20 は % として"
+        "10 から 20 は % として",
+        "10 から 20 を % で"
       ],
       "identifier": "xToYIsWhatPercentage"
     },
@@ -992,8 +1071,8 @@
   "percentage": [
     {
       "prototypeExpressions": [
-        "__percentage の 100",
-        "__percentage から 100"
+        "100 の __percentage",
+        "100 から __percentage"
       ],
       "identifier": "percentOf"
     },
@@ -1005,13 +1084,26 @@
     },
     {
       "prototypeExpressions": [
+        "100 から __percentage オフ"
+      ],
+      "identifier": "reversedPercentOff"
+    },
+    {
+      "prototypeExpressions": [
         "__percentage の 100"
       ],
       "identifier": "percentOn"
     },
     {
       "prototypeExpressions": [
-        "30 は何 % の何ですか"
+        "100 に __percentage 追加"
+      ],
+      "identifier": "reversedPercentOn"
+    },
+    {
+      "prototypeExpressions": [
+        "30 は何 % の何ですか",
+        "30 は 何 の __percentage"
       ],
       "identifier": "isPercentOfWhat"
     },
@@ -1023,7 +1115,8 @@
     },
     {
       "prototypeExpressions": [
-        "30 は何 % の何ですか"
+        "30 は何 % の何ですか",
+        "30 は 何 の __percentage オフ"
       ],
       "identifier": "isPercentOffWhat"
     },
@@ -1035,7 +1128,8 @@
     },
     {
       "prototypeExpressions": [
-        "30 は何 % の何ですか"
+        "30 は何 % の何ですか",
+        "30 は 何 の __percentage 追加"
       ],
       "identifier": "isPercentOnWhat"
     },
@@ -1049,7 +1143,8 @@
       "prototypeExpressions": [
         "10 は何 % の 20 ですか",
         "10 は % の 20 ですか",
-        "10 は % として 20 ですか"
+        "10 は % として 20 ですか",
+        "10 は 20 の 何%"
       ],
       "identifier": "isWhatPercentOf"
     },
@@ -1084,13 +1179,35 @@
         "__sales_tax の 500"
       ],
       "identifier": "salesTaxIn"
+    },
+    {
+      "prototypeExpressions": [
+        "__sales_tax を除いた 100"
+      ],
+      "identifier": "salesTaxOff"
+    },
+    {
+      "prototypeExpressions": [
+        "15 は 3 を加えた後の何 % ですか",
+        "15 は +3 後の何 % ですか"
+      ],
+      "identifier": "isWhatPercentChangeAfterDelta"
+    },
+    {
+      "prototypeExpressions": [
+        "30 が __percentage なら __percentage はいくら",
+        "__percentage が 30 なら __percentage はいくら",
+        "30 が __percentage なら 60 はいくら",
+        "__percentage が 30 なら 60 はいくら"
+      ],
+      "identifier": "percentageRuleOfThree"
     }
   ],
   "statistics": [
     {
       "prototypeExpressions": [
         "__statistic_type の __list",
-        "__statistic_type のの __list"
+        "__list の __statistic_type"
       ],
       "identifier": "statisticOfList"
     },

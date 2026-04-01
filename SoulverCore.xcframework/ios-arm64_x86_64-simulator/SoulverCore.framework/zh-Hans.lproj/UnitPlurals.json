@@ -1,0 +1,38 @@
+{
+  "day": {
+    "one": "天",
+    "other": "天"
+  },
+  "night": {
+    "one": "夜",
+    "other": "夜"
+  },
+  "ft": {
+    "one": "英尺",
+    "other": "英尺"
+  },
+  "hr": {
+    "one": "小时",
+    "other": "小时"
+  },
+  "in": {
+    "one": "英寸",
+    "other": "英寸"
+  },
+  "month": {
+    "one": "月",
+    "other": "月"
+  },
+  "week": {
+    "one": "周",
+    "other": "周"
+  },
+  "workday": {
+    "one": "工作日",
+    "other": "工作日"
+  },
+  "year": {
+    "one": "年",
+    "other": "年"
+  }
+}

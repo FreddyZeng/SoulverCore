@@ -30,8 +30,6 @@
         "3 ziffer",
         "3 nk-stelle",
         "3 stellen",
-        "3 nk-stellen",
-        "3 nk",
         "3 ziffern",
         "1 dezimalstelle",
         "1 nachkommastelle",
@@ -65,6 +63,13 @@
         "gerundet auf die nächste 10"
       ],
       "identifier": "roundedToNearestX"
+    },
+    {
+      "prototypeExpressions": [
+        "auf den nächsten __ordinal_number",
+        "gerundet auf den nächsten __ordinal_number"
+      ],
+      "identifier": "roundedToNearestFraction"
     }
   ],
   "compoundUnits": [
@@ -111,6 +116,24 @@
         "__converter_symbol minuten und sekunden"
       ],
       "identifier": "minutesAndSeconds"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol pfund und unzen",
+        "__converter_symbol pfund & unzen",
+        "__converter_symbol lb und oz",
+        "__converter_symbol lb & oz"
+      ],
+      "identifier": "poundsAndOunces"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol fuß und zoll",
+        "__converter_symbol fuß & zoll",
+        "__converter_symbol ft und zoll",
+        "__converter_symbol zoll und fuß"
+      ],
+      "identifier": "feetAndInches"
     }
   ],
   "dateTime": [
@@ -138,19 +161,28 @@
         "__converter_symbol rundenzeit"
       ],
       "identifier": "toLaptime"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol iso8601",
+        "__converter_symbol iso"
+      ],
+      "identifier": "toISO8601"
     }
   ],
   "numberForms": [
-      {
-        "prototypeExpressions": [
-          "__converter_symbol multiplikator"
-        ],
-        "identifier": "toMultiplier"
-      },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol multiplikator"
+      ],
+      "identifier": "toMultiplier"
+    },
     {
       "prototypeExpressions": [
         "__converter_symbol zahl",
-        "__converter_symbol nummer"
+        "__converter_symbol nummer",
+        "__converter_symbol dezimal",
+        "__converter_symbol dezimalzahl"
       ],
       "identifier": "toDecimal"
     },
@@ -159,6 +191,40 @@
         "__converter_symbol bruch"
       ],
       "identifier": "toFraction"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol wissenschaftliche notation",
+        "__converter_symbol wissenschaftlich"
+      ],
+      "identifier": "toScientificNotation"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol hexadezimal",
+        "__converter_symbol hex"
+      ],
+      "identifier": "toHexadecimal"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol binär",
+        "__converter_symbol bin"
+      ],
+      "identifier": "toBinary"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol oktal",
+        "__converter_symbol okt"
+      ],
+      "identifier": "toOctal"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol basis 8"
+      ],
+      "identifier": "toBaseX"
     }
   ],
   "music": [
@@ -167,6 +233,14 @@
         "__converter_symbol tonhöhe"
       ],
       "identifier": "toPitch"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol midi-notennummer",
+        "__converter_symbol midi-nummer",
+        "__converter_symbol midi"
+      ],
+      "identifier": "toMIDI"
     }
   ],
   "unitRelated": [

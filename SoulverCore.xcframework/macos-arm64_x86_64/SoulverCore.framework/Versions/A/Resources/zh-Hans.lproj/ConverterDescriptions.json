@@ -51,10 +51,16 @@
     {
       "prototypeExpressions": [
         "四舍五入到最近的 10",
-        "四舍五入到最近的 10",
         "到最近的 10"
       ],
       "identifier": "roundedToNearestX"
+    },
+    {
+      "prototypeExpressions": [
+        "到最近的 __ordinal_number",
+        "四舍五入到最近的 __ordinal_number"
+      ],
+      "identifier": "roundedToNearestFraction"
     }
   ],
   "compoundUnits": [
@@ -106,6 +112,20 @@
         "作为分钟和秒"
       ],
       "identifier": "minutesAndSeconds"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol 磅和盎司",
+        "__converter_symbol 磅盎司"
+      ],
+      "identifier": "poundsAndOunces"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol 英尺和英寸",
+        "__converter_symbol 英尺英寸"
+      ],
+      "identifier": "feetAndInches"
     }
   ],
   "dateTime": [
@@ -121,28 +141,6 @@
         "作为时间戳",
         "时间戳",
         "__converter_symbol 日期"
-      ],
-      "identifier": "toTimestamp"
-    }
-  ],
-  "numberForms": [
-    {
-      "prototypeExpressions": [
-        "__converter_symbol 数字",
-        "作为数字",
-        "到数字"
-      ],
-      "identifier": "toDecimal"
-    },
-    {
-      "prototypeExpressions": [
-        "__converter_symbol 乘数"
-      ],
-      "identifier": "toMultiplier"
-    },
-    {
-      "prototypeExpressions": [
-        "__converter_symbol 时间戳"
       ],
       "identifier": "toTimestamp"
     },
@@ -161,12 +159,69 @@
     },
     {
       "prototypeExpressions": [
+        "__converter_symbol iso8601",
+        "__converter_symbol iso"
+      ],
+      "identifier": "toISO8601"
+    }
+  ],
+  "numberForms": [
+    {
+      "prototypeExpressions": [
+        "__converter_symbol 数字",
+        "作为数字",
+        "到数字",
+        "__converter_symbol 小数"
+      ],
+      "identifier": "toDecimal"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol 乘数"
+      ],
+      "identifier": "toMultiplier"
+    },
+    {
+      "prototypeExpressions": [
           "__converter_symbol 分之",
           "__converter_symbol 分数",
           "作为分数",
         "到分数"
       ],
       "identifier": "toFraction"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol 科学计数法",
+        "__converter_symbol 科学记数法"
+      ],
+      "identifier": "toScientificNotation"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol 十六进制"
+      ],
+      "identifier": "toHexadecimal"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol 二进制"
+      ],
+      "identifier": "toBinary"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol 八进制"
+      ],
+      "identifier": "toOctal"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol 基数 8",
+        "__converter_symbol 8 进制",
+        "__converter_symbol 8进制"
+      ],
+      "identifier": "toBaseX"
     }
   ],
   "music": [
@@ -176,6 +231,22 @@
         "到音调"
       ],
       "identifier": "toPitch"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol midi",
+        "__converter_symbol midi音符号"
+      ],
+      "identifier": "toMIDI"
+    }
+  ],
+  "unitRelated": [
+    {
+      "prototypeExpressions": [
+        "__converter_symbol 度分秒",
+        "__converter_symbol dms"
+      ],
+      "identifier": "toDMS"
     }
   ]
 }

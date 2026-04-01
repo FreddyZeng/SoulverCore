@@ -60,6 +60,104 @@
       "百分之",
       "百分比",
       "占比"
+    ],
+    "nextDateQualifiers": [
+      "下一个",
+      "下个"
+    ],
+    "previousDateQualifiers": [
+      "上一个",
+      "上个"
+    ],
+    "thisDateQualifiers": [
+      "这个",
+      "本"
+    ],
+    "middayAliases": [
+      "中午",
+      "正午"
+    ],
+    "midnightAliases": [
+      "午夜",
+      "半夜"
+    ],
+    "conjunctionWordsAnd": [
+      "和",
+      "与"
+    ],
+    "conjunctionWordsOr": [
+      "或",
+      "或者"
+    ],
+    "prepositionWordsUntil": [
+      "直到"
+    ],
+    "prepositionWordsAt": [
+      "在"
+    ],
+    "prepositionWordsWith": [],
+    "grammerWordsOf": [
+      "的"
+    ],
+    "hereAliases": [
+      "这里"
+    ],
+    "timeWords": [
+      "时间"
+    ],
+    "averageAliases": [
+      "平均",
+      "平均值"
+    ],
+    "totalAliases": [
+      "总计",
+      "合计",
+      "总和"
+    ],
+    "medianAliases": [
+      "中位数",
+      "中值"
+    ],
+    "countAliases": [
+      "计数"
+    ],
+    "greaterAliases": [
+      "较大",
+      "最大"
+    ],
+    "lesserAliases": [
+      "较小",
+      "最小"
+    ],
+    "standardDeviationAliases": [
+      "标准差",
+      "标准偏差"
+    ],
+    "gcdAliases": [
+      "最大公约数"
+    ],
+    "lcmAliases": [
+      "最小公倍数"
+    ],
+    "hourlyAliases": [
+      "每小时"
+    ],
+    "dailyAliases": [
+      "每天",
+      "每日"
+    ],
+    "weeklyAliases": [
+      "每周"
+    ],
+    "monthlyAliases": [
+      "每月"
+    ],
+    "quarterlyAliases": [
+      "每季度"
+    ],
+    "yearlyAliases": [
+      "每年",
+      "年度"
     ]
   }
 }

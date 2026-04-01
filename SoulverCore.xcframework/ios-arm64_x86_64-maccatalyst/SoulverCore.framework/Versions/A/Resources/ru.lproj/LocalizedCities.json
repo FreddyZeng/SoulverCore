@@ -29,8 +29,7 @@
   },
   {
     "name" : "Мехико",
-    "identifier" : "mexico city",
-  },
+    "identifier" : "mexico city"},
   {
     "name" : "Пекин",
     "aliases" : [
@@ -41,8 +40,7 @@
   },
   {
     "name" : "Карачи",
-    "identifier" : "karachi",
-  },
+    "identifier" : "karachi"},
   {
     "name" : "Тяньцзинь",
     "aliases" : [
@@ -53,12 +51,10 @@
   },
   {
     "name" : "Гуанчжоу",
-    "identifier" : "guangzhou",
-  },
+    "identifier" : "guangzhou"},
   {
     "name" : "Дели",
-    "identifier" : "delhi",
-  },
+    "identifier" : "delhi"},
   {
     "name" : "Москва",
     "aliases" : [
@@ -95,8 +91,7 @@
   },
   {
     "name" : "Сан-Паулу",
-    "identifier" : "sao paulo",
-  },
+    "identifier" : "sao paulo"},
   {
     "name" : "Ухань",
     "aliases" : [
@@ -124,8 +119,7 @@
   },
   {
     "name" : "Токио",
-    "identifier" : "tokyo",
-  },
+    "identifier" : "tokyo"},
   {
     "name" : "Нью-Йорк",
     "aliases" : [
@@ -195,8 +189,7 @@
   },
   {
     "name" : "Чэнду",
-    "identifier" : "chengdu",
-  },
+    "identifier" : "chengdu"},
   {
     "name" : "Багдад",
     "aliases" : [
@@ -278,8 +271,7 @@
   },
   {
     "name" : "Сантьяго",
-    "identifier" : "santiago",
-  },
+    "identifier" : "santiago"},
   {
     "name" : "Колькутта",
     "aliases" : [
@@ -307,8 +299,7 @@
   },
   {
     "name" : "Ченнаи",
-    "identifier" : "chennai",
-  },
+    "identifier" : "chennai"},
   {
     "name" : "Мельбурн",
     "aliases" : [
@@ -377,8 +368,7 @@
   },
   {
     "name" : "Кано",
-    "identifier" : "kano",
-  },
+    "identifier" : "kano"},
   {
     "name" : "Хайдарабад",
     "aliases" : [
@@ -496,8 +486,7 @@
   },
   {
     "name" : "Урумчи",
-    "identifier" : "urumqi",
-  },
+    "identifier" : "urumqi"},
   {
     "name" : "Каракас",
     "aliases" : [
@@ -542,8 +531,7 @@
   },
   {
     "name" : "Кесон-Сити",
-    "identifier" : "quezon city",
-  },
+    "identifier" : "quezon city"},
   {
     "name" : "Аддис-Абеба",
     "aliases" : [
@@ -555,12 +543,10 @@
   },
   {
     "name" : "Найроби",
-    "identifier" : "nairobi",
-  },
+    "identifier" : "nairobi"},
   {
     "name" : "Чикаго",
-    "identifier" : "chicago",
-  },
+    "identifier" : "chicago"},
   {
     "name" : "Сальвадор",
     "aliases" : [
@@ -579,8 +565,7 @@
   },
   {
     "name" : "Торонто",
-    "identifier" : "toronto",
-  },
+    "identifier" : "toronto"},
   {
     "name" : "Осака",
     "aliases" : [
@@ -592,8 +577,7 @@
   },
   {
     "name" : "Могадишо",
-    "identifier" : "mogadishu",
-  },
+    "identifier" : "mogadishu"},
   {
     "name" : "Измир",
     "aliases" : [
@@ -639,8 +623,7 @@
   },
   {
     "name" : "Белу-Оризонти",
-    "identifier" : "belo horizonte",
-  },
+    "identifier" : "belo horizonte"},
   {
     "name" : "Рим",
     "aliases" : [
@@ -684,8 +667,7 @@
   },
   {
     "name" : "Бразилиа",
-    "identifier" : "brasilia",
-  },
+    "identifier" : "brasilia"},
   {
     "name" : "Санто-Доминго",
     "aliases" : [
@@ -736,8 +718,7 @@
   },
   {
     "name" : "Алматы",
-    "identifier" : "almaty",
-  },
+    "identifier" : "almaty"},
   {
     "name" : "Ташкент",
     "aliases" : [
@@ -805,8 +786,7 @@
   },
   {
     "name" : "Саппоро",
-    "identifier" : "sapporo",
-  },
+    "identifier" : "sapporo"},
   {
     "name" : "Бухарест",
     "aliases" : [
@@ -826,8 +806,7 @@
   },
   {
     "name" : "Конакри",
-    "identifier" : "conakry",
-  },
+    "identifier" : "conakry"},
   {
     "name" : "Минск",
     "aliases" : [
@@ -863,8 +842,7 @@
   },
   {
     "name" : "Соуэто",
-    "identifier" : "soweto",
-  },
+    "identifier" : "soweto"},
   {
     "name" : "Вена",
     "aliases" : [
@@ -902,8 +880,7 @@
   },
   {
     "name" : "Алеппо",
-    "identifier" : "aleppo",
-  },
+    "identifier" : "aleppo"},
   {
     "name" : "Манила",
     "aliases" : [
@@ -973,12 +950,10 @@
   },
   {
     "name" : "Хараре",
-    "identifier" : "harare",
-  },
+    "identifier" : "harare"},
   {
     "name" : "Кобе",
-    "identifier" : "kobe",
-  },
+    "identifier" : "kobe"},
   {
     "name" : "Стокгольм",
     "aliases" : [
@@ -1012,20 +987,16 @@
   },
   {
     "name" : "Сан-Антонио",
-    "identifier" : "san antonio",
-  },
+    "identifier" : "san antonio"},
   {
     "name" : "Кумаси",
-    "identifier" : "kumasi",
-  },
+    "identifier" : "kumasi"},
   {
     "name" : "Кота-Бару",
-    "identifier" : "kota bharu",
-  },
+    "identifier" : "kota bharu"},
   {
     "name" : "Киото",
-    "identifier" : "kyoto",
-  },
+    "identifier" : "kyoto"},
   {
     "name" : "Куала-Лумпур",
     "aliases" : [
@@ -1045,8 +1016,7 @@
   },
   {
     "name" : "Катманду",
-    "identifier" : "kathmandu",
-  },
+    "identifier" : "kathmandu"},
   {
     "name" : "Ханой",
     "aliases" : [
@@ -1098,12 +1068,10 @@
   },
   {
     "name" : "Кито",
-    "identifier" : "quito",
-  },
+    "identifier" : "quito"},
   {
     "name" : "Сан-Диего",
-    "identifier" : "san diego",
-  },
+    "identifier" : "san diego"},
   {
     "name" : "Фукуока",
     "aliases" : [
@@ -1115,8 +1083,7 @@
   },
   {
     "name" : "Антананариву",
-    "identifier" : "antananarivo",
-  },
+    "identifier" : "antananarivo"},
   {
     "name" : "Бронкс",
     "aliases" : [
@@ -1127,12 +1094,10 @@
   },
   {
     "name" : "Лубумбаши",
-    "identifier" : "lubumbashi",
-  },
+    "identifier" : "lubumbashi"},
   {
     "name" : "Санта-Крус-де-ла-Сьерра",
-    "identifier" : "santa cruz de la sierra",
-  },
+    "identifier" : "santa cruz de la sierra"},
   {
     "name" : "Кампала",
     "aliases" : [
@@ -1195,8 +1160,7 @@
   },
   {
     "name" : "Кавасаки",
-    "identifier" : "kawasaki",
-  },
+    "identifier" : "kawasaki"},
   {
     "name" : "Тихуана",
     "aliases" : [
@@ -1225,12 +1189,10 @@
   },
   {
     "name" : "Яунде",
-    "identifier" : "yaounde",
-  },
+    "identifier" : "yaounde"},
   {
     "name" : "Бамако",
-    "identifier" : "bamako",
-  },
+    "identifier" : "bamako"},
   {
     "name" : "Браззавиль",
     "aliases" : [
@@ -1265,8 +1227,7 @@
   },
   {
     "name" : "Монтевидео",
-    "identifier" : "montevideo",
-  },
+    "identifier" : "montevideo"},
   {
     "name" : "Лусака",
     "aliases" : [
@@ -1302,8 +1263,7 @@
   },
   {
     "name" : "Порт-о-Пренс",
-    "identifier" : "port-au-prince",
-  },
+    "identifier" : "port-au-prince"},
   {
     "name" : "Аделаида",
     "aliases" : [
@@ -1332,8 +1292,7 @@
   },
   {
     "name" : "Мапуту",
-    "identifier" : "maputo",
-  },
+    "identifier" : "maputo"},
   {
     "name" : "Прага",
     "aliases" : [
@@ -1362,12 +1321,10 @@
   },
   {
     "name" : "Триполи",
-    "identifier" : "tripoli",
-  },
+    "identifier" : "tripoli"},
   {
     "name" : "Порт-Харкорт",
-    "identifier" : "port harcourt",
-  },
+    "identifier" : "port harcourt"},
   {
     "name" : "Хиросима",
     "aliases" : [
@@ -1404,16 +1361,13 @@
   },
   {
     "name" : "Бенин-Сити",
-    "identifier" : "benin city",
-  },
+    "identifier" : "benin city"},
   {
     "name" : "Баку",
-    "identifier" : "baku",
-  },
+    "identifier" : "baku"},
   {
     "name" : "Майдугури",
-    "identifier" : "maiduguri",
-  },
+    "identifier" : "maiduguri"},
   {
     "name" : "Казань",
     "aliases" : [
@@ -1432,8 +1386,7 @@
   },
   {
     "name" : "Уагадугу",
-    "identifier" : "ouagadougou",
-  },
+    "identifier" : "ouagadougou"},
   {
     "name" : "Ростов-на-Дону",
     "aliases" : [
@@ -1452,8 +1405,7 @@
   },
   {
     "name" : "Тбилиси",
-    "identifier" : "tbilisi",
-  },
+    "identifier" : "tbilisi"},
   {
     "name" : "Уфа",
     "aliases" : [
@@ -1465,8 +1417,7 @@
   },
   {
     "name" : "Сан-Хосе",
-    "identifier" : "san jose",
-  },
+    "identifier" : "san jose"},
   {
     "name" : "Дублин",
     "aliases" : [
@@ -1477,8 +1428,7 @@
   },
   {
     "name" : "Калгари",
-    "identifier" : "calgary",
-  },
+    "identifier" : "calgary"},
   {
     "name" : "Брюссель",
     "aliases" : [
@@ -1531,12 +1481,10 @@
   },
   {
     "name" : "Зариа",
-    "identifier" : "zaria",
-  },
+    "identifier" : "zaria"},
   {
     "name" : "Порт-Элизабет",
-    "identifier" : "port elizabeth",
-  },
+    "identifier" : "port elizabeth"},
   {
     "name" : "Фес",
     "aliases" : [
@@ -1564,8 +1512,7 @@
   },
   {
     "name" : "Масейо",
-    "identifier" : "maceio",
-  },
+    "identifier" : "maceio"},
   {
     "name" : "Монровия",
     "aliases" : [
@@ -1601,8 +1548,7 @@
   },
   {
     "name" : "Сале",
-    "identifier" : "sale",
-  },
+    "identifier" : "sale"},
   {
     "name" : "Кум",
     "aliases" : [
@@ -1621,8 +1567,7 @@
   },
   {
     "name" : "Абобо",
-    "identifier" : "abobo",
-  },
+    "identifier" : "abobo"},
   {
     "name" : "Аба",
     "aliases" : [
@@ -1666,8 +1611,7 @@
   },
   {
     "name" : "Сан-Франциско",
-    "identifier" : "san francisco",
-  },
+    "identifier" : "san francisco"},
   {
     "name" : "Ливерпуль",
     "aliases" : [
@@ -1841,8 +1785,7 @@
   },
   {
     "name" : "Сан-Мигель-де-Тукуман",
-    "identifier" : "san miguel de tucuman",
-  },
+    "identifier" : "san miguel de tucuman"},
   {
     "name" : "Мерида",
     "aliases" : [
@@ -1894,12 +1837,10 @@
   },
   {
     "name" : "Ломе",
-    "identifier" : "lome",
-  },
+    "identifier" : "lome"},
   {
     "name" : "Кигали",
-    "identifier" : "kigali",
-  },
+    "identifier" : "kigali"},
   {
     "name" : "Рига",
     "aliases" : [
@@ -1919,8 +1860,7 @@
   },
   {
     "name" : "Ойо",
-    "identifier" : "oyo",
-  },
+    "identifier" : "oyo"},
   {
     "name" : "Ноттингем",
     "aliases" : [
@@ -1931,8 +1871,7 @@
   },
   {
     "name" : "Кампу-Гранди",
-    "identifier" : "campo grande",
-  },
+    "identifier" : "campo grande"},
   {
     "name" : "Ашхабад",
     "aliases" : [
@@ -1960,8 +1899,7 @@
   },
   {
     "name" : "Эрмосильо",
-    "identifier" : "hermosillo",
-  },
+    "identifier" : "hermosillo"},
   {
     "name" : "Эдмонтон",
     "aliases" : [
@@ -1972,8 +1910,7 @@
   },
   {
     "name" : "Булавайо",
-    "identifier" : "bulawayo",
-  },
+    "identifier" : "bulawayo"},
   {
     "name" : "Загреб",
     "aliases" : [
@@ -1992,12 +1929,10 @@
   },
   {
     "name" : "Сараево",
-    "identifier" : "sarajevo",
-  },
+    "identifier" : "sarajevo"},
   {
     "name" : "Энугу",
-    "identifier" : "enugu",
-  },
+    "identifier" : "enugu"},
   {
     "name" : "Танжер",
     "aliases" : [
@@ -2033,12 +1968,10 @@
   },
   {
     "name" : "Эль-Пасо",
-    "identifier" : "el paso",
-  },
+    "identifier" : "el paso"},
   {
     "name" : "Душанбе",
-    "identifier" : "dushanbe",
-  },
+    "identifier" : "dushanbe"},
   {
     "name" : "Детройт",
     "aliases" : [
@@ -2091,8 +2024,7 @@
   },
   {
     "name" : "Пуэнт-Нуар",
-    "identifier" : "pointe-noire",
-  },
+    "identifier" : "pointe-noire"},
   {
     "name" : "Мемфис",
     "aliases" : [
@@ -2119,16 +2051,13 @@
   },
   {
     "name" : "Палермо",
-    "identifier" : "palermo",
-  },
+    "identifier" : "palermo"},
   {
     "name" : "Коломбо",
-    "identifier" : "colombo",
-  },
+    "identifier" : "colombo"},
   {
     "name" : "Лилонгве",
-    "identifier" : "lilongwe",
-  },
+    "identifier" : "lilongwe"},
   {
     "name" : "Оран",
     "aliases" : [
@@ -2189,8 +2118,7 @@
   },
   {
     "name" : "Джибути",
-    "identifier" : "djibouti",
-  },
+    "identifier" : "djibouti"},
   {
     "name" : "Балтимор",
     "aliases" : [
@@ -2217,12 +2145,10 @@
   },
   {
     "name" : "Бенони",
-    "identifier" : "benoni",
-  },
+    "identifier" : "benoni"},
   {
     "name" : "Абу-Даби",
-    "identifier" : "abu dhabi",
-  },
+    "identifier" : "abu dhabi"},
   {
     "name" : "Вашингтон",
     "aliases" : [
@@ -2233,8 +2159,7 @@
   },
   {
     "name" : "Милуоки",
-    "identifier" : "milwaukee",
-  },
+    "identifier" : "milwaukee"},
   {
     "name" : "Ванкувер",
     "aliases" : [
@@ -2285,12 +2210,10 @@
   },
   {
     "name" : "Глазго",
-    "identifier" : "glasgow",
-  },
+    "identifier" : "glasgow"},
   {
     "name" : "Голд-Кост",
-    "identifier" : "gold coast",
-  },
+    "identifier" : "gold coast"},
   {
     "name" : "Абуджа",
     "aliases" : [
@@ -2351,8 +2274,7 @@
   },
   {
     "name" : "Осло",
-    "identifier" : "oslo",
-  },
+    "identifier" : "oslo"},
   {
     "name" : "Либревиль",
     "aliases" : [
@@ -2387,12 +2309,10 @@
   },
   {
     "name" : "Альбукерке",
-    "identifier" : "albuquerque",
-  },
+    "identifier" : "albuquerque"},
   {
     "name" : "Хельсинки",
-    "identifier" : "helsinki",
-  },
+    "identifier" : "helsinki"},
   {
     "name" : "Аден",
     "aliases" : [
@@ -2460,8 +2380,7 @@
   },
   {
     "name" : "Макао",
-    "identifier" : "macau",
-  },
+    "identifier" : "macau"},
   {
     "name" : "Тюмень",
     "aliases" : [
@@ -2561,8 +2480,7 @@
   },
   {
     "name" : "Канзас-Сити",
-    "identifier" : "kansas city",
-  },
+    "identifier" : "kansas city"},
   {
     "name" : "Скопье",
     "aliases" : [
@@ -2654,8 +2572,7 @@
   },
   {
     "name" : "Майами",
-    "identifier" : "miami",
-  },
+    "identifier" : "miami"},
   {
     "name" : "Калининград",
     "aliases" : [
@@ -2791,8 +2708,7 @@
   },
   {
     "name" : "Уичито",
-    "identifier" : "wichita",
-  },
+    "identifier" : "wichita"},
   {
     "name" : "Новый Орлеан",
     "aliases" : [
@@ -2811,8 +2727,7 @@
   },
   {
     "name" : "Лас-Пальмас-де-Гран-Канария",
-    "identifier" : "las palmas de gran canaria",
-  },
+    "identifier" : "las palmas de gran canaria"},
   {
     "name" : "Масатлан",
     "aliases" : [
@@ -2841,8 +2756,7 @@
   },
   {
     "name" : "Гонолулу",
-    "identifier" : "honolulu",
-  },
+    "identifier" : "honolulu"},
   {
     "name" : "Канберра",
     "aliases" : [
@@ -2938,8 +2852,7 @@
   },
   {
     "name" : "Сочи",
-    "identifier" : "sochi",
-  },
+    "identifier" : "sochi"},
   {
     "name" : "Смоленск",
     "aliases" : [
@@ -2991,12 +2904,10 @@
   },
   {
     "name" : "Порто-Велью",
-    "identifier" : "porto velho",
-  },
+    "identifier" : "porto velho"},
   {
     "name" : "Сан-Сальвадор-де-Жужуй",
-    "identifier" : "san salvador de jujuy",
-  },
+    "identifier" : "san salvador de jujuy"},
   {
     "name" : "Питтсбург",
     "aliases" : [
@@ -3023,8 +2934,7 @@
   },
   {
     "name" : "Цинциннати",
-    "identifier" : "cincinnati",
-  },
+    "identifier" : "cincinnati"},
   {
     "name" : "Вуллонгонг",
     "aliases" : [
@@ -3061,20 +2971,16 @@
   },
   {
     "name" : "Порт-Морсби",
-    "identifier" : "port moresby",
-  },
+    "identifier" : "port moresby"},
   {
     "name" : "Логан-Сити",
-    "identifier" : "logan city",
-  },
+    "identifier" : "logan city"},
   {
     "name" : "Бари",
-    "identifier" : "bari",
-  },
+    "identifier" : "bari"},
   {
     "name" : "Нант",
-    "identifier" : "nantes",
-  },
+    "identifier" : "nantes"},
   {
     "name" : "Страсбург",
     "aliases" : [
@@ -3102,8 +3008,7 @@
   },
   {
     "name" : "Орландо",
-    "identifier" : "orlando",
-  },
+    "identifier" : "orlando"},
   {
     "name" : "Петрозаводск",
     "aliases" : [
@@ -3122,16 +3027,13 @@
   },
   {
     "name" : "Риу-Бранку",
-    "identifier" : "rio branco",
-  },
+    "identifier" : "rio branco"},
   {
     "name" : "Лос-Мочис",
-    "identifier" : "los mochis",
-  },
+    "identifier" : "los mochis"},
   {
     "name" : "Порту",
-    "identifier" : "porto",
-  },
+    "identifier" : "porto"},
   {
     "name" : "Мэдисон",
     "aliases" : [
@@ -3142,8 +3044,7 @@
   },
   {
     "name" : "Монпелье",
-    "identifier" : "montpellier",
-  },
+    "identifier" : "montpellier"},
   {
     "name" : "Орхус",
     "aliases" : [
@@ -3170,8 +3071,7 @@
   },
   {
     "name" : "Бордо",
-    "identifier" : "bordeaux",
-  },
+    "identifier" : "bordeaux"},
   {
     "name" : "Гент",
     "aliases" : [
@@ -3182,8 +3082,7 @@
   },
   {
     "name" : "Батон-Руж",
-    "identifier" : "baton rouge",
-  },
+    "identifier" : "baton rouge"},
   {
     "name" : "Лилль",
     "aliases" : [
@@ -3194,8 +3093,7 @@
   },
   {
     "name" : "Нассау",
-    "identifier" : "nassau",
-  },
+    "identifier" : "nassau"},
   {
     "name" : "Джилонг",
     "aliases" : [
@@ -3206,12 +3104,10 @@
   },
   {
     "name" : "Парамарибо",
-    "identifier" : "paramaribo",
-  },
+    "identifier" : "paramaribo"},
   {
     "name" : "Санта-Крус-де-Тенерифе",
-    "identifier" : "santa cruz de tenerife",
-  },
+    "identifier" : "santa cruz de tenerife"},
   {
     "name" : "Грац",
     "aliases" : [
@@ -3387,8 +3283,7 @@
   },
   {
     "name" : "Солт-Лейк-Сити",
-    "identifier" : "salt lake city",
-  },
+    "identifier" : "salt lake city"},
   {
     "name" : "Корк",
     "aliases" : [
@@ -3399,8 +3294,7 @@
   },
   {
     "name" : "Таллахасси",
-    "identifier" : "tallahassee",
-  },
+    "identifier" : "tallahassee"},
   {
     "name" : "Сантарен",
     "aliases" : [
@@ -3411,8 +3305,7 @@
   },
   {
     "name" : "Сан-Фернандо-дель-Валье-де-Катамарка",
-    "identifier" : "san fernando del valle de catamarca",
-  },
+    "identifier" : "san fernando del valle de catamarca"},
   {
     "name" : "Триест",
     "aliases" : [
@@ -3440,12 +3333,10 @@
   },
   {
     "name" : "Атырау",
-    "identifier" : "atyrau",
-  },
+    "identifier" : "atyrau"},
   {
     "name" : "Кутаиси",
-    "identifier" : "kutaisi",
-  },
+    "identifier" : "kutaisi"},
   {
     "name" : "Южно-Сахалинск",
     "aliases" : [
@@ -3473,8 +3364,7 @@
   },
   {
     "name" : "Турку",
-    "identifier" : "turku",
-  },
+    "identifier" : "turku"},
   {
     "name" : "Оксфорд",
     "aliases" : [
@@ -3601,8 +3491,7 @@
   },
   {
     "name" : "Дили",
-    "identifier" : "dili",
-  },
+    "identifier" : "dili"},
   {
     "name" : "Дижон",
     "aliases" : [
@@ -3649,12 +3538,10 @@
   },
   {
     "name" : "Бойсе",
-    "identifier" : "boise",
-  },
+    "identifier" : "boise"},
   {
     "name" : "Оденсе",
-    "identifier" : "odense",
-  },
+    "identifier" : "odense"},
   {
     "name" : "Амьен",
     "aliases" : [

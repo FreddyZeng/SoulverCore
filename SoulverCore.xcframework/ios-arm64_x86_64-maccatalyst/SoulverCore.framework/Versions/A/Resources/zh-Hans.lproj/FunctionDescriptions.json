@@ -1,179 +1,1124 @@
 {
-    "weatherRelated": [
-      {
-        "identifier": "lowTemperature",
-        "prototypeExpressions": [
-          "__timezone 最低温度",
-          "__timezone 低温",
-          "__timezone 最低温",
-          "__timezone 低"
-        ]
-      },
-      {
-        "identifier": "highTemperature",
-        "prototypeExpressions": [
-          "__timezone 最高温度",
-          "__timezone 高温",
-          "__timezone 最高温",
-          "__timezone 高"
-        ]
-      },
-      {
-        "identifier": "precipitationChance",
-        "prototypeExpressions": [
-          "__timezone 降雨概率",
-          "__timezone 降水概率"
-        ]
-      },
-      {
-        "identifier": "rainfallAmount",
-        "prototypeExpressions": [
-          "__timezone 降雨量",
-          "__timezone 雨量",
-          "__timezone 降水量",
-          "__timezone 雨"
-        ]
-      },
-      {
-        "identifier": "snowfallAmount",
-        "prototypeExpressions": [
-          "__timezone 降雪量",
-          "__timezone 雪量",
-          "__timezone 降雪",
-          "__timezone 雪"
-        ]
-      },
-      {
-        "identifier": "apparentTemperature",
-        "prototypeExpressions": [
-          "__timezone 体感温度",
-          "__timezone 明显温度",
-          "__timezone 体感温"
-        ]
-      },
-      {
-        "identifier": "currentTemperature",
-        "prototypeExpressions": [
-          "__timezone 温度",
-          "__timezone 当前温度"
-        ]
-      },
-      {
-        "identifier": "weatherConditions",
-        "prototypeExpressions": [
-          "__timezone 天气",
-          "__timezone 天气情况",
-          "__timezone 天气状况"
-        ]
-      },
-      {
-        "identifier": "humidity",
-        "prototypeExpressions": [
-          "__timezone 湿度",
-          "__timezone 空气湿度"
-        ]
-      },
-      {
-        "identifier": "cloudCover",
-        "prototypeExpressions": [
-          "__timezone 云量",
-          "__timezone 云覆盖"
-        ]
-      },
-      {
-        "identifier": "visibility",
-        "prototypeExpressions": [
-          "__timezone 能见度",
-          "__timezone 可见度"
-        ]
-      },
-      {
-        "identifier": "windSpeed",
-        "prototypeExpressions": [
-          "__timezone 风速",
-          "__timezone 风力",
-          "__timezone 风速"
-        ]
-      },
-      {
-        "identifier": "windDirection",
-        "prototypeExpressions": [
-          "__timezone 风向"
-        ]
-      },
-      {
-        "identifier": "dewPoint",
-        "prototypeExpressions": [
-          "__timezone 露点",
-          "__timezone 露点温度"
-        ]
-      },
-      {
-        "identifier": "uvIndex",
-        "prototypeExpressions": [
-          "__timezone 紫外线指数",
-          "__timezone 紫外线强度"
-        ]
-      },
-      {
-        "identifier": "pressure",
-        "prototypeExpressions": [
-          "__timezone 气压",
-          "__timezone 大气压力"
-        ]
-      },
-      {
-        "identifier": "pressureDirection",
-        "prototypeExpressions": [
-          "__timezone 气压趋势",
-          "__timezone 气压变化",
-          "__timezone 气压方向"
-        ]
-      },
-      {
-        "identifier": "sunrise",
-        "prototypeExpressions": [
-          "__timezone 日出时间",
-          "__timezone 日出",
-          "__timezone 早晨太阳升起"
-        ]
-      },
-      {
-        "identifier": "sunset",
-        "prototypeExpressions": [
-          "__timezone 日落时间",
-          "__timezone 日落",
-          "__timezone 傍晚太阳落下"
-        ]
-      },
-      {
-        "identifier": "moonrise",
-        "prototypeExpressions": [
-          "__timezone 月升时间",
-          "__timezone 月亮升起",
-          "__timezone 升起",
-          "__timezone 月升"
-        ]
-      },
-      {
-        "identifier": "moonset",
-        "prototypeExpressions": [
-          "__timezone 月落时间",
-          "__timezone 月亮落下",
-          "__timezone 落下",
-          "__timezone 月落"
-        ]
-      },
-      {
-        "identifier": "moonPhase",
-        "prototypeExpressions": [
-          "__timezone 月相",
-          "__timezone 月亮",          
-          "__timezone 月亮阶段"
-        ]
-      }
-    ],
+  "unitRelated": [
+    {
+      "prototypeExpressions": [
+        "__unit_expression 是多少 __unit",
+        "__unit_expression 换算成 __unit",
+        "__unit_expression 转换为 __unit",
+        "将 __unit_expression 转换为 __unit",
+        "把 __unit 转换为 __unit"
+      ],
+      "identifier": "unitConversion"
+    },
+    {
+      "prototypeExpressions": [
+        "__currency_expression __converter_symbol __currency __datestamp 的",
+        "__currency_expression __converter_symbol __currency __datestamp"
+      ],
+      "identifier": "historicalCurrencyConversion"
+    },
+    {
+      "prototypeExpressions": [
+        "__currency_expression 到 __currency_expression 的汇率",
+        "__currency_expression 对 __currency_expression 的汇率",
+        "__currency_expression 兑 __currency_expression 的汇率"
+      ],
+      "identifier": "exchangeRateForCurrencyConversion"
+    },
+    {
+      "prototypeExpressions": [
+        "__unit_expression 中有多少 __unit",
+        "__unit 包含多少 __unit",
+        "__unit 中有多少 __unit"
+      ],
+      "identifier": "unitInUnitExpression"
+    },
+    {
+      "prototypeExpressions": [
+        "__unit_expression __substance 换算成 __unit",
+        "__unit_expression 的 __substance 换算成 __unit",
+        "__unit_expression __substance 转换为 __unit",
+        "__unit_expression 的 __substance 转换为 __unit"
+      ],
+      "identifier": "substanceWeightToVolumeConversion"
+    },
+    {
+      "prototypeExpressions": [
+        "__substance 的密度",
+        "__substance 密度"
+      ],
+      "identifier": "densityOfSubstance"
+    },
+    {
+      "prototypeExpressions": [
+        "__unit_rate 是多少每 __unit",
+        "__unit_rate 换算成每 __unit",
+        "__unit_rate 转换为每 __unit"
+      ],
+      "identifier": "rateUnitChange"
+    },
+    {
+      "prototypeExpressions": [
+        "__unit_rate 持续 __duration",
+        "__duration 的 __unit_rate"
+      ],
+      "identifier": "rateForADuration"
+    },
+    {
+      "prototypeExpressions": [
+        "__resolution 下 __length 的 ppi",
+        "__resolution 下 __length 设备的 ppi",
+        "__resolution 下 __length 屏幕的 ppi",
+        "__resolution 下 __length 显示器的 ppi"
+      ],
+      "identifier": "screenDensity"
+    },
+    {
+      "prototypeExpressions": [
+        "__length __converter_symbol 像素 __screenDensity 下",
+        "__length __converter_symbol px __screenDensity 下"
+      ],
+      "identifier": "pixelsInLengthAtPPI"
+    },
+    {
+      "prototypeExpressions": [
+        "__length_expression __converter_symbol __length __screenDensity 下"
+      ],
+      "identifier": "lengthToPixelsAtPPI"
+    },
+    {
+      "prototypeExpressions": [
+        "__angularVelocity 下 __length 轮胎的速度"
+      ],
+      "identifier": "tyreSpeed"
+    },
+    {
+      "prototypeExpressions": [
+        "__duration_expression 的 __speed_expression"
+      ],
+      "identifier": "speedForTime"
+    },
+    {
+      "prototypeExpressions": [
+        "__angularVelocity_expression 下的 __power_expression"
+      ],
+      "identifier": "powerAtRotation"
+    }
+  ],
+  "datetime": [
+    {
+      "prototypeExpressions": [
+        "在 __datestamp 和 __datestamp 之间的 __duration 数",
+        "__datestamp 和 __datestamp 之间的 __duration",
+        "从 __datestamp 到 __datestamp 之间的 __duration 数",
+        "从 __datestamp 到 __datestamp 之间的 __duration"
+      ],
+      "identifier": "calendarUnitBetweenDates"
+    },
+    {
+      "prototypeExpressions": [
+        "__duration 才到 __datestamp",
+        "多少 __duration 直到 __datestamp",
+        "__duration 到 __datestamp",
+        "距 __datestamp 还有多少 __duration",
+        "距 __datestamp 还有 __duration"
+      ],
+      "identifier": "calendarUnitToDate"
+    },
+    {
+      "prototypeExpressions": [
+        "__duration 到 __datespan",
+        "__duration 直到 __datespan",
+        "__duration 才到 __datespan"
+      ],
+      "identifier": "calendarUnitToDatespan"
+    },
+    {
+      "prototypeExpressions": [
+        "__datestamp 中的 __duration",
+        "__datestamp 有多少 __duration"
+      ],
+      "identifier": "calendarUnitInDate"
+    },
+    {
+      "prototypeExpressions": [
+        "__timespan 中的 __duration",
+        "__timespan 有多少 __duration"
+      ],
+      "identifier": "calendarUnitInTimespan"
+    },
+    {
+      "prototypeExpressions": [
+        "__duration %"
+      ],
+      "identifier": "calendarUnitPercentage"
+    },
+    {
+      "prototypeExpressions": [
+        "__datestamp 还剩多少 __duration",
+        "__datestamp 剩余 __duration"
+      ],
+      "identifier": "calendarUnitLeftInDate"
+    },
+    {
+      "prototypeExpressions": [
+        "__datespan 中的 __duration",
+        "__datespan 有多少 __duration"
+      ],
+      "identifier": "calendarUnitInDatespan"
+    },
+    {
+      "prototypeExpressions": [
+        "从 __datestamp 到 __datestamp",
+        "从 __datestamp 至 __datestamp",
+        "__datestamp 到 __datestamp",
+        "__datestamp 至 __datestamp",
+        "__datestamp 日到 __datestamp"
+      ],
+      "identifier": "intervalBetweenDates"
+    },
+    {
+      "prototypeExpressions": [
+        "从 __datestamp 经过 __datestamp 的 __duration",
+        "__datestamp 经过 __datestamp 的 __duration"
+      ],
+      "identifier": "inclusiveCalendarUnitBetweenDates"
+    },
+    {
+      "prototypeExpressions": [
+        "从 __datestamp 经过 __datestamp",
+        "__datestamp 经过 __datestamp"
+      ],
+      "identifier": "inclusiveIntervalBetweenDates"
+    },
+    {
+      "prototypeExpressions": [
+        "从 __timestamp 到 __timestamp",
+        "从 __timestamp 至 __timestamp",
+        "__timestamp 到 __timestamp",
+        "__timestamp 至 __timestamp"
+      ],
+      "identifier": "intervalBetweenTimestamps"
+    },
+    {
+      "prototypeExpressions": [
+        "从 __laptime 到 __laptime",
+        "__laptime 到 __laptime"
+      ],
+      "identifier": "intervalBetweenLaptimes"
+    },
+    {
+      "prototypeExpressions": [
+        "__frametime 到 __frametime 之间的 __frames",
+        "从 __frametime 到 __frametime 之间的 __frames"
+      ],
+      "identifier": "framesBetweenFrametimes"
+    },
+    {
+      "prototypeExpressions": [
+        "从 __frametime 到 __frametime",
+        "__frametime 到 __frametime"
+      ],
+      "identifier": "intervalBetweenFrametimes"
+    },
+    {
+      "prototypeExpressions": [
+        "自 __datestamp 以来的 __duration",
+        "从 __datestamp 至今的 __duration"
+      ],
+      "identifier": "calendarUnitSinceDate"
+    },
+    {
+      "prototypeExpressions": [
+        "__datestamp __timespan 后",
+        "__datestamp 之后 __timespan",
+        "__timespan 后从 __datestamp",
+        "__timespan 后 __datestamp"
+      ],
+      "identifier": "calendarUnitExpressionAfterDate"
+    },
+    {
+      "prototypeExpressions": [
+        "__datestamp __timespan 前",
+        "__datestamp 之前 __timespan",
+        "__timespan 前 __datestamp"
+      ],
+      "identifier": "calendarUnitExpressionBeforeDate"
+    },
+    {
+      "prototypeExpressions": [
+        "__timespan 前",
+        "__timespan 之前",
+        "__timespan 以前"
+      ],
+      "identifier": "calendarUnitExpressionAgo"
+    },
+    {
+      "prototypeExpressions": [
+        "新的时间戳",
+        "当前时间戳"
+      ],
+      "identifier": "generateTimestamp"
+    },
+    {
+      "prototypeExpressions": [
+        "__timezone 时间",
+        "__timezone 的时间",
+        "__timezone 当地时间",
+        "__timezone 的当地时间",
+        "__timezone 现在时间"
+      ],
+      "identifier": "timeInTimezone"
+    },
+    {
+      "prototypeExpressions": [
+        "__timespan 后的时间",
+        "__timezone __timespan 后的时间",
+        "__timespan 之后的时间"
+      ],
+      "identifier": "timeAfterCalendarUnit"
+    },
+    {
+      "prototypeExpressions": [
+        "__timezone 日期",
+        "__timezone 的日期",
+        "__timezone 今天日期"
+      ],
+      "identifier": "dateInTimezone"
+    },
+    {
+      "prototypeExpressions": [
+        "__timezone 以及 __timezone 之间的时间差",
+        "__timezone 和 __timezone 的时间差",
+        "__timezone 与 __timezone 之间的时间差",
+        "__timezone 和 __timezone 之间的时差",
+        "__timezone 和 __timezone 之间的时间差"
+      ],
+      "identifier": "differenceBetweenTimezones"
+    },
+    {
+      "prototypeExpressions": [
+        "__timezone 的时差",
+        "__timezone 时差"
+      ],
+      "identifier": "differenceBetweenHereAndTimezone"
+    },
+    {
+      "prototypeExpressions": [
+        "__timespan 后的 __datestamp",
+        "__datestamp __timespan 后"
+      ],
+      "identifier": "weekdayAfterTimespan"
+    },
+    {
+      "prototypeExpressions": [
+        "__datestamp 是第几周",
+        "__datestamp 的周数"
+      ],
+      "identifier": "weekOfYearOnDate"
+    },
+    {
+      "prototypeExpressions": [
+        "今年第几周",
+        "第几周"
+      ],
+      "identifier": "weekOfYear"
+    },
+    {
+      "prototypeExpressions": [
+        "__datestamp 是当月第几周"
+      ],
+      "identifier": "weekOfMonthOnDate"
+    },
+    {
+      "prototypeExpressions": [
+        "当月第几周"
+      ],
+      "identifier": "weekOfMonth"
+    },
+    {
+      "prototypeExpressions": [
+        "__datestamp 是第几天",
+        "__datestamp 的天数"
+      ],
+      "identifier": "dayOfYearOnDate"
+    },
+    {
+      "prototypeExpressions": [
+        "__datestamp 是当月第几天"
+      ],
+      "identifier": "dayOfMonthOnDate"
+    },
+    {
+      "prototypeExpressions": [
+        "今年第几天",
+        "第几天"
+      ],
+      "identifier": "dayOfYear"
+    },
+    {
+      "prototypeExpressions": [
+        "当月第几天"
+      ],
+      "identifier": "dayOfMonth"
+    },
+    {
+      "prototypeExpressions": [
+        "__datestamp 和 __datestamp 的中间日期",
+        "__datestamp 与 __datestamp 的中间日期"
+      ],
+      "identifier": "halfwayBetweenDates"
+    },
+    {
+      "prototypeExpressions": [
+        "__datestamp 是星期几",
+        "__datestamp 星期几",
+        "__datestamp 的星期"
+      ],
+      "identifier": "dayOfWeekOnDate"
+    }
+  ],
+  "general": [
+    {
+      "prototypeExpressions": [
+        "20 除以 3 的余数",
+        "20 除 3 之余"
+      ],
+      "identifier": "remainder"
+    },
+    {
+      "prototypeExpressions": [
+        "7 是质数吗",
+        "7 是不是质数",
+        "7 是素数吗"
+      ],
+      "identifier": "isPrime"
+    },
+    {
+      "prototypeExpressions": [
+        "将 20 限制在 5 和 25 之间",
+        "20 限制在 5 到 25",
+        "钳制 20 在 5 和 25 之间"
+      ],
+      "identifier": "clamp"
+    },
+    {
+      "prototypeExpressions": [
+        "21 除以 7",
+        "21 被 7 除"
+      ],
+      "identifier": "dividedBy"
+    },
+    {
+      "prototypeExpressions": [
+        "21 乘以 7",
+        "21 乘 7"
+      ],
+      "identifier": "multipliedBy"
+    },
+    {
+      "prototypeExpressions": [
+        "3 的 9 次方",
+        "3 的 9 次幂",
+        "3 的 9 次方是"
+      ],
+      "identifier": "toThePowerOf"
+    },
+    {
+      "prototypeExpressions": [
+        "20 的一半是",
+        "20 的一半"
+      ],
+      "identifier": "halfOf"
+    },
+    {
+      "prototypeExpressions": [
+        "56 向上取整",
+        "将 56 向上取整"
+      ],
+      "identifier": "roundXUp"
+    },
+    {
+      "prototypeExpressions": [
+        "56 向下取整",
+        "将 56 向下取整"
+      ],
+      "identifier": "roundXDown"
+    },
+    {
+      "prototypeExpressions": [
+        "56 向上取整到最近的 10",
+        "将 56 向上取整到最近的 10",
+        "56 向上四舍五入到最近的 10"
+      ],
+      "identifier": "roundUpXToNearestY"
+    },
+    {
+      "prototypeExpressions": [
+        "56 向下取整到最近的 10",
+        "将 56 向下取整到最近的 10",
+        "56 向下四舍五入到最近的 10"
+      ],
+      "identifier": "roundDownXToNearestY"
+    },
+    {
+      "prototypeExpressions": [
+        "56 四舍五入到最近的 10",
+        "将 56 四舍五入到最近的 10"
+      ],
+      "identifier": "roundXToNearestY"
+    },
+    {
+      "prototypeExpressions": [
+        "2 和 30 之间小的一个数",
+        "2 和 30 之间较小的一个数",
+        "2 和 30 之间最小的一个数",
+        "2 和 30 之间小的一个",
+        "2 和 30 之间较小的一个",
+        "2 和 30 之间最小的一个"
+      ],
+      "identifier": "lesserOf"
+    },
+    {
+      "prototypeExpressions": [
+        "2 和 30 之间大的一个数",
+        "2 和 30 之间较大的一个数",
+        "2 和 30 之间最大的一个数"
+      ],
+      "identifier": "greaterOf"
+    },
+    {
+      "prototypeExpressions": [
+        "2 与 32 的中间点",
+        "2 与 32 的中间数",
+        "2 和 32 的中间点",
+        "2 和 32 的中间数",
+        "2 和 32 的中间值",
+        "2 与 32 的中间值"
+      ],
+      "identifier": "midpoint"
+    },
+    {
+      "prototypeExpressions": [
+        "5 和 8 的最小公倍数",
+        "最小公倍数 5 和 8"
+      ],
+      "identifier": "lcm"
+    },
+    {
+      "prototypeExpressions": [
+        "20 和 30 的最大公约数",
+        "最大公约数 20 和 30"
+      ],
+      "identifier": "gcd"
+    },
+    {
+      "prototypeExpressions": [
+        "多少除以 8 相当于 6除以 600",
+        "多少除以 8 等于 6除以 600",
+        "什么除以 8 相当于 6除以 600",
+        "什么除以 8 等于 6除以 600"
+      ],
+      "identifier": "proportionsFindNumerator"
+    },
+    {
+      "prototypeExpressions": [
+        "8 除以多少相当于 6除以 600",
+        "8 除以多少等于 6除以 600",
+        "8 除以什么相当于 6除以 600",
+        "8 除以什么等于 6除以 600"
+      ],
+      "identifier": "proportionsFindDenominator"
+    },
+    {
+      "prototypeExpressions": [
+        "1 到 5 之间的任意数",
+        "1 与 5 之间的任意数",
+        "1 和 5 之间的任意数"
+      ],
+      "identifier": "makeRandomNumber"
+    },
+    {
+      "prototypeExpressions": [
+        "5 是 1 的多少倍",
+        "5 是 1 的几倍"
+      ],
+      "identifier": "isWhatMultiplierOf"
+    },
+    {
+      "prototypeExpressions": [
+        "5 减掉后是 1 的多少倍",
+        "5 减到 1 是多少倍"
+      ],
+      "identifier": "isWhatMultiplierOff"
+    },
+    {
+      "prototypeExpressions": [
+        "5 增加到 1 是多少倍",
+        "5 加到 1 是多少倍"
+      ],
+      "identifier": "isWhatMultiplierOn"
+    },
+    {
+      "prototypeExpressions": [
+        "100 的平方根",
+        "平方根 100",
+        "根号 100"
+      ],
+      "identifier": "squareRoot"
+    },
+    {
+      "prototypeExpressions": [
+        "100 的立方根",
+        "立方根 100"
+      ],
+      "identifier": "cubedRoot"
+    },
+    {
+      "prototypeExpressions": [
+        "100 的 5 次方根",
+        "5 次方根 100"
+      ],
+      "identifier": "nthRoot"
+    },
+    {
+      "prototypeExpressions": [
+        "20 以 4 为底的对数",
+        "对数 20 底数 4",
+        "以 4 为底 20 的对数",
+        "20 是 4 的多少次方"
+      ],
+      "identifier": "nthLog"
+    },
+    {
+      "prototypeExpressions": [
+        "以 4 为底 20 的对数",
+        "4 的多少次方是 20",
+        "4 的什么次方等于 20"
+      ],
+      "identifier": "nthLogReversed"
+    },
+    {
+      "prototypeExpressions": [
+        "组合 5 取 3",
+        "5 选 3 的组合",
+        "5 取 3 组合数",
+        "从 5 中选 3 的组合"
+      ],
+      "identifier": "combination"
+    },
+    {
+      "prototypeExpressions": [
+        "排列 5 取 3",
+        "5 选 3 的排列",
+        "5 取 3 排列数"
+      ],
+      "identifier": "permutation"
+    },
+    {
+      "prototypeExpressions": [
+        "从 5 中取 3 的组合",
+        "3 从 5 中的组合"
+      ],
+      "identifier": "reversedCombination"
+    },
+    {
+      "prototypeExpressions": [
+        "从 5 中取 3 的排列",
+        "3 从 5 中的排列"
+      ],
+      "identifier": "reversedPermutation"
+    },
+    {
+      "prototypeExpressions": [
+        "滑块 10 从 0 到 10",
+        "滑块 10 在 0 和 10 之间"
+      ],
+      "identifier": "scrubNumberWithSpecifiedRange"
+    },
+    {
+      "prototypeExpressions": [
+        "新单位",
+        "新单位类型",
+        "自定义单位"
+      ],
+      "identifier": "declareGenericUnit"
+    },
+    {
+      "prototypeExpressions": [
+        "this is just here to ensure that SoulverCore handles non-existant function identifiers correctly"
+      ],
+      "identifier": "nonexistingFunctionIdentifier"
+    }
+  ],
+  "financial": [
+    {
+      "prototypeExpressions": [
+        "1000 的现值 __timespan 后 __percentage 利率",
+        "1000 __timespan 后现值 __percentage 利率"
+      ],
+      "identifier": "presentValue"
+    },
+    {
+      "prototypeExpressions": [
+        "投资 500 回报 1000 __timespan 的 __period 回报率",
+        "500 投入 1000 回收 __timespan 的 __period 收益率"
+      ],
+      "identifier": "returnOnInvestmentAfter"
+    },
+    {
+      "prototypeExpressions": [
+        "投资 500 回报 1000",
+        "500 投入 1000 回收"
+      ],
+      "identifier": "returnOnInvestment"
+    },
+    {
+      "prototypeExpressions": [
+        "__unit_rate 回报需要多少投资 __percentage 利率",
+        "__decimal_rate 回报需要多少投资 __percentage 利率"
+      ],
+      "identifier": "investmentRequiredForReturn"
+    },
+    {
+      "prototypeExpressions": [
+        "10000 贷款 __timespan __percentage 利率的总还款额",
+        "10000 __percentage 利率 __timespan 的总还款额"
+      ],
+      "identifier": "totalLoanRepayment"
+    },
+    {
+      "prototypeExpressions": [
+        "10000 贷款 __timespan __percentage 利率的 __period 还款额",
+        "10000 __percentage 利率 __timespan 的 __period 还款额"
+      ],
+      "identifier": "periodicLoanRepayment"
+    },
+    {
+      "prototypeExpressions": [
+        "10 贷款 __timespan __percentage 利率的总利息",
+        "10 __percentage 利率 __timespan 的总利息",
+        "10 贷款 __timespan __percentage 利率的利息总额"
+      ],
+      "identifier": "totalInterestOnLoanRepayment"
+    },
+    {
+      "prototypeExpressions": [
+        "10000 贷款 __timespan __percentage 利率的 __period 利息",
+        "10000 __percentage 利率 __timespan 的 __period 利息"
+      ],
+      "identifier": "periodicInterestOnLoanRepayment"
+    },
+    {
+      "prototypeExpressions": [
+        "100 __timespan __percentage 利率 __period 复利",
+        "100 __percentage 利率 __timespan __period 复利"
+      ],
+      "identifier": "compoundInterestCompoundingOverPeriod"
+    },
+    {
+      "prototypeExpressions": [
+        "100 __timespan __percentage 利率",
+        "100 __percentage 利率 __timespan",
+        "复利 100 __percentage 利率 __timespan"
+      ],
+      "identifier": "compoundInterest"
+    },
+    {
+      "prototypeExpressions": [
+        "100 __timespan __percentage 利率的利息",
+        "100 __percentage 利率 __timespan 的利息"
+      ],
+      "identifier": "compoundInterestSansPrincipal"
+    },
+    {
+      "prototypeExpressions": [
+        "100 __timespan __percentage 利率 __period 复利的利息",
+        "100 __percentage 利率 __timespan __period 复利的利息"
+      ],
+      "identifier": "compoundInterestSansPrincipalCompoundingOverPeriod"
+    },
+    {
+      "prototypeExpressions": [
+        "500 从 __datestamp 到 __datestamp 值多少",
+        "500 __datestamp 到 __datestamp 的价值"
+      ],
+      "identifier": "dollarWorthAdjustedForInflation"
+    },
+    {
+      "prototypeExpressions": [
+        "500 在 __datestamp 值多少",
+        "500 到 __datestamp 的价值"
+      ],
+      "identifier": "dollarWorthFromTodayAdjustedForInflation"
+    },
+    {
+      "prototypeExpressions": [
+        "500 从 __datestamp 到今天值多少",
+        "500 __datestamp 的钱现在值多少"
+      ],
+      "identifier": "dollarWorthToTodayAdjustedForInflation"
+    },
+    {
+      "prototypeExpressions": [
+        "500 在 __datestamp 假设 __percentage 通胀率值多少",
+        "500 到 __datestamp 按 __percentage 通胀率的价值"
+      ],
+      "identifier": "predictedDollarWorthGivenInflation"
+    }
+  ],
+  "videoRelated": [
+    {
+      "prototypeExpressions": [
+        "__frametime __frameRate_expression 下",
+        "__laptime __frameRate_expression 下",
+        "__timespan __frameRate_expression 下"
+      ],
+      "identifier": "formFrametime"
+    },
+    {
+      "prototypeExpressions": [
+        "__frames_expression __frameRate_expression 下",
+        "__frames_expression __unit_rate 下"
+      ],
+      "identifier": "framesToFrametime"
+    }
+  ],
+  "weatherRelated": [
+    {
+      "identifier": "lowTemperature",
+      "prototypeExpressions": [
+        "__timezone 最低温度",
+        "__timezone 低温",
+        "__timezone 最低温",
+        "__timezone 低"
+      ]
+    },
+    {
+      "identifier": "highTemperature",
+      "prototypeExpressions": [
+        "__timezone 最高温度",
+        "__timezone 高温",
+        "__timezone 最高温",
+        "__timezone 高"
+      ]
+    },
+    {
+      "identifier": "precipitationChance",
+      "prototypeExpressions": [
+        "__timezone 降雨概率",
+        "__timezone 降水概率"
+      ]
+    },
+    {
+      "identifier": "rainfallAmount",
+      "prototypeExpressions": [
+        "__timezone 降雨量",
+        "__timezone 雨量",
+        "__timezone 降水量",
+        "__timezone 雨"
+      ]
+    },
+    {
+      "identifier": "snowfallAmount",
+      "prototypeExpressions": [
+        "__timezone 降雪量",
+        "__timezone 雪量",
+        "__timezone 降雪",
+        "__timezone 雪"
+      ]
+    },
+    {
+      "identifier": "apparentTemperature",
+      "prototypeExpressions": [
+        "__timezone 体感温度",
+        "__timezone 明显温度",
+        "__timezone 体感温"
+      ]
+    },
+    {
+      "identifier": "currentTemperature",
+      "prototypeExpressions": [
+        "__timezone 温度",
+        "__timezone 当前温度"
+      ]
+    },
+    {
+      "identifier": "weatherConditions",
+      "prototypeExpressions": [
+        "__timezone 天气",
+        "__timezone 天气情况",
+        "__timezone 天气状况"
+      ]
+    },
+    {
+      "identifier": "humidity",
+      "prototypeExpressions": [
+        "__timezone 湿度",
+        "__timezone 空气湿度"
+      ]
+    },
+    {
+      "identifier": "cloudCover",
+      "prototypeExpressions": [
+        "__timezone 云量",
+        "__timezone 云覆盖"
+      ]
+    },
+    {
+      "identifier": "visibility",
+      "prototypeExpressions": [
+        "__timezone 能见度",
+        "__timezone 可见度"
+      ]
+    },
+    {
+      "identifier": "windSpeed",
+      "prototypeExpressions": [
+        "__timezone 风速",
+        "__timezone 风力"
+      ]
+    },
+    {
+      "identifier": "windDirection",
+      "prototypeExpressions": [
+        "__timezone 风向"
+      ]
+    },
+    {
+      "identifier": "dewPoint",
+      "prototypeExpressions": [
+        "__timezone 露点",
+        "__timezone 露点温度"
+      ]
+    },
+    {
+      "identifier": "uvIndex",
+      "prototypeExpressions": [
+        "__timezone 紫外线指数",
+        "__timezone 紫外线强度"
+      ]
+    },
+    {
+      "identifier": "pressure",
+      "prototypeExpressions": [
+        "__timezone 气压",
+        "__timezone 大气压力"
+      ]
+    },
+    {
+      "identifier": "pressureDirection",
+      "prototypeExpressions": [
+        "__timezone 气压趋势",
+        "__timezone 气压变化",
+        "__timezone 气压方向"
+      ]
+    },
+    {
+      "identifier": "sunrise",
+      "prototypeExpressions": [
+        "__timezone 日出时间",
+        "__timezone 日出",
+        "__timezone 早晨太阳升起"
+      ]
+    },
+    {
+      "identifier": "sunset",
+      "prototypeExpressions": [
+        "__timezone 日落时间",
+        "__timezone 日落",
+        "__timezone 傍晚太阳落下"
+      ]
+    },
+    {
+      "identifier": "moonrise",
+      "prototypeExpressions": [
+        "__timezone 月升时间",
+        "__timezone 月亮升起",
+        "__timezone 升起",
+        "__timezone 月升"
+      ]
+    },
+    {
+      "identifier": "moonset",
+      "prototypeExpressions": [
+        "__timezone 月落时间",
+        "__timezone 月亮落下",
+        "__timezone 落下",
+        "__timezone 月落"
+      ]
+    },
+    {
+      "identifier": "moonPhase",
+      "prototypeExpressions": [
+        "__timezone 月相",
+        "__timezone 月亮",
+        "__timezone 月亮阶段"
+      ]
+    },
+    {
+      "identifier": "lunarDay",
+      "prototypeExpressions": [
+        "__datestamp 的月龄",
+        "__datestamp 月龄",
+        "月龄 __datestamp",
+        "月龄",
+        "今天的月龄"
+      ]
+    }
+  ],
+  "geographic": [
+    {
+      "prototypeExpressions": [
+        "__timezone 的坐标",
+        "__timezone 的GPS坐标",
+        "__timezone 的经纬度",
+        "__timezone 坐标",
+        "__timezone 的位置"
+      ],
+      "identifier": "gpsCoordinatesOfPlace"
+    },
+    {
+      "prototypeExpressions": [
+        "__timezone 的经度",
+        "__gpsCoordinates 的经度"
+      ],
+      "identifier": "longitudeOfPlace"
+    },
+    {
+      "prototypeExpressions": [
+        "__timezone 的纬度",
+        "__gpsCoordinates 的纬度"
+      ],
+      "identifier": "latitudeOfPlace"
+    },
+    {
+      "prototypeExpressions": [
+        "从 __timezone 到 __timezone 的距离",
+        "__timezone 和 __timezone 之间的距离",
+        "__timezone 到 __timezone 的距离",
+        "__timezone 到 __timezone 距离"
+      ],
+      "identifier": "distanceBetweenPlaces"
+    }
+  ],
+  "changeRelated": [
+    {
+      "prototypeExpressions": [
+        "20 经过 __timespan __percentage 每 __timespan 增长",
+        "20 __timespan 后 __percentage 每 __duration 增长",
+        "20 __timespan 后 __percentage_rate 增长"
+      ],
+      "identifier": "exponentialGrowth"
+    },
+    {
+      "prototypeExpressions": [
+        "20 经过 __timespan __percentage 每 __timespan 衰减",
+        "20 __timespan 后 __percentage 每 __duration 衰减"
+      ],
+      "identifier": "exponentialDecay"
+    },
+    {
+      "prototypeExpressions": [
+        "从 20 到 30 需要多久 __percentage 每 __timespan 增长",
+        "从 20 到 30 需要多久 __percentage 每 __duration 增长",
+        "从 20 到 30 需要多久 __percentage_rate"
+      ],
+      "identifier": "timeRequiredForExponentialChange"
+    },
+    {
+      "prototypeExpressions": [
+        "从 20 到 30 需要多久 每 __timespan 20",
+        "从 20 到 30 需要多久 __unit_rate",
+        "从 20 到 30 需要多久 __decimal_rate",
+        "下载 20 速度 __unit_rate",
+        "传输 20 速度 __unit_rate",
+        "上传 20 速度 __unit_rate"
+      ],
+      "identifier": "timeRequiredForLinearChange"
+    },
+    {
+      "prototypeExpressions": [
+        "每 __timespan 增长率 从 20 到 30 经过 __timespan",
+        "每 __duration 增长率 从 20 到 30 经过 __timespan"
+      ],
+      "identifier": "growthOverExponentialChange"
+    },
+    {
+      "prototypeExpressions": [
+        "10 到 20 是百分之多少",
+        "10 到 20 变化了百分之多少",
+        "从 10 到 20 的百分比变化"
+      ],
+      "identifier": "xToYIsWhatPercentage"
+    },
+    {
+      "prototypeExpressions": [
+        "10 到 20 是多少倍",
+        "10 到 20 的倍数"
+      ],
+      "identifier": "xToYIsWhatMultiplier"
+    },
+    {
+      "prototypeExpressions": [
+        "10 到 20"
+      ],
+      "identifier": "xToY"
+    },
+    {
+      "prototypeExpressions": [
+        "10 加到 20"
+      ],
+      "identifier": "xOnY"
+    },
+    {
+      "prototypeExpressions": [
+        "10 减自 20"
+      ],
+      "identifier": "xOffY"
+    },
+    {
+      "prototypeExpressions": [
+        "10 占 20"
+      ],
+      "identifier": "xOfY"
+    },
+    {
+      "prototypeExpressions": [
+        "__timespan 以 1.5x 速度",
+        "__timespan 按 1.5x 速度"
+      ],
+      "identifier": "timeAtMultiplier"
+    },
+    {
+      "prototypeExpressions": [
+        "__timespan 以 1.5x 节省的时间",
+        "__timespan 按 1.5x 节省时间"
+      ],
+      "identifier": "timeSavedAtMultiplier"
+    }
+  ],
   "percentage": [
+    {
+      "prototypeExpressions": [
+        "__percentage 的 100",
+        "__sales_tax 加在 100"
+      ],
+      "identifier": "percentOf"
+    },
+    {
+      "prototypeExpressions": [
+        "100 减 __percentage",
+        "__percentage 折扣 100"
+      ],
+      "identifier": "percentOff"
+    },
+    {
+      "prototypeExpressions": [
+        "__percentage 加在 100"
+      ],
+      "identifier": "percentOn"
+    },
     {
       "prototypeExpressions": [
         "100 的 __percentage",
@@ -213,6 +1158,15 @@
     },
     {
       "prototypeExpressions": [
+        "30 是多少减 __percentage",
+        "30 是多少减去 __percentage",
+        "30 是什么减 __percentage",
+        "30 是什么减去 __percentage"
+      ],
+      "identifier": "isPercentOffWhat"
+    },
+    {
+      "prototypeExpressions": [
         "多少减去 __percentage 是 30",
         "多少减 __percentage 是 30",
         "什么减去 __percentage 是 30",
@@ -247,9 +1201,35 @@
         "10 是 20 里的百分比为",
         "10 在 20 里的百分比为",
         "10 是 20 里的占比为",
-        "10 在 20 里的占比为"
+        "10 在 20 里的占比为",
+        "10 占 20 的百分比",
+        "10 占 20 的占比"
       ],
       "identifier": "isWhatPercentOf"
+    },
+    {
+      "prototypeExpressions": [
+        "10 是 20 总共的百分比为",
+        "10 占 20 总共的百分比",
+        "10 在 20 总共中占百分之几"
+      ],
+      "identifier": "isWhatPercentWith"
+    },
+    {
+      "prototypeExpressions": [
+        "15 加 3 后是百分之多少",
+        "15 加上 3 后占百分之多少"
+      ],
+      "identifier": "isWhatPercentChangeAfterDelta"
+    },
+    {
+      "prototypeExpressions": [
+        "如果 30 是 __percentage 那么 __percentage 是多少",
+        "如果 __percentage 是 30 那么 __percentage 是多少",
+        "30 是 __percentage 那么 __percentage 是多少",
+        "__percentage 是 30 那么 __percentage 是多少"
+      ],
+      "identifier": "percentageRuleOfThree"
     },
     {
       "prototypeExpressions": [
@@ -268,133 +1248,65 @@
         "20 是 10 加上百分之几"
       ],
       "identifier": "isWhatPercentOn"
+    },
+    {
+      "prototypeExpressions": [
+        "500 中的 __sales_tax",
+        "500 的 __sales_tax"
+      ],
+      "identifier": "salesTaxIn"
+    },
+    {
+      "prototypeExpressions": [
+        "100 去掉 __sales_tax"
+      ],
+      "identifier": "salesTaxOff"
     }
   ],
-  "general": [
+  "statistics": [
     {
       "prototypeExpressions": [
-        "20 除以 3 的余数",
-        "20 除 3 之余"
+        "__list 的 __statistic_type",
+        "__statistic_type __list"
       ],
-      "identifier": "remainder"
+      "identifier": "statisticOfList"
     },
     {
       "prototypeExpressions": [
-          "20 的一半是"
+        "__tag 的 __statistic_type",
+        "__statistic_type __tag"
       ],
-      "identifier": "halfOf"
-    },
-    {
-      "prototypeExpressions": [
-        "2 和 30 之间小的一个数",
-        "2 和 30 之间较小的一个数",
-        "2 和 30 之间最小的一个数"
-      ],
-      "identifier": "lesserOf"
-    },
-    {
-      "prototypeExpressions": [
-        "2 和 30 之间大的一个数",
-        "2 和 30 之间较大的一个数",
-        "2 和 30 之间最大的一个数"
-      ],
-      "identifier": "greaterOf"
-    },
-    {
-      "prototypeExpressions": [
-        "2 与 32 的中间点",
-        "2 与 32 的中间数",
-        "2 和 32 的中间点",
-        "2 和 32 的中间数",
-        "2 和 32 的中间值",
-        "2 与 32 的中间值"
-      ],
-      "identifier": "midpoint"
-    },
-    {
-      "prototypeExpressions": [
-        "多少除以 8 相当于 6除以 600",
-        "多少除以 8 等于 6除以 600",
-        "什么除以 8 相当于 6除以 600",
-        "什么除以 8 等于 6除以 600"
-      ],
-      "identifier": "proportionsFindNumerator"
-    },
-    {
-      "prototypeExpressions": [
-        "8 除以多少相当于 6除以 600",
-        "8 除以多少等于 6除以 600",
-        "8 除以什么相当于 6除以 600",
-        "8 除以什么等于 6除以 600"
-      ],
-      "identifier": "proportionsFindDenominator"
-    },
-    {
-      "prototypeExpressions": [
-        "1 到 5 之间的任意数",
-        "1 与 5 之间的任意数",
-        "1 和 5 之间的任意数"
-      ],
-      "identifier": "makeRandomNumber"
-    },
-    
-  ],
-  "datetime": [
-    {
-      "prototypeExpressions": [
-        "在 __datestamp 和 __datestamp 之间的 __duration 数",
-        "__datestamp 和 __datestamp 之间的 __duration",
-        "从 __datestamp 到 __datestamp 之间的 __duration 数",
-        "从 __datestamp 到 __datestamp 之间的 __duration"
-      ],
-      "identifier": "calendarUnitBetweenDates"
-    },
-    {
-      "prototypeExpressions": [
-        "__duration 才到 __datestamp",
-        "多少 __duration 直到 __datestamp"
-      ],
-      "identifier": "calendarUnitToDate"
-    },
-    {
-      "prototypeExpressions": [
-        "从 __datestamp 到 __datestamp",
-        "从 __datestamp 至 __datestamp",
-        "__datestamp 到 __datestamp",
-        "__datestamp 至 __datestamp",
-        "__datestamp 日到 __datestamp"
-      ],
-      "identifier": "intervalBetweenDates"
-    },
-    {
-      "prototypeExpressions": [
-        "从 __timestamp 到 __timestamp",
-        "从 __timestamp 至 __timestamp",
-        "__timestamp 到 __timestamp",
-        "__timestamp 至 __timestamp"
-      ],
-      "identifier": "intervalBetweenTimestamps"
-    },
-    {
-      "prototypeExpressions": [
-        "新的时间戳"
-      ],
-      "identifier": "generateTimestamp"
-    },
-    {
-      "prototypeExpressions": [
-        "__timezone 时间",
-        "__timezone 的时间"
-      ],
-      "identifier": "timeInTimezone"
-    },
-    {
-      "prototypeExpressions": [
-        "__timezone 以及 __timezone 之间的时间差"
-      ],
-      "identifier": "differenceBetweenTimezones"
+      "identifier": "statisticOfTag"
     }
   ],
-  "unitRelated": [
+  "literalRelated": [
+    {
+      "prototypeExpressions": [
+        "__literal 的字数",
+        "__literal 的字符数",
+        "统计 __literal"
+      ],
+      "identifier": "countOfLiteral"
+    },
+    {
+      "prototypeExpressions": [
+        "__literal 的前 10 个字符",
+        "__literal 前 10 个"
+      ],
+      "identifier": "extractLiteralPrefix"
+    },
+    {
+      "prototypeExpressions": [
+        "__literal 的后 10 个字符",
+        "__literal 后 10 个"
+      ],
+      "identifier": "extractLiteralSuffix"
+    },
+    {
+      "prototypeExpressions": [
+        "解析 __literal"
+      ],
+      "identifier": "parseLiteral"
+    }
   ]
 }

@@ -726,7 +726,10 @@
       "code": "XAF",
       "symbol": "Fr"
     },
-    "name": "Congo"
+    "aliases": [
+      "Congo"
+    ],
+    "name": "Republic of the Congo"
   },
   {
     "region": "AF",
@@ -743,7 +746,11 @@
       "code": "CDF",
       "symbol": "Fr"
     },
-    "name": "Congo"
+    "aliases": [
+      "Congo",
+      "DR Congo"
+    ],
+    "name": "Democratic Republic of the Congo"
   },
   {
     "region": "NA",
@@ -1116,6 +1123,23 @@
     "name": "French Guiana"
   },
   {
+    "region": "OC",
+    "code": "PF",
+    "capital": "Papeete",
+    "flagURL": "https://restcountries.eu/data/pyf.svg",
+    "language": {
+      "name": "French",
+      "code": "fr"
+    },
+    "capitalCityTimezoneID": "Pacific/Tahiti",
+    "currency": {
+      "name": "CFP franc",
+      "code": "XPF",
+      "symbol": "Fr"
+    },
+    "name": "French Polynesia"
+  },
+  {
     "region": "AM",
     "code": "GP",
     "capital": "Basse-Terre",
@@ -1147,8 +1171,11 @@
       "code": "EUR",
       "symbol": "€"
     },
-    "aliases": ["La Réunion"],
-    "name": "La Reunion"
+    "aliases": [
+      "La Reunion",
+      "La Réunion"
+    ],
+    "name": "Réunion"
   },
   {
     "region": "AM",
@@ -1400,7 +1427,11 @@
       "code": "EUR",
       "symbol": "€"
     },
-    "name": "The Vatican"
+    "aliases": [
+      "The Vatican",
+      "Vatican"
+    ],
+    "name": "Vatican City"
   },
   {
     "region": "NA",
@@ -1925,7 +1956,10 @@
       "code": "MKD",
       "symbol": "ден"
     },
-    "name": "Macedonia"
+    "aliases": [
+      "Macedonia"
+    ],
+    "name": "North Macedonia"
   },
   {
     "region": "AF",
@@ -2733,7 +2767,10 @@
       "code": "STD",
       "symbol": "Db"
     },
-    "name": "Sao Tome and Principe"
+    "aliases": [
+      "Sao Tome and Principe"
+    ],
+    "name": "São Tomé and Príncipe"
   },
   {
     "region": "AS",
@@ -3003,7 +3040,10 @@
       "code": "SZL",
       "symbol": "L"
     },
-    "name": "Swaziland"
+    "aliases": [
+      "Swaziland"
+    ],
+    "name": "Eswatini"
   },
   {
     "region": "EU",
@@ -3410,7 +3450,10 @@
       "code": "VND",
       "symbol": "₫"
     },
-    "name": "Viet Nam"
+    "aliases": [
+      "Viet Nam"
+    ],
+    "name": "Vietnam"
   },
   {
     "region": "AS",

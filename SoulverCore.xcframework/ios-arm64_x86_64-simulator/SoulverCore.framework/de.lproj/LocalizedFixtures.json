@@ -15,10 +15,8 @@
       "kommender"
     ],
     "converterSymbols": [
-      "bis",
       "als",
-      "nach",
-      "mit"
+      "nach"
     ],
     "percentWords": [
       "Prozent",
@@ -89,6 +87,123 @@
     ],
     "tomorrowDateAliases": [
       "morgen"
+    ],
+    "monthlyAliases": [
+      "monatlich",
+      "monatliche",
+      "monatlichen",
+      "monatlicher",
+      "monatliches"
+    ],
+    "yearlyAliases": [
+      "jährlich",
+      "jährliche",
+      "jährlichen",
+      "jährlicher",
+      "jährliches"
+    ],
+    "averageAliases": [
+      "Durchschnitt",
+      "Mittelwert"
+    ],
+    "totalAliases": [
+      "Summe",
+      "gesamt",
+      "gesamte",
+      "gesamten",
+      "gesamter",
+      "gesamtes"
+    ],
+    "countAliases": [
+      "Anzahl"
+    ],
+    "medianAliases": [
+      "Median"
+    ],
+    "greaterAliases": [
+      "größere",
+      "größer",
+      "größerer",
+      "größeres",
+      "größte",
+      "Maximum"
+    ],
+    "lesserAliases": [
+      "kleinere",
+      "kleiner",
+      "kleinerer",
+      "kleineres",
+      "kleinste",
+      "Minimum"
+    ],
+    "standardDeviationAliases": [
+      "Standardabweichung"
+    ],
+    "gcdAliases": [
+      "größter gemeinsamer Teiler",
+      "ggT"
+    ],
+    "lcmAliases": [
+      "kleinstes gemeinsames Vielfaches",
+      "kgV"
+    ],
+    "grammerWordsOf": [
+      "von"
+    ],
+    "prepositionWordsUntil": [
+      "bis"
+    ],
+    "prepositionWordsWith": [
+      "mit"
+    ],
+    "thisDateQualifiers": [
+      "diese",
+      "dieser",
+      "dieses",
+      "diesem",
+      "diesen"
+    ],
+    "middayAliases": [
+      "Mittag"
+    ],
+    "midnightAliases": [
+      "Mitternacht"
+    ],
+    "timeWords": [
+      "Zeit",
+      "Uhrzeit"
+    ],
+    "timespanWords": [
+      "Zeitspanne"
+    ],
+    "dailyAliases": [
+      "täglich",
+      "tägliche",
+      "täglichen",
+      "täglicher",
+      "tägliches"
+    ],
+    "weeklyAliases": [
+      "wöchentlich",
+      "wöchentliche",
+      "wöchentlichen",
+      "wöchentlicher",
+      "wöchentliches"
+    ],
+    "hourlyAliases": [
+      "stündlich",
+      "stündliche",
+      "stündlichen",
+      "stündlicher",
+      "stündliches"
+    ],
+    "quarterlyAliases": [
+      "vierteljährlich",
+      "quartalweise",
+      "vierteljährliche",
+      "vierteljährlichen",
+      "vierteljährlicher",
+      "vierteljährliches"
     ]
   }
 }

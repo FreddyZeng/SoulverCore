@@ -11,6 +11,21 @@
     },
     {
       "prototypeExpressions": [
+        "__currency_expression __converter_symbol __currency __datestamp에",
+        "__currency_expression __converter_symbol __currency __datestamp"
+      ],
+      "identifier": "historicalCurrencyConversion"
+    },
+    {
+      "prototypeExpressions": [
+        "__currency_expression에서 __currency_expression의 환율",
+        "__currency_expression에서 __currency_expression으로의 환율",
+        "__currency_expression 대 __currency_expression 환율"
+      ],
+      "identifier": "exchangeRateForCurrencyConversion"
+    },
+    {
+      "prototypeExpressions": [
         "__unit은 __unit_expression에 포함",
         "__unit은 __unit에 포함"
       ],
@@ -61,6 +76,13 @@
     },
     {
       "prototypeExpressions": [
+        "__length_expression __converter_symbol __length __at __screenDensity",
+        "__screenDensity에서 __length_expression을 __length로"
+      ],
+      "identifier": "lengthToPixelsAtPPI"
+    },
+    {
+      "prototypeExpressions": [
         "__angularVelocity에서 __length 타이어의 속도"
       ],
       "identifier": "tyreSpeed"
@@ -82,7 +104,8 @@
     {
       "prototypeExpressions": [
         "__datestamp과 __datestamp 사이의 __duration",
-        "__datestamp부터 __datestamp까지의 __duration"
+        "__datestamp부터 __datestamp까지의 __duration",
+        "__datestamp부터 __datestamp까지 __duration"
       ],
       "identifier": "calendarUnitBetweenDates"
     },
@@ -100,7 +123,8 @@
     },
     {
       "prototypeExpressions": [
-        "__datestamp의 __duration"
+        "__datestamp의 __duration",
+        "__datestamp __duration"
       ],
       "identifier": "calendarUnitInDate"
     },
@@ -220,6 +244,30 @@
     },
     {
       "prototypeExpressions": [
+        "__timezone의 시차",
+        "__timezone과의 시차",
+        "__timezone 시간 차이"
+      ],
+      "identifier": "differenceBetweenHereAndTimezone"
+    },
+    {
+      "prototypeExpressions": [
+        "__duration %"
+      ],
+      "identifier": "calendarUnitPercentage"
+    },
+    {
+      "prototypeExpressions": [
+        "__timespan 후의 시간",
+        "__timezone에서 __timespan 후의 시간",
+        "__timespan 후 __timezone의 시간",
+        "__timespan의 시간",
+        "__timezone에서 __timespan의 시간"
+      ],
+      "identifier": "timeAfterCalendarUnit"
+    },
+    {
+      "prototypeExpressions": [
         "__timespan의 __datestamp",
         "__timespan 이후의 __datestamp"
       ],
@@ -336,63 +384,46 @@
       ],
       "identifier": "halfOf"
     },
-      {
-        "prototypeExpressions": [
-          "56.5 반올림"
-        ],
-        "identifier": "rounded"
-      },
-      {
-        "prototypeExpressions": [
-          "56.5 올림"
-        ],
-        "identifier": "roundedUp"
-      },
-      {
-        "prototypeExpressions": [
-          "56.5 내림"
-        ],
-        "identifier": "roundedDown"
-      },
-      {
-        "prototypeExpressions": [
-          "56.5 소수점 3자리",
-          "56.5 소수 3자리",
-          "56.5 소수점 1자리",
-          "56.5 소수 1자리",
-          "56.5 소수점 3자리로 반올림",
-          "56.5 반올림 소수점 3자리"
-        ],
-        "identifier": "roundedToDp"
-      },
-      {
-        "prototypeExpressions": [
-          "56 가장 가까운 10으로 올림",
-          "16 가장 가까운 10으로 올림",
-          "16 가장 가까운 10으로 반올림"
-        ],
-        "identifier": "upToNearestX"
-      },
-      {
-        "prototypeExpressions": [
-          "56 가장 가까운 10으로 내림",
-          "16 가장 가까운 10으로 내림",
-          "16 가장 가까운 10으로 반올림"
-        ],
-        "identifier": "downToNearestX"
-      },
-      {
-        "prototypeExpressions": [
-          "56 가장 가까운 10으로",
-          "16 가장 가까운 10으로 반올림",
-          "16 가장 가까운 10으로 반올림"
-        ],
-        "identifier": "toNearestX"
-      },
+    {
+      "prototypeExpressions": [
+        "반올림 56.5",
+        "56.5를 반올림"
+      ],
+      "identifier": "roundXUp"
+    },
+    {
+      "prototypeExpressions": [
+        "내림 56.5",
+        "56.5를 내림"
+      ],
+      "identifier": "roundXDown"
+    },
+    {
+      "prototypeExpressions": [
+        "올림 56을 가장 가까운 10으로",
+        "56을 가장 가까운 10으로 올림"
+      ],
+      "identifier": "roundUpXToNearestY"
+    },
+    {
+      "prototypeExpressions": [
+        "내림 56을 가장 가까운 10으로",
+        "56을 가장 가까운 10으로 내림"
+      ],
+      "identifier": "roundDownXToNearestY"
+    },
+    {
+      "prototypeExpressions": [
+        "반올림 56을 가장 가까운 10으로",
+        "56을 가장 가까운 10으로 반올림"
+      ],
+      "identifier": "roundXToNearestY"
+    },
     {
       "prototypeExpressions": [
         "2와 30 중 작은 것",
-        "__literal와 __literal 중 작은 것"
+        "__literal와 __literal 중 작은 것",
+        "__literal와 __literal 중 작은 수"
       ],
       "identifier": "lesserOf"
     },
@@ -405,7 +436,8 @@
     },
     {
       "prototypeExpressions": [
-        "2와 32 사이의 중간점"
+        "2와 32 사이의 중간점",
+        "__literal과 __literal의 중간점"
       ],
       "identifier": "midpoint"
     },
@@ -581,17 +613,10 @@
     },
     {
       "prototypeExpressions": [
-        "__timespan에서 __percentage 의 10000의 연간 상환액",
-        "__timespan 후 __percentage 의 10000의 연간 상환액"
+        "__timespan에서 __percentage 의 10000의 __period 상환액",
+        "__timespan 후 __percentage 의 10000의 __period 상환액"
       ],
-      "identifier": "annualLoanRepayment"
-    },
-    {
-      "prototypeExpressions": [
-        "__timespan에서 __percentage 의 10000의 월간 상환액",
-        "__timespan 후 __percentage 의 10000의 월간 상환액"
-      ],
-      "identifier": "monthlyLoanRepayment"
+      "identifier": "periodicLoanRepayment"
     },
     {
       "prototypeExpressions": [
@@ -602,31 +627,18 @@
     },
     {
       "prototypeExpressions": [
-        "__timespan에서 __percentage 의 10000의 연간 이자",
-        "__timespan 후 __percentage 의 10000의 연간 이자"
+        "__timespan에서 __percentage 의 10000의 __period 이자",
+        "__timespan 후 __percentage 의 10000의 __period 이자"
       ],
-      "identifier": "annualInterestOnLoanRepayment"
+      "identifier": "periodicInterestOnLoanRepayment"
     },
     {
       "prototypeExpressions": [
-        "__timespan에서 __percentage 의 10000의 월간 이자",
-        "__timespan 후 __percentage 의 10000의 월간 이자"
+        "__timespan 후 __percentage로 __period 복리 계산된 100",
+        "__timespan에서 __percentage로 __period 복리 계산된 100",
+        "100 __at __percentage __timespan 복리 __period"
       ],
-      "identifier": "monthlyInterestOnLoanRepayment"
-    },
-    {
-      "prototypeExpressions": [
-        "__timespan 후 __percentage로 매월 복리 계산된 100",
-        "__timespan으로 매월 복리 계산된 __percentage 의 100"
-      ],
-      "identifier": "compoundInterestCompoundingMonthly"
-    },
-    {
-      "prototypeExpressions": [
-        "__timespan 후 __percentage로 분기별 복리 계산된 100",
-        "__timespan으로 분기별 복리 계산된 __percentage 의 100"
-      ],
-      "identifier": "compoundInterestCompoundingQuarterly"
+      "identifier": "compoundInterestCompoundingOverPeriod"
     },
     {
       "prototypeExpressions": [
@@ -644,17 +656,11 @@
     },
     {
       "prototypeExpressions": [
-        "__timespan 후 __percentage로 매월 복리 계산된 100의 이자",
-        "__timespan으로 매월 복리 계산된 __percentage 의 100의 이자"
+        "__timespan 후 __percentage로 __period 복리 계산된 100의 이자",
+        "__timespan에서 __percentage로 __period 복리 계산된 100의 이자",
+        "100의 이자 __at __percentage __timespan 복리 __period"
       ],
-      "identifier": "compoundInterestSansPrincipalCompoundingMonthly"
-    },
-    {
-      "prototypeExpressions": [
-        "__timespan 후 __percentage로 분기별 복리 계산된 100의 이자",
-        "__timespan으로 분기별 복리 계산된 __percentage 의 100의 이자"
-      ],
-      "identifier": "compoundInterestSansPrincipalCompoundingQuarterly"
+      "identifier": "compoundInterestSansPrincipalCompoundingOverPeriod"
     },
     {
       "prototypeExpressions": [
@@ -978,6 +984,13 @@
     },
     {
       "prototypeExpressions": [
+        "10 of 20",
+        "10의 20"
+      ],
+      "identifier": "xOfY"
+    },
+    {
+      "prototypeExpressions": [
         "__timespan __at 1.5x",
         "__timespan to 1.5x"
       ],
@@ -1001,16 +1014,19 @@
     },
     {
       "prototypeExpressions": [
+        "100 에서 __percentage 할인"
       ],
       "identifier": "percentOff"
     },
     {
       "prototypeExpressions": [
+        "100 에 __percentage 추가"
       ],
       "identifier": "percentOn"
     },
     {
       "prototypeExpressions": [
+        "30은 무엇의 __percentage"
       ],
       "identifier": "isPercentOfWhat"
     },
@@ -1021,6 +1037,7 @@
     },
     {
       "prototypeExpressions": [
+        "30은 무엇의 __percentage 할인"
       ],
       "identifier": "isPercentOffWhat"
     },
@@ -1031,6 +1048,7 @@
     },
     {
       "prototypeExpressions": [
+        "30은 무엇의 __percentage 추가"
       ],
       "identifier": "isPercentOnWhat"
     },
@@ -1041,6 +1059,7 @@
     },
     {
       "prototypeExpressions": [
+        "10은 20의 몇 %"
       ],
       "identifier": "isWhatPercentOf"
     },
@@ -1063,6 +1082,33 @@
       "prototypeExpressions": [
       ],
       "identifier": "salesTaxIn"
+    },
+    {
+      "prototypeExpressions": [
+        "15는 3을 더한 후 몇 %입니까",
+        "15는 +3 후에 몇 %입니까",
+        "15는 3 후에 몇 %입니까"
+      ],
+      "identifier": "isWhatPercentChangeAfterDelta"
+    },
+    {
+      "prototypeExpressions": [
+        "30이 __percentage이면 __percentage는 얼마",
+        "30이 __percentage이면 60은 얼마",
+        "__percentage가 30이면 __percentage는 얼마",
+        "__percentage가 30이면 60은 얼마",
+        "30이 __percentage라면 __percentage는",
+        "30이 __percentage라면 60은"
+      ],
+      "identifier": "percentageRuleOfThree"
+    },
+    {
+      "prototypeExpressions": [
+        "__sales_tax 제외 100",
+        "판매세 제외 100",
+        "__sales_tax 빼기 100"
+      ],
+      "identifier": "salesTaxOff"
     }
   ],
   "statistics": [

@@ -1,0 +1,38 @@
+{
+  "day": {
+    "one": "일",
+    "other": "일"
+  },
+  "night": {
+    "one": "밤",
+    "other": "밤"
+  },
+  "ft": {
+    "one": "피트",
+    "other": "피트"
+  },
+  "hr": {
+    "one": "시간",
+    "other": "시간"
+  },
+  "in": {
+    "one": "인치",
+    "other": "인치"
+  },
+  "month": {
+    "one": "개월",
+    "other": "개월"
+  },
+  "week": {
+    "one": "주",
+    "other": "주"
+  },
+  "workday": {
+    "one": "영업일",
+    "other": "영업일"
+  },
+  "year": {
+    "one": "년",
+    "other": "년"
+  }
+}

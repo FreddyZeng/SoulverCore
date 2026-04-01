@@ -1,0 +1,252 @@
+{
+  "rounding": [
+      {
+        "prototypeExpressions": [
+          "arrotondato"
+        ],
+        "identifier": "rounded"
+      },
+      {
+        "prototypeExpressions": [
+          "arrotondato per eccesso",
+          "arrotondato in su"
+        ],
+        "identifier": "roundedUp"
+      },
+      {
+        "prototypeExpressions": [
+          "arrotondato per difetto",
+          "arrotondato in giù"
+        ],
+        "identifier": "roundedDown"
+      },
+      {
+        "prototypeExpressions": [
+            "arrotondato a 3 decimali",
+            "arrotondato 3 decimali",
+            "arrotondato a 1 decimale",
+            "__converter_symbol 3 decimali",
+            "__converter_symbol __headNumberCluster_dp",
+            "__converter_symbol 1 decimale",
+            "__converter_symbol 2 decimali",
+            "__converter_symbol 3 cifre decimali",
+            "__converter_symbol 3 cifre",
+            "__converter_symbol 1 cifra"
+        ],
+        "identifier": "roundedToDp"
+      },
+      {
+        "prototypeExpressions": [
+          "arrotondato per eccesso al più vicino 10",
+          "arrotondare per eccesso al più vicino 10",
+          "arrotondato in su al più vicino 10"
+        ],
+        "identifier": "roundedUpToNearestX"
+      },
+      {
+        "prototypeExpressions": [
+          "arrotondato per difetto al più vicino 10",
+          "arrotondato in giù al più vicino 10"
+        ],
+        "identifier": "roundedDownToNearestX"
+      },
+      {
+        "prototypeExpressions": [
+          "al più vicino 10",
+          "arrotondare al più vicino 10",
+          "arrotondato al più vicino 10"
+        ],
+        "identifier": "roundedToNearestX"
+      },
+      {
+        "prototypeExpressions": [
+          "al più vicino __ordinal_number",
+          "arrotondare al più vicino __ordinal_number",
+          "arrotondato al più vicino __ordinal_number"
+        ],
+        "identifier": "roundedToNearestFraction"
+      }
+  ],
+  "compoundUnits": [
+    {
+      "prototypeExpressions": [
+        "__converter_symbol anni e mesi",
+        "__converter_symbol mesi e anni"
+      ],
+      "identifier": "yearsAndMonths"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol mesi e settimane",
+        "__converter_symbol settimane e mesi"
+      ],
+      "identifier": "monthsAndWeeks"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol mesi e giorni",
+        "__converter_symbol giorni e mesi"
+      ],
+      "identifier": "monthsAndDays"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol settimane e giorni",
+        "__converter_symbol giorni e settimane"
+      ],
+      "identifier": "weeksAndDays"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol giorni e ore",
+        "__converter_symbol ore e giorni"
+      ],
+      "identifier": "daysAndHours"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol ore e minuti",
+        "__converter_symbol minuti e ore",
+        "__converter_symbol ore e min"
+      ],
+      "identifier": "hoursAndMinutes"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol minuti e secondi",
+        "__converter_symbol secondi e minuti"
+      ],
+      "identifier": "minutesAndSeconds"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol libbre e once",
+        "__converter_symbol libbra e oncia",
+        "__converter_symbol lb e oz",
+        "__converter_symbol lb oz"
+      ],
+      "identifier": "poundsAndOunces"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol piedi e pollici",
+        "__converter_symbol pollici e piedi",
+        "__converter_symbol piede e pollice",
+        "__converter_symbol piedi pollici"
+      ],
+      "identifier": "feetAndInches"
+    }
+  ],
+  "dateTime": [
+    {
+      "prototypeExpressions": [
+        "__converter_symbol data",
+        "__converter_symbol date"
+      ],
+      "identifier": "toDate"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol timestamp"
+      ],
+      "identifier": "toTimestamp"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol intervallo di tempo",
+        "__converter_symbol durata"
+      ],
+      "identifier": "toTimespan"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol tempo sul giro"
+      ],
+      "identifier": "toLaptime"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol iso8601",
+        "__converter_symbol iso"
+      ],
+      "identifier": "toISO8601"
+    }
+  ],
+  "numberForms": [
+    {
+      "prototypeExpressions": [
+        "__converter_symbol numero",
+        "__converter_symbol decimale"
+      ],
+      "identifier": "toDecimal"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol frazione"
+      ],
+      "identifier": "toFraction"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol notazione scientifica"
+      ],
+      "identifier": "toScientificNotation"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol moltiplicatore"
+      ],
+      "identifier": "toMultiplier"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol esadecimale",
+        "__converter_symbol hex"
+      ],
+      "identifier": "toHexadecimal"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol binario"
+      ],
+      "identifier": "toBinary"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol ottale",
+        "__converter_symbol oct"
+      ],
+      "identifier": "toOctal"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol base 8"
+      ],
+      "identifier": "toBaseX"
+    }
+  ],
+  "music": [
+    {
+      "prototypeExpressions": [
+        "__converter_symbol nota musicale",
+        "__converter_symbol pitch"
+      ],
+      "identifier": "toPitch"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol numero midi",
+        "__converter_symbol midi"
+      ],
+      "identifier": "toMIDI"
+    }
+  ],
+  "unitRelated": [
+    {
+      "prototypeExpressions": [
+        "__converter_symbol dms"
+      ],
+      "identifier": "toDMS"
+    }
+  ]
+}

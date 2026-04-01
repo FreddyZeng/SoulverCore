@@ -61,6 +61,14 @@
         "al 10 más cercano"
       ],
       "identifier": "roundedToNearestX"
+    },
+    {
+      "prototypeExpressions": [
+        "al __ordinal_number más cercano",
+        "redondear al __ordinal_number más cercano",
+        "redondeado al __ordinal_number más cercano"
+      ],
+      "identifier": "roundedToNearestFraction"
     }
   ],
   "compoundUnits": [
@@ -108,13 +116,23 @@
     },
     {
       "prototypeExpressions": [
-          "pies y pulgadas",
-          "pie y pulgada",
-          "pulgadas y pies",
-          "pies pulgadas",
-          "pie pulgada",
-          "pies pulgada",
-          "ft pulgada"
+        "__converter_symbol libras y onzas",
+        "__converter_symbol libra y onza",
+        "__converter_symbol libras onzas",
+        "__converter_symbol lb y oz",
+        "__converter_symbol lb oz"
+      ],
+      "identifier": "poundsAndOunces"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol pies y pulgadas",
+        "__converter_symbol pie y pulgada",
+        "__converter_symbol pulgadas y pies",
+        "__converter_symbol pies pulgadas",
+        "__converter_symbol pie pulgada",
+        "__converter_symbol pies pulgada",
+        "__converter_symbol ft pulgada"
       ],
       "identifier": "feetAndInches"
     }
@@ -145,6 +163,13 @@
         "__converter_symbol tiempo por vuelta"
       ],
       "identifier": "toLaptime"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol iso8601",
+        "__converter_symbol iso"
+      ],
+      "identifier": "toISO8601"
     }
   ],
   "numberForms": [
@@ -157,15 +182,17 @@
     },
     {
       "prototypeExpressions": [
-        "__converter_symbol binario"
-      ],
-      "identifier": "toBinary"
-    },
-    {
-      "prototypeExpressions": [
         "__converter_symbol fracción"
       ],
       "identifier": "toFraction"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol notación científica",
+        "__converter_symbol científica",
+        "__converter_symbol not. científica"
+      ],
+      "identifier": "toScientificNotation"
     },
     {
       "prototypeExpressions": [
@@ -173,8 +200,34 @@
         "__converter_symbol múltiplo"
       ],
       "identifier": "toMultiplier"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol hexadecimal",
+        "__converter_symbol hex"
+      ],
+      "identifier": "toHexadecimal"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol binario",
+        "__converter_symbol bin"
+      ],
+      "identifier": "toBinary"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol octal",
+        "__converter_symbol oct"
+      ],
+      "identifier": "toOctal"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol base 8"
+      ],
+      "identifier": "toBaseX"
     }
-
   ],
   "music": [
     {
@@ -183,6 +236,23 @@
         "__converter_symbol nota musical"
       ],
       "identifier": "toPitch"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol número de nota midi",
+        "__converter_symbol número midi",
+        "__converter_symbol midi"
+      ],
+      "identifier": "toMIDI"
+    }
+  ],
+  "unitRelated": [
+    {
+      "prototypeExpressions": [
+        "__converter_symbol dms",
+        "__converter_symbol gms"
+      ],
+      "identifier": "toDMS"
     }
   ]
 }

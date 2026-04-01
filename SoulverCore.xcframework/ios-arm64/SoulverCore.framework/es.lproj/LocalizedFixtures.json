@@ -32,9 +32,7 @@
     ],
     "ordinalSuffixes": [
       "º",
-      "º",
-      "º",
-      "º"
+      "ª"
     ],
     "piAliases": [
       "π"
@@ -55,8 +53,7 @@
     ],
     "pmAliases": [
       "pm",
-      "p.m.",
-      "P.M."
+      "p.m."
     ],
     "conjunctionWordsOr": [
       "o"
@@ -74,8 +71,7 @@
     ],
     "amAliases": [
       "am",
-      "a.m.",
-      "A.M."
+      "a.m."
     ],
     "todayDateAliases": [
       "hoy"
@@ -122,6 +118,60 @@
     ],
     "tomorrowDateAliases": [
       "mañana"
+    ],
+    "monthlyAliases": [
+      "mensual",
+      "mensuales"
+    ],
+    "yearlyAliases": [
+      "anual",
+      "anuales"
+    ],
+    "dailyAliases": [
+      "diario",
+      "diaria",
+      "diarios",
+      "diarias",
+      "diariamente"
+    ],
+    "weeklyAliases": [
+      "semanal",
+      "semanales"
+    ],
+    "hourlyAliases": [
+      "por hora"
+    ],
+    "quarterlyAliases": [
+      "trimestral",
+      "trimestrales"
+    ],
+    "greaterAliases": [
+      "mayor",
+      "máximo"
+    ],
+    "lesserAliases": [
+      "menor",
+      "mínimo"
+    ],
+    "standardDeviationAliases": [
+      "desviación estándar"
+    ],
+    "gcdAliases": [
+      "máximo común divisor",
+      "mcd"
+    ],
+    "lcmAliases": [
+      "mínimo común múltiplo",
+      "mcm"
+    ],
+    "prepositionWordsWith": [
+      "con"
+    ],
+    "timeWords": [
+      "hora"
+    ],
+    "timespanWords": [
+      "duración"
     ]
   }
 }

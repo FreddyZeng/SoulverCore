@@ -17,25 +17,11 @@
     "thisDateQualifiers": [
       "이번"
     ],
-    "midiTypes": [
-      "미디번호"
-    ],
-    "numberTypes": [
-      "숫자",
-      "수",
-      "십진수"
-    ],
-    "octalTypes": [
-      "8진수"
-    ],
     "lcmAliases": [
       "최소공배수"
     ],
     "prepositionWordsAt": [
       "에"
-    ],
-    "timestampTypes": [
-      "타임스탬프"
     ],
     "conjunctionWordsOr": [
       "또는"
@@ -55,11 +41,6 @@
       "총합",
       "합계"
     ],
-    "fractionTypes": [
-      "분수"
-    ],
-    "iso8601Types": [
-    ],
     "isNotEqualToOperators": [
     ],
     "colons": [
@@ -70,39 +51,20 @@
     "gcdAliases": [
       "최대공약수"
     ],
-    "hexadecimalTypes": [
-      "16진수"
-    ],
     "greaterAliases": [
       "더 큰",
       "보다 큰",
       "최대"
     ],
-    "hoursAndMinutesTypes": [
-      "시간과 분",
-      "시와 분",
-      "시분"
-    ],
     "multiplicationOperators": [
     ],
-    "prepositionWordsWith": [
-      "와",
-      "과"
-    ],
+    "prepositionWordsWith": [],
     "reverseSubtractionOperators": [
     ],
     "openBracketAliases": [
     ],
     "medianAliases": [
       "중앙값"
-    ],
-    "pitchTypes": [
-      "음높이",
-      "음표"
-    ],
-    "daysAndHoursTypes": [
-      "일과 시간",
-      "일시"
     ],
     "pmAliases": [
       "오후"
@@ -112,16 +74,9 @@
       "보다 작은",
       "최소"
     ],
-    "scientificNotationTypes": [
-      "과학적 표기법",
-      "지수 표기법"
-    ],
     "percentWords": [
       "퍼센트",
       "백분율"
-    ],
-    "feetAndInchesTypes": [
-      "피트와 인치"
     ],
     "standardDeviationAliases": [
       "표준편차"
@@ -133,45 +88,24 @@
     "additionOperators": [
       "더하기"
     ],
-    "weeksAndDaysTypes": [
-      "주와 일",
-      "주일"
-    ],
     "middayAliases": [
       "정오"
     ],
     "lessThanOrEqualToOperators": [
     ],
-    "minutesAndSecondsTypes": [
-      "분과 초",
-      "분초"
-    ],
-    "monthsAndDaysTypes": [
-      "월과 일",
-      "월일"
-    ],
     "todayDateAliases": [
       "오늘"
-    ],
-    "yearsAndMonthsTypes": [
-      "년과 월",
-      "연월"
     ],
     "previousDateQualifiers": [
       "이전",
       "지난"
     ],
     "converterSymbols": [
+      "로",
+      "으로"
     ],
     "yesterdayDateAliases": [
       "어제"
-    ],
-    "frequencyRateTypes": [
-      "초당"
-    ],
-    "monthsAndWeeksTypes": [
-      "월과 주",
-      "월주"
     ],
     "averageAliases": [
       "평균"
@@ -182,28 +116,10 @@
     "nextDateQualifiers": [
       "다음"
     ],
-    "dateTypes": [
-      "날짜"
-    ],
     "subtractionOperators": [
       "빼기"
     ],
     "closeBracketAliases": [
-    ],
-    "binaryTypes": [
-      "2진수"
-    ],
-    "multiplierTypes": [
-      "배수"
-    ],
-    "laptimeTypes": [
-      "랩타임"
-    ],
-    "dmsTypes": [
-      "도분초"
-    ],
-    "poundsAndOuncesTypes": [
-      "파운드와 온스"
     ],
     "grammerWordsOf": [
       "의"
@@ -214,6 +130,29 @@
     "timespanWords": [
       "기간",
       "시간간격"
+    ],
+    "monthlyAliases": [
+      "월간"
+    ],
+    "yearlyAliases": [
+      "연간"
+    ],
+    "timeWords": [
+      "시간"
+    ],
+    "hourlyAliases": [
+      "시간당"
+    ],
+    "dailyAliases": [
+      "매일",
+      "일일"
+    ],
+    "weeklyAliases": [
+      "매주",
+      "주간"
+    ],
+    "quarterlyAliases": [
+      "분기별"
     ]
   }
 }

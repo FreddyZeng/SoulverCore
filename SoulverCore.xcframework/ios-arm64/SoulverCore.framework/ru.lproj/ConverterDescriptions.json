@@ -4,7 +4,9 @@
       "prototypeExpressions": [
         "округленное",
         "округлено",
-        "округлить"
+        "округлить",
+        "округлённое",
+        "округлённо"
       ],
       "identifier": "rounded"
     },
@@ -12,7 +14,9 @@
       "prototypeExpressions": [
         "округленное вверх",
         "округлено вверх",
-        "округлить вверх"
+        "округлить вверх",
+        "округлённое вверх",
+        "округлённо вверх"
       ],
       "identifier": "roundedUp"
     },
@@ -20,7 +24,9 @@
       "prototypeExpressions": [
         "округленное вниз",
         "округлено вниз",
-        "округлить вниз"
+        "округлить вниз",
+        "округлённое вниз",
+        "округлённо вниз"
       ],
       "identifier": "roundedDown"
     },
@@ -46,16 +52,15 @@
       "prototypeExpressions": [
         "округлить вверх до ближайших 10",
         "округлено вверх до ближайших 10",
-        "округлено вверх до ближайших 10",
         "вверх до ближайших 10"
       ],
       "identifier": "roundedUpToNearestX"
     },
     {
       "prototypeExpressions": [
-      "округлить вниз до ближайших 10",
-      "округлено вниз до ближайших 10",
-      "вниз до ближайших 10"
+        "округлить вниз до ближайших 10",
+        "округлено вниз до ближайших 10",
+        "вниз до ближайших 10"
       ],
       "identifier": "roundedDownToNearestX"
     },
@@ -63,15 +68,25 @@
       "prototypeExpressions": [
         "округлить до ближайших 10",
         "округлено до ближайших 10",
-        "до ближайших 10"
+        "до ближайших 10",
+        "до ближайшей 10"
       ],
       "identifier": "roundedToNearestX"
+    },
+    {
+      "prototypeExpressions": [
+        "до ближайшей __ordinal_number",
+        "округлить до ближайшей __ordinal_number",
+        "округлено до ближайшей __ordinal_number"
+      ],
+      "identifier": "roundedToNearestFraction"
     }
   ],
   "compoundUnits": [
     {
       "prototypeExpressions": [
-        "__converter_symbol годы и месяцы"
+        "__converter_symbol годы и месяцы",
+        "__converter_symbol года и месяцы"
       ],
       "identifier": "yearsAndMonths"
     },
@@ -101,6 +116,7 @@
     },
     {
       "prototypeExpressions": [
+        "__converter_symbol часах и минутах",
         "__converter_symbol часы и минуты"
       ],
       "identifier": "hoursAndMinutes"
@@ -110,6 +126,23 @@
         "__converter_symbol минуты и секунды"
       ],
       "identifier": "minutesAndSeconds"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol фунты и унции",
+        "__converter_symbol фунты унции",
+        "__converter_symbol фунт и унция"
+      ],
+      "identifier": "poundsAndOunces"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol футы и дюймы",
+        "__converter_symbol футы дюймы",
+        "__converter_symbol фут и дюйм",
+        "__converter_symbol дюймы и футы"
+      ],
+      "identifier": "feetAndInches"
     }
   ],
   "dateTime": [
@@ -123,8 +156,7 @@
     {
       "prototypeExpressions": [
         "__converter_symbol метку времени",
-        "__converter_symbol метка времени",
-        "__converter_symbol временной промежуток"
+        "__converter_symbol метка времени"
       ],
       "identifier": "toTimestamp"
     },
@@ -139,12 +171,22 @@
         "__converter_symbol время круга"
       ],
       "identifier": "toLaptime"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol iso8601",
+        "__converter_symbol iso"
+      ],
+      "identifier": "toISO8601"
     }
   ],
   "numberForms": [
     {
       "prototypeExpressions": [
-        "__converter_symbol число"
+        "__converter_symbol число",
+        "__converter_symbol десятичное",
+        "__converter_symbol десятичную",
+        "__converter_symbol как десятичную"
       ],
       "identifier": "toDecimal"
     },
@@ -156,9 +198,43 @@
     },
     {
       "prototypeExpressions": [
+        "__converter_symbol научная нотация",
+        "__converter_symbol научная запись"
+      ],
+      "identifier": "toScientificNotation"
+    },
+    {
+      "prototypeExpressions": [
         "__converter_symbol кратность"
       ],
       "identifier": "toMultiplier"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol шестнадцатеричное",
+        "__converter_symbol шестнадцатеричную",        
+        "__converter_symbol hex"
+      ],
+      "identifier": "toHexadecimal"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol двоичное",
+        "__converter_symbol бинарное"
+      ],
+      "identifier": "toBinary"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol восьмеричное"
+      ],
+      "identifier": "toOctal"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol основание 8"
+      ],
+      "identifier": "toBaseX"
     }
   ],
   "music": [
@@ -168,7 +244,22 @@
         "__converter_symbol нота"
       ],
       "identifier": "toPitch"
+    },
+    {
+      "prototypeExpressions": [
+        "__converter_symbol midi номер",
+        "__converter_symbol midi"
+      ],
+      "identifier": "toMIDI"
+    }
+  ],
+  "unitRelated": [
+    {
+      "prototypeExpressions": [
+        "__converter_symbol гмс",
+        "__converter_symbol градусы минуты секунды"
+      ],
+      "identifier": "toDMS"
     }
   ]
 }
-

@@ -1,0 +1,38 @@
+{
+  "day": {
+    "one": "día",
+    "other": "días"
+  },
+  "night": {
+    "one": "noche",
+    "other": "noches"
+  },
+  "ft": {
+    "one": "pie",
+    "other": "pies"
+  },
+  "hr": {
+    "one": "hora",
+    "other": "horas"
+  },
+  "in": {
+    "one": "pulgada",
+    "other": "pulgadas"
+  },
+  "month": {
+    "one": "mes",
+    "other": "meses"
+  },
+  "week": {
+    "one": "semana",
+    "other": "semanas"
+  },
+  "workday": {
+    "one": "día laborable",
+    "other": "días laborables"
+  },
+  "year": {
+    "one": "año",
+    "other": "años"
+  }
+}

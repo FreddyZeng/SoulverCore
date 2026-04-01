@@ -15,11 +15,8 @@
       "en"
     ],
     "converterSymbolsAs": [
-      "comme",
-    ],
-    "converterSymbolsTo": [
-      "à"
-    ],
+      "comme"],
+    "converterSymbolsTo": [],
     "powerOperators": [
       "^",
       "**"
@@ -106,8 +103,7 @@
       "moyenne"
     ],
     "countAliases": [
-      "décompte",
-      "dénombrement"
+      "nombre"
     ],
     "yesterdayDateAliases": [
       "hier"
@@ -117,6 +113,80 @@
     ],
     "tomorrowDateAliases": [
       "demain"
+    ],
+    "monthlyAliases": [
+      "mensuel",
+      "mensuelle",
+      "mensuels",
+      "mensuelles"
+    ],
+    "yearlyAliases": [
+      "annuel",
+      "annuelle",
+      "annuels",
+      "annuelles"
+    ],
+    "thisDateQualifiers": [
+      "ce",
+      "cet",
+      "cette"
+    ],
+    "timeWords": [
+      "heure"
+    ],
+    "grammerWordsOf": [
+      "de"
+    ],
+    "prepositionWordsAt": [
+      "à"
+    ],
+    "prepositionWordsUntil": [
+      "jusqu'à",
+      "jusque"
+    ],
+    "prepositionWordsWith": [
+      "avec"
+    ],
+    "greaterAliases": [
+      "maximum"
+    ],
+    "lesserAliases": [
+      "minimum"
+    ],
+    "medianAliases": [
+      "médiane"
+    ],
+    "standardDeviationAliases": [
+      "écart type",
+      "écart-type"
+    ],
+    "gcdAliases": [
+      "plus grand commun diviseur",
+      "pgcd"
+    ],
+    "lcmAliases": [
+      "plus petit commun multiple",
+      "ppcm"
+    ],
+    "hourlyAliases": [
+      "horaire",
+      "horaires"
+    ],
+    "dailyAliases": [
+      "quotidien",
+      "quotidienne",
+      "quotidiens",
+      "quotidiennes"
+    ],
+    "weeklyAliases": [
+      "hebdomadaire",
+      "hebdomadaires"
+    ],
+    "quarterlyAliases": [
+      "trimestriel",
+      "trimestrielle",
+      "trimestriels",
+      "trimestrielles"
     ]
   }
 }

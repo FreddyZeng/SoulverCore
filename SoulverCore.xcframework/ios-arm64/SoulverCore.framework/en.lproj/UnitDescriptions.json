@@ -4,7 +4,9 @@
       "aliases": [
         "pixels per inch",
         "pixel per inch",
-        "ppi"
+        "ppi",
+        "dpi",
+        "DPI"
       ],
       "identifier": "ppi",
       "symbol": "PPI"
@@ -633,6 +635,18 @@
       ],
       "identifier": "weekdays",
       "symbol": "workday"
+    },
+    {
+      "aliases": [
+        "workhours",
+        "workhour",
+        "work hours",
+        "work hour",
+        "business hours",
+        "business hour"
+      ],
+      "identifier": "workhours",
+      "symbol": "workhours"
     },
     {
       "aliases": [
@@ -2447,7 +2461,9 @@
         "m / s^2",
         "m s^-2",
         "m s ^ -2",
-        "m s ^ - 2"
+        "m s ^ - 2",
+        "m/sec^2",
+        "m / sec^2"
       ],
       "identifier": "metersPerSecondSquared",
       "symbol": "m/s²"
@@ -2462,7 +2478,9 @@
         "ft / s^2",
         "ft s^-2",
         "ft s ^ -2",
-        "ft s ^ - 2"
+        "ft s ^ - 2",
+        "ft/sec^2",
+        "ft / sec^2"
       ],
       "identifier": "feetPerSecondSquared",
       "symbol": "ft/s²"
@@ -2779,7 +2797,9 @@
     {
       "aliases": [
         "knot",
-        "knots"
+        "knots",
+        "kt",
+        "kts"
       ],
       "identifier": "knots",
       "symbol": "kn"

@@ -105,6 +105,8 @@
   },
   "QAR": {
     "aliases": [
+      "qatari riyal",
+      "qatari riyals",
       "qatari rial",
       "qatari rials"
     ],
@@ -160,6 +162,7 @@
   },
   "SGD": {
     "aliases": [
+      "$SGD",
       "SGD$",
       "S$",
       "singapore dollar",
@@ -644,6 +647,7 @@
   },
   "AUD": {
     "aliases": [
+      "$AUD",
       "A$",
       "AU$",
       "AUD$",
@@ -684,6 +688,7 @@
   },
   "NZD": {
     "aliases": [
+      "$NZD",
       "NZ$",
       "NZD$",
       "new zealand dollars",
@@ -726,6 +731,7 @@
   },
   "HKD": {
     "aliases": [
+      "$HKD",
       "HKD$",
       "hong kong dollar",
       "hong kong dollars"
@@ -939,6 +945,7 @@
   },
   "USD": {
     "aliases": [
+      "$USD",
       "u.s. dollar",
       "u.s. dollars",
       "us dollars",
@@ -1105,6 +1112,7 @@
   },
   "CAD": {
     "aliases": [
+      "$CAD",
       "C$",
       "CA$",
       "CAD$",
@@ -1118,7 +1126,7 @@
       "RMB",
       "rmb",
       "yuan",
-      "chinese yuan",
+      "chinese yuan"
     ],
     "symbol": "CNY"
   },
