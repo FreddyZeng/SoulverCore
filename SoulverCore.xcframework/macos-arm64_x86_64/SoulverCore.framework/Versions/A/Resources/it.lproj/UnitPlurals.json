@@ -34,5 +34,13 @@
   "year": {
     "one": "anno",
     "other": "anni"
+  },
+  "min": {
+    "one": "min",
+    "other": "min"
+  },
+  "s": {
+    "one": "s",
+    "other": "s"
   }
 }

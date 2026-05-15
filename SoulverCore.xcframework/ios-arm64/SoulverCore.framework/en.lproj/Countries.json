@@ -1736,6 +1736,7 @@
       "code": "KRW",
       "symbol": "₩"
     },
+    "aliases": ["Korea"],
     "name": "South Korea"
   },
   {
@@ -3365,7 +3366,7 @@
       "symbol": "$"
     },
     "capitalCityTimezoneID": "America/New_York",
-    "aliases": ["America", "USA", "United States", "usa"],
+    "aliases": ["America", "USA", "United States", "usa", "US", "the US", "the USA", "US of A"],
     "name": "United States of America"
   },
   {

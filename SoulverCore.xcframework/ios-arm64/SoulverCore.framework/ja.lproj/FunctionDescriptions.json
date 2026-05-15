@@ -7,7 +7,12 @@
         "__unit_expression を __unit に",
         "__unit_expression を __unit で",
         "__timespan を __unit に",
-        "__unit_expression の __unit"
+        "__unit_expression の __unit",
+        "__unit_expressionを__unitで表すと",
+        "__unit_expressionをパーセントで表すと",
+        "__unit_expressionを分数で表すと",
+        "__unit_expressionを__unitに",
+        "__timespanを期間として"
       ],
       "identifier": "unitConversion"
     },
@@ -443,7 +448,9 @@
     {
       "prototypeExpressions": [
         "5 は 1 の乗数として何に相当しますか",
-        "5 は 1 の乗数として何ですか"
+        "5 は 1 の乗数として何ですか",
+        "5 を倍率として表すと",
+        "5を倍率として表すと"
       ],
       "identifier": "isWhatMultiplierOf"
     },
@@ -588,7 +595,8 @@
     {
       "prototypeExpressions": [
         "__timespan 後の __percentage での 1000 の現在価値",
-        "__timespan での __percentage での 1000 の現在価値"
+        "__timespan での __percentage での 1000 の現在価値",
+        "1000 の __timespan __percentage 後の現在価値"
       ],
       "identifier": "presentValue"
     },
@@ -615,7 +623,9 @@
     {
       "prototypeExpressions": [
         "__timespan での __percentage で 10000 の総返済額",
-        "__timespan 後の __percentage で 10000 の総返済額"
+        "__timespan 後の __percentage で 10000 の総返済額",
+        "10000 を __timespan 年利 __percentage で返済する場合の総返済額",
+        "10000 の __timespan __percentage での 総返済額"
       ],
       "identifier": "totalLoanRepayment"
     },
@@ -626,7 +636,14 @@
         "10000 の __timespan __percentage での __period 返済額",
         "10000 の 6__period __percentage での 毎月の返済額",
         "10000 の 6 __period __percentage での 毎月の返済額",
-        "10000 の __timespan __percentage での 毎月の返済額"
+        "10000 の __timespan __percentage での 毎月の返済額",
+        "10000 の __timespan __percentage での 毎日の返済額",
+        "10000 の __timespan __percentage での 毎年の返済額",
+        "__period のローン返済 10000 を __timespan 年利 __percentage",
+        "__period のローン 10000 の __timespan __percentage で",
+        "10000 を __timespan 年利 __percentage で返済する場合の月次返済額",
+        "10000 を __timespan 年利 __percentage で返済する場合の日次返済額",
+        "10000 を __timespan 年利 __percentage で返済する場合の年次返済額"
       ],
       "identifier": "periodicLoanRepayment"
     },
@@ -637,7 +654,14 @@
         "10000 の __timespan __percentage での __period 返済額",
         "10000 の 6__period __percentage での 毎月の返済額",
         "10000 の 6 __period __percentage での 毎月の返済額",
-        "10000 の __timespan __percentage での 毎月の返済額"
+        "10000 の __timespan __percentage での 毎月の返済額",
+        "10000 の __timespan __percentage での 毎日の返済額",
+        "10000 の __timespan __percentage での 毎年の返済額",
+        "__period のローン返済 10000 を __timespan 年利 __percentage",
+        "__period のローン 10000 の __timespan __percentage で",
+        "10000 を __timespan 年利 __percentage で返済する場合の月次返済額",
+        "10000 を __timespan 年利 __percentage で返済する場合の日次返済額",
+        "10000 を __timespan 年利 __percentage で返済する場合の年次返済額"
       ],
       "identifier": "periodicLoanRepayment"
     },
@@ -655,7 +679,8 @@
         "10000 の __timespan __percentage での __period 利息",
         "10000 の __timespan __percentage での 月利",
         "10000 の 6__period __percentage での 月利",
-        "10000 の 6 __period __percentage での 月利"
+        "10000 の 6 __period __percentage での 月利",
+        "10000 を __timespan 年利 __percentage で支払う月次の利息"
       ],
       "identifier": "periodicInterestOnLoanRepayment"
     },
@@ -666,21 +691,30 @@
         "10000 の __timespan __percentage での __period 利息",
         "10000 の __timespan __percentage での 月利",
         "10000 の 6__period __percentage での 月利",
-        "10000 の 6 __period __percentage での 月利"
+        "10000 の 6 __period __percentage での 月利",
+        "10000 を __timespan 年利 __percentage で支払う月次の利息"
       ],
       "identifier": "periodicInterestOnLoanRepayment"
     },
     {
       "prototypeExpressions": [
         "__timespan 後の __percentage で毎月複利の 100",
-        "__timespan で毎月複利の __percentage の 100"
+        "__timespan で毎月複利の __percentage の 100",
+        "__timespan での __percentage で 月額 複利の 100",
+        "__timespan での __percentage で月額複利の 100",
+        "100 の __timespan __percentage での 月額 複利",
+        "100 の __timespan __percentage での月額複利"
       ],
       "identifier": "compoundInterestCompoundingMonthly"
     },
     {
       "prototypeExpressions": [
         "__timespan 後の __percentage で四半期ごとに複利の 100",
-        "__timespan で四半期ごとに複利の __percentage の 100"
+        "__timespan で四半期ごとに複利の __percentage の 100",
+        "__timespan 後の __percentage で 四半期複利の 100",
+        "__timespan 後の __percentage で四半期複利の 100",
+        "100 の __timespan __percentage での 四半期複利",
+        "100 の __timespan __percentage での四半期複利"
       ],
       "identifier": "compoundInterestCompoundingQuarterly"
     },
@@ -704,7 +738,9 @@
     {
       "prototypeExpressions": [
         "__timespan 後の __percentage の 100 の利息",
-        "__timespan で __percentage の 100 の利息"
+        "__timespan で __percentage の 100 の利息",
+        "__timespan 後の __percentage での 100 の利息",
+        "利息 100 の __timespan __percentage"
       ],
       "identifier": "compoundInterestSansPrincipal"
     },
@@ -1023,7 +1059,13 @@
         "10 から 20 は何 % ですか",
         "10 から 20 は % ですか",
         "10 から 20 は % として",
-        "10 から 20 を % で"
+        "10 から 20 を % で",
+        "10 から 20 への変化率は何%か",
+        "10から20への変化率は何%か",
+        "10 から 20 への減少率は何%か",
+        "10から20への減少率は何%か",
+        "10 から 20 への増加率は何%か",
+        "10から20への増加率は何%か"
       ],
       "identifier": "xToYIsWhatPercentage"
     },
@@ -1031,7 +1073,9 @@
       "prototypeExpressions": [
         "10 から 20 は何乗数ですか",
         "10 から 20 は乗数ですか",
-        "10 から 20 は乗数として"
+        "10 から 20 は乗数として",
+        "10 から 20 への変化率は何xか",
+        "10から20への変化率は何xか"
       ],
       "identifier": "xToYIsWhatMultiplier"
     },
@@ -1072,7 +1116,8 @@
     {
       "prototypeExpressions": [
         "100 の __percentage",
-        "100 から __percentage"
+        "100 から __percentage",
+        "100の__percentage"
       ],
       "identifier": "percentOf"
     },
@@ -1084,7 +1129,9 @@
     },
     {
       "prototypeExpressions": [
-        "100 から __percentage オフ"
+        "100 から __percentage オフ",
+        "100 から __percentage 引いた値",
+        "100から__percentage引いた値"
       ],
       "identifier": "reversedPercentOff"
     },

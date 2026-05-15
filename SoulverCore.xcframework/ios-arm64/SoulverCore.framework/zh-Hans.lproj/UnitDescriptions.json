@@ -1021,7 +1021,8 @@
       "symbol": "day",
       "aliases": [
         "天",
-        "日"
+        "日",
+        "天数"
       ],
       "identifier": "days"
     },
@@ -1037,7 +1038,8 @@
       "symbol": "week",
       "aliases": [
         "周",
-        "星期"
+        "星期",
+        "周数"
       ],
       "identifier": "weeks"
     },
@@ -1045,7 +1047,8 @@
       "symbol": "month",
       "aliases": [
         "月",
-        "个月"
+        "个月",
+        "月数"
       ],
       "identifier": "months"
     },
@@ -1140,6 +1143,15 @@
         "纳米赫兹"
       ],
       "identifier": "nanohertz"
+    }
+  ],
+  "frames": [
+    {
+      "aliases": [
+        "帧"
+      ],
+      "identifier": "frames",
+      "symbol": "frames"
     }
   ]
 }

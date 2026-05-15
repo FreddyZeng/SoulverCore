@@ -6,7 +6,9 @@
     ],
     "nextDateQualifiers": [
       "prossimo",
-      "prossima"
+      "prossima",
+      "prossimi",
+      "prossime"
     ],
     "converterSymbols": [
       "in",
@@ -67,7 +69,9 @@
     ],
     "thisDateQualifiers": [
       "questo",
-      "questa"
+      "questa",
+      "questi",
+      "queste"
     ],
     "divisionOperators": [
       "÷"
@@ -78,9 +82,17 @@
     "previousDateQualifiers": [
       "scorso",
       "scorsa",
+      "scorsi",
+      "scorse",
       "precedente",
       "ultimo",
-      "ultima"
+      "ultima",
+      "ultimi",
+      "ultime",
+      "passato",
+      "passata",
+      "passati",
+      "passate"
     ],
     "timeWords": [
       "ora",

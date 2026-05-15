@@ -485,7 +485,8 @@
     },
     {
       "aliases": [
-        "일"
+        "일",
+        "일수"
       ],
       "identifier": "days",
       "symbol": "일"
@@ -493,7 +494,8 @@
     {
       "aliases": [
         "평일",
-        "영업일"
+        "영업일",
+        "근무일"
       ],
       "identifier": "weekdays",
       "symbol": "영업일"
@@ -514,10 +516,11 @@
     },
     {
       "aliases": [
-        "월"
+        "월",
+        "개월"
       ],
       "identifier": "months",
-      "symbol": "월"
+      "symbol": "개월"
     },
     {
       "aliases": [
@@ -1908,14 +1911,12 @@
     },
     {
       "aliases": [
-        "분"
       ],
       "identifier": "arcMinutes",
       "symbol": "′"
     },
     {
       "aliases": [
-        "초"
       ],
       "identifier": "arcSeconds",
       "symbol": "″"

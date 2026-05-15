@@ -5,7 +5,9 @@
         "__unit_expression 를 __unit 로",
         "__unit_expression 를 __unit 으로",
         "__unit_expression 을 __unit 로",
-        "__unit_expression 을 __unit 으로"
+        "__unit_expression 을 __unit 으로",
+        "__unit_expression__grammar_suffix __unit__converter_symbol",
+        "__timespan__grammar_suffix __unit__converter_symbol"
       ],
       "identifier": "unitConversion"
     },
@@ -123,8 +125,7 @@
     },
     {
       "prototypeExpressions": [
-        "__datestamp의 __duration",
-        "__datestamp __duration"
+        "__datestamp의 __duration"
       ],
       "identifier": "calendarUnitInDate"
     },
@@ -341,7 +342,8 @@
   "general": [
     {
       "prototypeExpressions": [
-        "20을 3으로 나눈 나머지"
+        "20을 3으로 나눈 나머지",
+        "20을 5로 나눈 나머지"
       ],
       "identifier": "remainder"
     },
@@ -361,7 +363,8 @@
     },
     {
       "prototypeExpressions": [
-        "21을 7로 나누기"
+        "21을 7로 나누기",
+        "21을 7으로 나누기"
       ],
       "identifier": "dividedBy"
     },
@@ -422,22 +425,19 @@
     {
       "prototypeExpressions": [
         "2와 30 중 작은 것",
-        "__literal와 __literal 중 작은 것",
-        "__literal와 __literal 중 작은 수"
+        "5와 10 중 작은 수"
       ],
       "identifier": "lesserOf"
     },
     {
       "prototypeExpressions": [
-        "2와 30 중 큰 것",
-        "__literal와 __literal 중 큰 것"
+        "2와 30 중 큰 것"
       ],
       "identifier": "greaterOf"
     },
     {
       "prototypeExpressions": [
-        "2와 32 사이의 중간점",
-        "__literal과 __literal의 중간점"
+        "2와 32의 중점"
       ],
       "identifier": "midpoint"
     },
@@ -457,14 +457,16 @@
     {
       "prototypeExpressions": [
         "6은 600으로 무엇에 해당합니까",
-        "6에 대해 600은 무엇에 해당합니까"
+        "6에 대해 600은 무엇에 해당합니까",
+        "5 대 10은 무엇 대 80"
       ],
       "identifier": "proportionsFindNumerator"
     },
     {
       "prototypeExpressions": [
         "6은 600으로 8은 무엇에 해당합니까",
-        "6에 대해 600은 8에 대해 무엇입니까"
+        "6에 대해 600은 8에 대해 무엇입니까",
+        "6 대 60은 8 대 무엇"
       ],
       "identifier": "proportionsFindDenominator"
     },
@@ -512,12 +514,14 @@
       "prototypeExpressions": [
         "100의 5제곱근"
       ],
-      "identifier": "nthRoot"
+      "identifier": "reversedNthRoot"
     },
     {
       "prototypeExpressions": [
         "20의 4를 밑으로 한 로그",
-        "20의 4를 밑으로 하는 로그"
+        "20의 4를 밑으로 하는 로그",
+        "log 81 밑 9",
+        "81은 9의 몇 제곱"
       ],
       "identifier": "nthLog"
     },
@@ -550,7 +554,7 @@
       "prototypeExpressions": [
         "3의 5 순열"
       ],
-      "identifier": "reversedPermutation"
+      "identifier": "permutation"
     },
     {
       "prototypeExpressions": [
@@ -952,7 +956,8 @@
       "prototypeExpressions": [
         "10에서 20은 몇 %입니까",
         "10에서 20은 %입니까",
-        "10에서 20은 %로"
+        "10에서 20은 %로",
+        "10에서 20을 %로"
       ],
       "identifier": "xToYIsWhatPercentage"
     },
@@ -972,20 +977,16 @@
     },
     {
       "prototypeExpressions": [
-        "10에서 20"
       ],
       "identifier": "xOnY"
     },
     {
       "prototypeExpressions": [
-        "10에서 20"
       ],
       "identifier": "xOffY"
     },
     {
       "prototypeExpressions": [
-        "10 of 20",
-        "10의 20"
       ],
       "identifier": "xOfY"
     },
@@ -1008,19 +1009,22 @@
     {
       "prototypeExpressions": [
         "100 의 __percentage",
+        "100의 __percentage",
         "100 부터 __percentage"
       ],
       "identifier": "percentOf"
     },
     {
       "prototypeExpressions": [
-        "100 에서 __percentage 할인"
+        "100 에서 __percentage 할인",
+        "100에서 __percentage 할인"
       ],
       "identifier": "percentOff"
     },
     {
       "prototypeExpressions": [
-        "100 에 __percentage 추가"
+        "100 에 __percentage 추가",
+        "100에 __percentage 추가"
       ],
       "identifier": "percentOn"
     },
@@ -1115,7 +1119,7 @@
     {
       "prototypeExpressions": [
         "__statistic_type의 __list",
-        "__statistic_type의 __list"
+        "__list의 __statistic_type"
       ],
       "identifier": "statisticOfList"
     },
@@ -1130,28 +1134,21 @@
   "literalRelated": [
     {
       "prototypeExpressions": [
-        "__literal의 수",
-        "__literal의 수"
       ],
       "identifier": "countOfLiteral"
     },
     {
       "prototypeExpressions": [
-        "__literal의 처음 10자",
-        "__literal의 처음 10자"
       ],
       "identifier": "extractLiteralPrefix"
     },
     {
       "prototypeExpressions": [
-        "__literal의 마지막 10자",
-        "__literal의 마지막 10자"
       ],
       "identifier": "extractLiteralSuffix"
     },
     {
       "prototypeExpressions": [
-        "__literal 파싱"
       ],
       "identifier": "parseLiteral"
     }

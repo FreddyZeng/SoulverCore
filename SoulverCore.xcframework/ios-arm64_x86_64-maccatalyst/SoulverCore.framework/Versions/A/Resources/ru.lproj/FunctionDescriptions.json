@@ -263,6 +263,8 @@
     },
     {
       "prototypeExpressions": [
+        "180 - это сколько % от 200",
+        "180 это сколько % от 200",
         "10 сколько % отняли от 20",
         "10 сколько процентов отняли от 20"
       ],
@@ -316,6 +318,7 @@
     {
       "prototypeExpressions": [
         "остаток от 20 разделенного на 3",
+        "остаток от 20 разделить на 3",
         "остаток от деления 20 на 3",
         "остаток от 20 делённого на 3"
       ],
@@ -361,7 +364,8 @@
     },
     {
       "prototypeExpressions": [
-        "половина 20"
+        "половина 20",
+        "половина от 20"
       ],
       "identifier": "halfOf"
     },
@@ -1076,6 +1080,31 @@
         "500 в __datestamp при __percentage инфляции"
       ],
       "identifier": "predictedDollarWorthGivenInflation"
+    },
+    {
+      "prototypeExpressions": [
+        "подоходный налог на 500 в __country",
+        "налог на 500 доход в __country",
+        "налог на доход 500 в __country",
+        "500 подоходный налог в __country"
+      ],
+      "identifier": "incomeTax"
+    },
+    {
+      "prototypeExpressions": [
+        "чистый доход от 500 в __country",
+        "500 после налогов в __country",
+        "500 на руки в __country"
+      ],
+      "identifier": "incomeAfterTax"
+    },
+    {
+      "prototypeExpressions": [
+        "налоговая ставка на 500 в __country",
+        "ставка налога на 500 в __country",
+        "500 налоговая ставка в __country"
+      ],
+      "identifier": "effectiveTaxRate"
     }
   ],
   "videoRelated": [

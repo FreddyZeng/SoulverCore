@@ -53,6 +53,9 @@
       "at",
       "@"
     ],
+    "prepositionWordsOn" : [
+      "on"
+    ],
     "piAliases": [
       "π"
     ],
@@ -183,12 +186,52 @@
     "quarterlyAliases": [
         "quarterly"
     ],
+    "quarterAliases": [
+        "quarter",
+        "quarters"
+    ],
     "weeklyAliases": [
         "weekly"
     ],
     "yearlyAliases": [
         "yearly",
-        "annual"
+        "annual",
+        "annualized"
+    ],
+    "ordinalWordFirstAliases": [
+        "first"
+    ],
+    "ordinalWordSecondAliases": [
+    ],
+    "ordinalWordThirdAliases": [
+        "third"
+    ],
+    "ordinalWordFourthAliases": [
+        "fourth"
+    ],
+    "ordinalWordFifthAliases": [
+        "fifth"
+    ],
+    "ordinalWordSixthAliases": [
+        "sixth"
+    ],
+    "ordinalWordSeventhAliases": [
+        "seventh"
+    ],
+    "ordinalWordEighthAliases": [
+        "eighth"
+    ],
+    "ordinalWordNinthAliases": [
+        "ninth"
+    ],
+    "ordinalWordTenthAliases": [
+        "tenth"
+    ],
+    "countWordOnceAliases": [
+        "once"
+    ],
+    "countWordTwiceAliases": [
+        "twice"
     ]
   }
 }

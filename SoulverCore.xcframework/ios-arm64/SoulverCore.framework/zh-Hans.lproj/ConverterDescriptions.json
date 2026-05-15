@@ -95,14 +95,18 @@
     {
       "prototypeExpressions": [
         "到日和小时",
-        "作为日和小时"
+        "作为日和小时",
+        "换算成 天 和 小时",
+        "转换为 天 和 小时"
       ],
       "identifier": "daysAndHours"
     },
     {
       "prototypeExpressions": [
         "到小时和分钟",
-        "作为小时和分钟"
+        "作为小时和分钟",
+        "换算成 小时 和 分钟",
+        "转换为 小时 和 分钟"
       ],
       "identifier": "hoursAndMinutes"
     },
@@ -132,7 +136,9 @@
     {
       "prototypeExpressions": [
         "作为日期",
-        "到日期"
+        "到日期",
+        "截至目前",
+        "截至"
       ],
       "identifier": "toDate"
     },
@@ -146,7 +152,13 @@
     },
     {
       "prototypeExpressions": [
-        "__converter_symbol 周期"
+        "__converter_symbol 周期",
+        "__converter_symbol 时间跨度",
+        "作为时间跨度",
+        "时间跨度",
+        "天作为时间跨度",
+        "周作为时间跨度",
+        "月作为时间跨度"
       ],
       "identifier": "toTimespan"
     },

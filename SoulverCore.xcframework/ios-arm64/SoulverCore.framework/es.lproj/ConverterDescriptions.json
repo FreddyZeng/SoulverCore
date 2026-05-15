@@ -104,6 +104,7 @@
     },
     {
       "prototypeExpressions": [
+        "__converter_symbol horas y min",
         "__converter_symbol horas y minutos"
       ],
       "identifier": "hoursAndMinutes"

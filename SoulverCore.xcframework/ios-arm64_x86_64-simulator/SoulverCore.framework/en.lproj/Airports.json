@@ -2636,6 +2636,13 @@
         "coordinates": "103.9469985961914, 30.578500747680664"
     },
     {
+        "iata_code": "TFU",
+        "cityIdentifier": "chengdu",
+        "elevation": 1480,
+        "name": "Chengdu Tianfu International Airport",
+        "coordinates": "104.4419, 30.3125"
+    },
+    {
         "iata_code": "RAK",
         "cityIdentifier": "marrakesh",
         "elevation": 466,

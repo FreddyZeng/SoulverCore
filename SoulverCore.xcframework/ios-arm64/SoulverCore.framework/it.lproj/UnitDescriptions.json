@@ -13,6 +13,7 @@
     {
       "aliases": [
         "caloria",
+        "calorie",
         "calory"
       ],
       "identifier": "calories",
@@ -20,42 +21,48 @@
     },
     {
       "aliases": [
-        "kilocaloria"
+        "kilocaloria",
+        "kilocalorie"
       ],
       "identifier": "kilocalories",
       "symbol": "kCal"
     },
     {
       "aliases": [
-        "wattora"
+        "wattora",
+        "watt ora"
       ],
       "identifier": "wattHours",
       "symbol": "Wh"
     },
     {
       "aliases": [
-        "kilowattora"
+        "kilowattora",
+        "kilowatt ora"
       ],
       "identifier": "kilowattHours",
       "symbol": "kWh"
     },
     {
       "aliases": [
-        "megawattora"
+        "megawattora",
+        "megawatt ora"
       ],
       "identifier": "megawattHours",
       "symbol": "MWh"
     },
     {
       "aliases": [
-        "gigawattora"
+        "gigawattora",
+        "gigawatt ora"
       ],
       "identifier": "gigawattHours",
       "symbol": "GWh"
     },
     {
       "aliases": [
-        "terawattora"
+        "terawattora",
+        "terawatt ora"
       ],
       "identifier": "terawattHours",
       "symbol": "TWh"
@@ -100,7 +107,8 @@
     {
       "aliases": [
         "minuto",
-        "minuti"
+        "minuti",
+        "min"
       ],
       "identifier": "minutes",
       "symbol": "min"
@@ -108,7 +116,8 @@
     {
       "aliases": [
         "giorno",
-        "giorni"
+        "giorni",
+        "dì"
       ],
       "identifier": "days",
       "symbol": "day"
@@ -1114,7 +1123,10 @@
   "electricCharge": [
     {
       "aliases": [
-        "amperora"
+        "amperora",
+        "amper ora",
+        "ampere ora",
+        "ampère ora"
       ],
       "identifier": "ampereHours",
       "symbol": "Ah"

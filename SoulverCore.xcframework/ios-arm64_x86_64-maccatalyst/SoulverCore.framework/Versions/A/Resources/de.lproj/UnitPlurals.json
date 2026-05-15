@@ -34,5 +34,13 @@
   "year": {
     "one": "Jahr",
     "other": "Jahre"
+  },
+  "min": {
+    "one": "min",
+    "other": "min"
+  },
+  "s": {
+    "one": "s",
+    "other": "s"
   }
 }

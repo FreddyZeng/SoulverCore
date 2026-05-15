@@ -594,5 +594,15 @@
       "identifier": "nanohertz",
       "symbol": "nHz"
     }
+  ],
+  "frames": [
+    {
+      "aliases": [
+        "Bild",
+        "Bilder"
+      ],
+      "identifier": "frames",
+      "symbol": "frames"
+    }
   ]
 }

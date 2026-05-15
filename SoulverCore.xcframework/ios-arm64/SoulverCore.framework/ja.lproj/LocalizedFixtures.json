@@ -134,10 +134,12 @@
       "時間間隔"
     ],
     "monthlyAliases": [
-      "月額"
+      "月額",
+      "月次"
     ],
     "yearlyAliases": [
-      "年間"
+      "年間",
+      "年次"
     ],
     "timeWords": [
       "時刻"
@@ -146,7 +148,8 @@
       "時間単位"
     ],
     "dailyAliases": [
-      "日額"
+      "日額",
+      "日次"
     ],
     "weeklyAliases": [
       "週単位"

@@ -3,7 +3,15 @@
     "one": "día",
     "other": "días"
   },
+  "día": {
+    "one": "día",
+    "other": "días"
+  },
   "night": {
+    "one": "noche",
+    "other": "noches"
+  },
+  "noche": {
     "one": "noche",
     "other": "noches"
   },
@@ -23,7 +31,15 @@
     "one": "mes",
     "other": "meses"
   },
+  "mes": {
+    "one": "mes",
+    "other": "meses"
+  },
   "week": {
+    "one": "semana",
+    "other": "semanas"
+  },
+  "semana": {
     "one": "semana",
     "other": "semanas"
   },
@@ -31,8 +47,24 @@
     "one": "día laborable",
     "other": "días laborables"
   },
+  "día laborable": {
+    "one": "día laborable",
+    "other": "días laborables"
+  },
   "year": {
     "one": "año",
     "other": "años"
+  },
+  "año": {
+    "one": "año",
+    "other": "años"
+  },
+  "min": {
+    "one": "min",
+    "other": "min"
+  },
+  "s": {
+    "one": "s",
+    "other": "s"
   }
 }

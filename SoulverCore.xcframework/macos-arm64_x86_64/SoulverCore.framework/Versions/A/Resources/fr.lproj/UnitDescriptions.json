@@ -1002,6 +1002,8 @@
     },
     {
       "aliases": [
+        "jour ouvres",
+        "jours ouvres",
         "jour ouvré",
         "jours ouvrés",
         "jours ouvrables",
@@ -1073,6 +1075,16 @@
       ],
       "identifier": "terahertz",
       "symbol": "THz"
+    }
+  ],
+  "frames": [
+    {
+      "aliases": [
+        "image",
+        "images"
+      ],
+      "identifier": "frames",
+      "symbol": "frames"
     }
   ]
 }

@@ -597,6 +597,34 @@
         "valor de 500 en __datestamp asumiendo una inflación de __percentage"
       ],
       "identifier": "predictedDollarWorthGivenInflation"
+    },
+    {
+      "prototypeExpressions": [
+        "impuesto sobre la renta de 500 en __country",
+        "impuesto sobre la renta sobre 500 en __country",
+        "impuesto de 500 en __country",
+        "impuestos sobre 500 en __country",
+        "500 impuesto sobre la renta en __country"
+      ],
+      "identifier": "incomeTax"
+    },
+    {
+      "prototypeExpressions": [
+        "ingreso neto de 500 en __country",
+        "sueldo neto de 500 en __country",
+        "salario neto de 500 en __country",
+        "500 después de impuestos en __country",
+        "500 neto en __country"
+      ],
+      "identifier": "incomeAfterTax"
+    },
+    {
+      "prototypeExpressions": [
+        "tasa impositiva sobre 500 en __country",
+        "tipo impositivo sobre 500 en __country",
+        "500 tasa impositiva en __country"
+      ],
+      "identifier": "effectiveTaxRate"
     }
   ],
   "general": [

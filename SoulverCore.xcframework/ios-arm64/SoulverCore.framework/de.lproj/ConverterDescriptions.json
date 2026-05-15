@@ -30,6 +30,7 @@
         "3 ziffer",
         "3 nk-stelle",
         "3 stellen",
+        "3 Stellen",
         "3 ziffern",
         "1 dezimalstelle",
         "1 nachkommastelle",
@@ -41,7 +42,6 @@
     {
       "prototypeExpressions": [
         "aufgerundet auf nächste 10",
-        "auf die nächste 10",
         "aufrunden auf die nächste 10",
         "aufgerundet auf die nächste 10"
       ],

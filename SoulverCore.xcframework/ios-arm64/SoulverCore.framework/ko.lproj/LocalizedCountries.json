@@ -1,0 +1,826 @@
+[
+  {
+    "code": "AF",
+    "name": "아프가니스탄"
+  },
+  {
+    "code": "AL",
+    "name": "알바니아"
+  },
+  {
+    "code": "DZ",
+    "name": "알제리"
+  },
+  {
+    "code": "AS",
+    "name": "아메리칸 사모아"
+  },
+  {
+    "code": "AD",
+    "name": "안도라라"
+  },
+  {
+    "code": "AO",
+    "name": "앙골라"
+  },
+  {
+    "code": "AI",
+    "name": "앵귈라"
+  },
+  {
+    "code": "AR",
+    "name": "아르헨티나"
+  },
+  {
+    "code": "AM",
+    "name": "아르메니아"
+  },
+  {
+    "code": "AW",
+    "name": "아루바"
+  },
+  {
+    "code": "AU",
+    "name": "호주"
+  },
+  {
+    "code": "AT",
+    "name": "오스트리아"
+  },
+  {
+    "code": "AZ",
+    "name": "아제르바이잔"
+  },
+  {
+    "code": "BS",
+    "name": "바하마"
+  },
+  {
+    "code": "BH",
+    "name": "바레인"
+  },
+  {
+    "code": "BD",
+    "name": "방글라데시"
+  },
+  {
+    "code": "BB",
+    "name": "바베이도스"
+  },
+  {
+    "code": "BY",
+    "name": "벨라루스"
+  },
+  {
+    "code": "BE",
+    "name": "벨기에"
+  },
+  {
+    "code": "BZ",
+    "name": "벨리즈"
+  },
+  {
+    "code": "BJ",
+    "name": "베냉"
+  },
+  {
+    "code": "BM",
+    "name": "버뮤다"
+  },
+  {
+    "code": "BT",
+    "name": "부탄"
+  },
+  {
+    "code": "BO",
+    "name": "볼리비아"
+  },
+  {
+    "code": "BA",
+    "name": "보스니아 헤르체고비나"
+  },
+  {
+    "code": "BW",
+    "name": "보츠와나"
+  },
+  {
+    "code": "BR",
+    "name": "브라질"
+  },
+  {
+    "code": "IO",
+    "name": "영국령 인도양 지역"
+  },
+  {
+    "code": "BN",
+    "name": "브루나이"
+  },
+  {
+    "code": "BG",
+    "name": "불가리아"
+  },
+  {
+    "code": "BF",
+    "name": "부르키나파소"
+  },
+  {
+    "code": "BI",
+    "name": "부룬디"
+  },
+  {
+    "code": "CV",
+    "name": "카보베르데"
+  },
+  {
+    "code": "KH",
+    "name": "캄보디아"
+  },
+  {
+    "code": "CM",
+    "name": "카메룬"
+  },
+  {
+    "code": "CA",
+    "name": "캐나다"
+  },
+  {
+    "code": "CF",
+    "name": "중앙아프리카공화국"
+  },
+  {
+    "code": "TD",
+    "name": "차드"
+  },
+  {
+    "code": "CL",
+    "name": "칠레"
+  },
+  {
+    "code": "CN",
+    "name": "중국"
+  },
+  {
+    "code": "CO",
+    "name": "콜롬비아"
+  },
+  {
+    "code": "KM",
+    "name": "코모로"
+  },
+  {
+    "code": "CG",
+    "name": "콩고공화국"
+  },
+  {
+    "code": "CD",
+    "name": "콩고민주공화국"
+  },
+  {
+    "code": "CR",
+    "name": "코스타리카"
+  },
+  {
+    "code": "CI",
+    "name": "코트디부아르"
+  },
+  {
+    "code": "HR",
+    "name": "크로아티아"
+  },
+  {
+    "code": "CU",
+    "name": "쿠바"
+  },
+  {
+    "code": "CW",
+    "name": "쿠라소"
+  },
+  {
+    "code": "CY",
+    "name": "키프로스"
+  },
+  {
+    "code": "CZ",
+    "name": "체코 공화국"
+  },
+  {
+    "code": "DK",
+    "name": "덴마크"
+  },
+  {
+    "code": "DJ",
+    "name": "지부티"
+  },
+  {
+    "code": "DM",
+    "name": "도미니카"
+  },
+  {
+    "code": "DO",
+    "name": "도미니카 공화국"
+  },
+  {
+    "code": "EC",
+    "name": "에콰도르"
+  },
+  {
+    "code": "EG",
+    "name": "이집트"
+  },
+  {
+    "code": "SV",
+    "name": "엘살바도르"
+  },
+  {
+    "code": "GQ",
+    "name": "적도 기니"
+  },
+  {
+    "code": "ER",
+    "name": "에리트레아"
+  },
+  {
+    "code": "EE",
+    "name": "에스토니아"
+  },
+  {
+    "code": "ET",
+    "name": "에티오피아"
+  },
+  {
+    "code": "FJ",
+    "name": "피지"
+  },
+  {
+    "code": "FI",
+    "name": "핀란드"
+  },
+  {
+    "code": "FR",
+    "name": "프랑스"
+  },
+  {
+    "code": "GF",
+    "name": "프랑스령 기아나"
+  },
+  {
+    "code": "PF",
+    "name": "프랑스령 폴리네시아"
+  },
+  {
+    "code": "GP",
+    "name": "과들루프"
+  },
+  {
+    "code": "RE",
+    "name": "레위니옹"
+  },
+  {
+    "code": "MQ",
+    "name": "마르티니크"
+  },
+  {
+    "code": "GA",
+    "name": "가봉"
+  },
+  {
+    "code": "GM",
+    "name": "감비아"
+  },
+  {
+    "code": "GE",
+    "name": "조지아"
+  },
+  {
+    "code": "DE",
+    "name": "독일"
+  },
+  {
+    "code": "GH",
+    "name": "가나"
+  },
+  {
+    "code": "GR",
+    "name": "그리스"
+  },
+  {
+    "code": "GL",
+    "name": "그린란드"
+  },
+  {
+    "code": "GD",
+    "name": "그레나다"
+  },
+  {
+    "code": "GT",
+    "name": "과테말라"
+  },
+  {
+    "code": "GN",
+    "name": "기니"
+  },
+  {
+    "code": "GW",
+    "name": "기니비사우"
+  },
+  {
+    "code": "GY",
+    "name": "가이아나"
+  },
+  {
+    "code": "HT",
+    "name": "아이티"
+  },
+  {
+    "code": "VA",
+    "name": "바티칸 시국"
+  },
+  {
+    "code": "HN",
+    "name": "온두라스"
+  },
+  {
+    "code": "HK",
+    "name": "홍콩"
+  },
+  {
+    "code": "HU",
+    "name": "헝가리"
+  },
+  {
+    "code": "IS",
+    "name": "아이슬란드"
+  },
+  {
+    "code": "IN",
+    "name": "인도"
+  },
+  {
+    "code": "ID",
+    "name": "인도네시아"
+  },
+  {
+    "code": "IR",
+    "name": "이란"
+  },
+  {
+    "code": "IQ",
+    "name": "이라크"
+  },
+  {
+    "code": "IE",
+    "name": "아일랜드"
+  },
+  {
+    "code": "IL",
+    "name": "이스라엘"
+  },
+  {
+    "code": "IT",
+    "name": "이탈리아"
+  },
+  {
+    "code": "JM",
+    "name": "자메이카"
+  },
+  {
+    "code": "JP",
+    "name": "일본"
+  },
+  {
+    "code": "JO",
+    "name": "요르단"
+  },
+  {
+    "code": "KZ",
+    "name": "카자흐스탄"
+  },
+  {
+    "code": "KE",
+    "name": "케냐"
+  },
+  {
+    "code": "KP",
+    "name": "북한"
+  },
+  {
+    "code": "KR",
+    "name": "대한민국"
+  },
+  {
+    "code": "KW",
+    "name": "쿠웨이트"
+  },
+  {
+    "code": "KG",
+    "name": "키르기스스탄"
+  },
+  {
+    "code": "LA",
+    "name": "라오스"
+  },
+  {
+    "code": "LV",
+    "name": "라트비아"
+  },
+  {
+    "code": "LB",
+    "name": "레바논"
+  },
+  {
+    "code": "LS",
+    "name": "레소토"
+  },
+  {
+    "code": "LR",
+    "name": "라이베리아"
+  },
+  {
+    "code": "LY",
+    "name": "리비아"
+  },
+  {
+    "code": "LI",
+    "name": "리히텐슈타인"
+  },
+  {
+    "code": "LT",
+    "name": "리투아니아"
+  },
+  {
+    "code": "LU",
+    "name": "룩셈부르크"
+  },
+  {
+    "code": "MO",
+    "name": "마카오"
+  },
+  {
+    "code": "MK",
+    "name": "북마케도니아"
+  },
+  {
+    "code": "MG",
+    "name": "마다가스카르"
+  },
+  {
+    "code": "MW",
+    "name": "말라위"
+  },
+  {
+    "code": "MY",
+    "name": "말레이시아"
+  },
+  {
+    "code": "MV",
+    "name": "몰디브"
+  },
+  {
+    "code": "ML",
+    "name": "말리"
+  },
+  {
+    "code": "MT",
+    "name": "몰타"
+  },
+  {
+    "code": "MR",
+    "name": "모리타니"
+  },
+  {
+    "code": "MU",
+    "name": "모리셔스"
+  },
+  {
+    "code": "YT",
+    "name": "마요트"
+  },
+  {
+    "code": "MX",
+    "name": "멕시코"
+  },
+  {
+    "code": "MD",
+    "name": "몰도바"
+  },
+  {
+    "code": "MC",
+    "name": "모나코"
+  },
+  {
+    "code": "MN",
+    "name": "몽골"
+  },
+  {
+    "code": "ME",
+    "name": "몬테네그로"
+  },
+  {
+    "code": "MS",
+    "name": "몬트세랫"
+  },
+  {
+    "code": "MA",
+    "name": "모로코"
+  },
+  {
+    "code": "MZ",
+    "name": "모잠비크"
+  },
+  {
+    "code": "MM",
+    "name": "미얀마"
+  },
+  {
+    "code": "NA",
+    "name": "나미비아"
+  },
+  {
+    "code": "NR",
+    "name": "나우루"
+  },
+  {
+    "code": "NP",
+    "name": "네팔"
+  },
+  {
+    "code": "NL",
+    "name": "네덜란드"
+  },
+  {
+    "code": "NC",
+    "name": "뉴칼레도니아"
+  },
+  {
+    "code": "NZ",
+    "name": "뉴질랜드"
+  },
+  {
+    "code": "NI",
+    "name": "니카라과"
+  },
+  {
+    "code": "NE",
+    "name": "니제르"
+  },
+  {
+    "code": "NG",
+    "name": "나이지리아"
+  },
+  {
+    "code": "NU",
+    "name": "니우에"
+  },
+  {
+    "code": "NO",
+    "name": "노르웨이"
+  },
+  {
+    "code": "OM",
+    "name": "오만"
+  },
+  {
+    "code": "PK",
+    "name": "파키스탄"
+  },
+  {
+    "code": "PS",
+    "name": "팔레스타인"
+  },
+  {
+    "code": "PA",
+    "name": "파나마"
+  },
+  {
+    "code": "PG",
+    "name": "파푸아뉴기니"
+  },
+  {
+    "code": "PY",
+    "name": "파라과이"
+  },
+  {
+    "code": "PE",
+    "name": "페루"
+  },
+  {
+    "code": "PH",
+    "name": "필리핀"
+  },
+  {
+    "code": "PL",
+    "name": "폴란드"
+  },
+  {
+    "code": "PT",
+    "name": "포르투갈"
+  },
+  {
+    "code": "PR",
+    "name": "푸에르토리코"
+  },
+  {
+    "code": "QA",
+    "name": "카타르"
+  },
+  {
+    "code": "XK",
+    "name": "코소보"
+  },
+  {
+    "code": "RO",
+    "name": "루마니아"
+  },
+  {
+    "code": "RU",
+    "name": "러시아"
+  },
+  {
+    "code": "RW",
+    "name": "르완다"
+  },
+  {
+    "code": "WS",
+    "name": "사모아"
+  },
+  {
+    "code": "SM",
+    "name": "산마리노"
+  },
+  {
+    "code": "ST",
+    "name": "상토메 프린시페"
+  },
+  {
+    "code": "SA",
+    "name": "사우디아라비아"
+  },
+  {
+    "code": "SN",
+    "name": "세네갈"
+  },
+  {
+    "code": "RS",
+    "name": "세르비아"
+  },
+  {
+    "code": "SC",
+    "name": "세이셸"
+  },
+  {
+    "code": "SL",
+    "name": "시에라리온"
+  },
+  {
+    "code": "SG",
+    "name": "싱가포르"
+  },
+  {
+    "code": "SK",
+    "name": "슬로바키아"
+  },
+  {
+    "code": "SI",
+    "name": "슬로베니아"
+  },
+  {
+    "code": "SO",
+    "name": "소말리아"
+  },
+  {
+    "code": "ZA",
+    "name": "남아프리카 공화국"
+  },
+  {
+    "code": "SS",
+    "name": "남수단"
+  },
+  {
+    "code": "ES",
+    "name": "스페인"
+  },
+  {
+    "code": "LK",
+    "name": "스리랑카"
+  },
+  {
+    "code": "SD",
+    "name": "수단"
+  },
+  {
+    "code": "SR",
+    "name": "수리남"
+  },
+  {
+    "code": "SZ",
+    "name": "에스와티니"
+  },
+  {
+    "code": "SE",
+    "name": "스웨덴"
+  },
+  {
+    "code": "CH",
+    "name": "스위스"
+  },
+  {
+    "code": "SY",
+    "name": "시리아"
+  },
+  {
+    "code": "TW",
+    "name": "대만"
+  },
+  {
+    "code": "TJ",
+    "name": "타지키스탄"
+  },
+  {
+    "code": "TZ",
+    "name": "탄자니아"
+  },
+  {
+    "code": "TH",
+    "name": "태국"
+  },
+  {
+    "code": "TL",
+    "name": "동티모르"
+  },
+  {
+    "code": "TG",
+    "name": "토고"
+  },
+  {
+    "code": "TO",
+    "name": "통가"
+  },
+  {
+    "code": "TN",
+    "name": "튀니지"
+  },
+  {
+    "code": "TR",
+    "name": "터키"
+  },
+  {
+    "code": "TM",
+    "name": "투르크메니스탄"
+  },
+  {
+    "code": "TV",
+    "name": "투발루"
+  },
+  {
+    "code": "UG",
+    "name": "우간다"
+  },
+  {
+    "code": "UA",
+    "name": "우크라이나"
+  },
+  {
+    "code": "AE",
+    "name": "아랍에미리트"
+  },
+  {
+    "code": "GB",
+    "name": "영국"
+  },
+  {
+    "code": "US",
+    "name": "미국"
+  },
+  {
+    "code": "UY",
+    "name": "우루과이"
+  },
+  {
+    "code": "UZ",
+    "name": "우즈베키스탄"
+  },
+  {
+    "code": "VU",
+    "name": "바누아투"
+  },
+  {
+    "code": "VE",
+    "name": "베네즈웨라"
+  },
+  {
+    "code": "VN",
+    "name": "베트남"
+  },
+  {
+    "code": "YE",
+    "name": "예멘"
+  },
+  {
+    "code": "ZM",
+    "name": "잠비아"
+  },
+  {
+    "code": "ZW",
+    "name": "짐바브웨"
+  }
+]

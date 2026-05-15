@@ -138,7 +138,6 @@
       "연간"
     ],
     "timeWords": [
-      "시간"
     ],
     "hourlyAliases": [
       "시간당"
@@ -153,6 +152,10 @@
     ],
     "quarterlyAliases": [
       "분기별"
+    ],
+    "grammarSuffixes": [
+      "에서", "부터", "이면",
+      "을", "를", "은", "는"
     ]
   }
 }

@@ -1,0 +1,368 @@
+/* CSS Variables */
+
+:root {
+    --numberColor: __#number#__;
+    --operatorColor: __#operator#__;
+    --percentageSymbolColor: __#percentageSymbol#__;
+    --converterSymbolColor: __#converterSymbol#__;
+    --unitColor: __#unit#__;
+    --bracketColor: __#bracket#__;
+    --variableColor: __#variable#__;
+    --variableDeclarationSymbolColor: __#wordComment#__;
+    --typeNameColor: __#typeName#__;
+    --functionColor: __#function#__;
+    --timezoneColor: __#timezone#__;
+    --otherColor: __#wordComment#__;
+    --converterColor: __#converter#__;
+    --datestampColor: __#datestamp#__;
+    --timespanColor: __#timespan#__;
+    --wordFunctionColor: __#wordFunction#__;
+    --customTypeColor: __#customType#__;
+    --bracketCommentColor: __#bracketComment#__;
+    --trailingCommentColor: __#trailingComment#__;
+    --hashtagColor: __#hashtag#__;
+    --hashColor: __#hash#__;
+    --legacyQuotationCommentColor: __#legacyQuotationComment#__;
+    --labelExpressionColor: __#labelExpression#__;
+    --fontSize: __#fontSize#__;
+    --fontFamily: __#fontFamily#__;
+    --lineNumberFontSize: __#lineNumberFontSize#__;
+    --headingFontSize: __#headingFontSize#__;
+    --headingColor: __#headingColor#__;
+    --linkColor: __#linkColor#__;
+    --visitedLinkColor: __#visitedLinkColor#__;
+    --rowCount: __#rowCount#__;
+    --lineNumberSize: __#lineNumberSize#__;
+    --backgroundColor: __#backgroundColor#__;
+    --answerColumnColor: __#answerColumnColor#__;
+    --answerColumnLineColor: __#answerColumnLineColor#__;
+    --answerColumnTextColor: __#answerColumnTextColor#__;
+    --smallNumberColor: __#smallNumberColor#__;
+    --largeNumberColor: __#largeNumberColor#__;
+    --standardLineHeight: 1.65rem;
+}
+
+html, body {
+    background-color: var(--backgroundColor);
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: var(--otherColor);
+    font-family: var(--fontFamily, '.SFNS-Regular', Verdana, Sans-serif);
+    font-size: var(--fontSize, 20 pt);
+}
+
+a:link {
+  color: var(--linkColor);
+}
+
+a:visited {
+  color: var(--visitedLinkColor);
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    min-width: 50px;
+}
+
+.table-container {
+    
+    height: 100%;
+    
+}
+
+/* CSS Grid approach*/
+
+.grid-container {
+    display: grid;
+
+    /* So the answer column is 30% of the width, and the expression column wraps */
+    grid-template-columns: var(--lineNumberSize, 5%) minmax(0, 1fr) minmax(30%, auto);
+    
+    grid-template-rows: repeat(var(--rowCount), auto) 1fr;
+
+    /* So the background color fills the column */
+    grid-row-gap: 0px;
+    
+    /* Fill the entire page */
+    height: 100%;
+}
+
+.grid-item {
+    /* So the text on the rows have a bit of padding */
+    padding: 0.1em 0.4em 0.1em 0.4em;
+
+    /* So we can vertically align*/
+    display: flex;
+        
+    /* Vertically aligned content */
+    align-items: center;
+
+    /* So cells wrap */
+    white-space: pre-wrap;
+    word-break: break-word;
+
+
+}
+
+.first-line {
+    padding-top: 20px;
+}
+
+.expression {
+    display: inline;
+    line-height: var(--standardLineHeight);
+}
+
+.line-text {
+    margin: 0;
+}
+
+.leftText {
+    text-align: left;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.rightText {
+    text-align: right;
+}
+
+.answer {
+    background-color: var(--answerColumnColor);
+    color: var(--answerColumnTextColor);
+    border-left: 1px solid var(--answerColumnLineColor);
+
+}
+
+.total {
+    line-height: var(--standardLineHeight);
+    
+    /* Right align*/
+    justify-content: flex-end;
+}
+
+.sub-total {
+    display: inline;
+    background-color: var(--answerColumnColor);
+    border-left: 1px solid var(--answerColumnLineColor);
+    font-weight: bold;
+    color: var(--answerColumnTextColor);
+}
+
+.sub-total hr {
+    border: 0px;
+    border-top: 1px solid #dfdfdf;
+    padding-bottom:6px;
+    margin: 0px;
+}
+
+
+.line-number {
+    
+    /*  So even empty lines with no content have the same height as lines with content  */
+    min-height: var(--standardLineHeight);
+    line-height: var(--standardLineHeight);
+    padding-left: 0.5em;
+    font-size: var(--lineNumberFontSize, small);
+    color: #afafaf;
+    justify-content: center;
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none;
+}
+
+.heading {
+    display: inline;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 0.8em;
+    padding-bottom: 0.6em;
+    
+    line-height: var(--standardLineHeight);
+}
+
+.hash-heading {
+    display: inline;
+    line-height: var(--standardLineHeight);
+
+    font-weight: bold;
+    font-size: var(--headingFontSize, 20 pt);
+    color: var(--headingColor);
+}
+
+.footer {
+    
+    padding:2px;
+    grid-column: 1 / 4;
+    border-top: 1px solid var(--answerColumnLineColor);
+    background-color: var(--answerColumnColor);
+
+}
+
+.acknowledgement {
+    text-align: center;
+    font-size: 12px;
+    color: rgb(126, 126, 126);
+}
+
+.acknowledgement a:link{
+     text-decoration: none;
+}
+
+
+.horizontal-divider {
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    height: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* Can't figure out how to make these center vertically. If you're reading this, and you know how, let me know*/
+}
+
+.total-label {
+    color: gray;
+    text-align: right;
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none;
+}
+
+
+/* Token Types */
+
+.number {
+    color: var(--numberColor);
+}
+
+.small-number {
+    color: var(--smallNumberColor);
+}
+
+.large-number {
+    color: var(--largeNumberColor);
+}
+
+.binaryNumber {
+    color: var(--numberColor);
+}
+
+.hexadecimalNumber {
+    color: var(--numberColor);
+}
+
+.octalNumber {
+    color: var(--numberColor);
+}
+
+.operator {
+    color: var(--operatorColor);
+}
+
+.percentageSymbol {
+    color: var(--percentageSymbolColor);
+}
+
+.converterSymbol {
+    color: var(--converterSymbolColor);
+}
+
+.unit {
+    color: var(--unitColor);
+}
+
+.bracket {
+    color: var(--bracketColor);
+}
+
+.variable {
+    color: var(--variableColor);
+}
+
+.declaredVariable {
+    color: var(--variableColor);
+}
+
+.variableAssignmentOperator {
+    color: var(--variableDeclarationSymbolColor);
+}
+
+.pi {
+    color: var(--variableColor);
+}
+
+.typeName {
+    color: var(--typeNameColor);
+}
+
+.function {
+    color: var(--functionColor);
+}
+
+.timezone {
+    color: var(--timezoneColor);
+}
+.converter {
+    color: var(--converterColor);
+}
+
+.datestamp {
+    /*    text-decoration: underline;*/
+    text-decoration-color: var(--datestampColor);
+}
+
+.timespan {
+    color: var(--timespanColor);
+}
+
+.wordFunction {
+    /*    text-decoration: underline;*/
+    text-decoration-color: var(--wordFunctionColor);
+}
+
+.customType {
+    color: var(--customTypeColor);
+}
+
+.bracketComment {
+    color: var(--bracketCommentColor);
+}
+
+.trailingComment {
+    color: var(--trailingCommentColor);
+}
+
+.hash {
+    color: var(--hashColor);
+}
+
+.hashtag {
+    color: var(--hashtagColor);
+}
+
+.legacyQuotationComment {
+    color: var(--legacyQuotationCommentColor);
+}
+
+
+.labelExpression {
+    color: var(--labelExpressionColor);
+    font-weight: bold
+}
+
+.line-reference {
+    border-radius: 0.35em;
+    background: rgba(221, 231, 248, 1);
+    padding-left: 0.35em;
+    padding-right: 0.35em;
+    padding-top: 0.12em;
+    padding-bottom: 0.12em;
+}

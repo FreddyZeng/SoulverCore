@@ -58,17 +58,17 @@
       },
       {
         "prototypeExpressions": [
+          "rounded to nearest 10",
           "to nearest 10",
-          "round to nearest 10",
-          "rounded to nearest 10"
+          "round to nearest 10"
         ],
         "identifier": "roundedToNearestX"
       },
       {
         "prototypeExpressions": [
+        "rounded to nearest __ordinal_number",
           "to nearest __ordinal_number",
-          "round to nearest __ordinal_number",
-          "rounded to nearest __ordinal_number"
+          "round to nearest __ordinal_number"
         ],
         "identifier": "roundedToNearestFraction"
       }

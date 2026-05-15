@@ -77,6 +77,8 @@
         "__unit_rate è quanto / __unit",
         "__unit_rate è quanto /__unit",
         "__unit_rate è quanto per __unit",
+        "__unit_rate è quanto al __unit",
+        "__unit_rate è quanto all'__unit",
         "__unit_rate come / __unit",
         "__unit_rate come per __unit"
       ],
@@ -86,7 +88,9 @@
       "prototypeExpressions": [
         "__unit_rate for a __duration",
         "__unit_rate per una __duration",
-        "__unit_rate per un __duration"
+        "__unit_rate per un __duration",
+        "__unit_rate per __duration",
+        "__unit_rate a __duration"
       ],
       "identifier": "rateForADuration"
     },
@@ -213,7 +217,13 @@
         "__duration mancanti a __datestamp",
         "__duration left in __datestamp",
         "__duration rimasti nel __datestamp",
-        "__duration rimaste nel __datestamp"
+        "__duration rimaste nel __datestamp",
+        "__duration rimasto nel __datestamp",
+        "__duration rimasta nel __datestamp",
+        "__duration rimasti in __datestamp",
+        "__duration rimaste in __datestamp",
+        "__duration rimasto in __datestamp",
+        "__duration rimasta in __datestamp"
       ],
       "identifier": "calendarUnitLeftInDate"
     },
@@ -251,7 +261,9 @@
         "from __datestamp through __datestamp",
         "__datestamp through __datestamp",
         "da __datestamp incluso __datestamp",
-        "__datestamp incluso __datestamp"
+        "__datestamp incluso __datestamp",
+        "da __datestamp incluso a __datestamp",
+        "__datestamp incluso a __datestamp"
       ],
       "identifier": "inclusiveIntervalBetweenDates"
     },
@@ -427,7 +439,9 @@
         "time diff __timezone",
         "diff __timezone",
         "differenza di fuso orario __timezone",
-        "differenza oraria __timezone"
+        "differenza oraria __timezone",
+        "differenza di fuso orario con __timezone",
+        "differenza oraria con __timezone"
       ],
       "identifier": "differenceBetweenHereAndTimezone"
     },
@@ -539,7 +553,8 @@
         "clamp 20 from 5 to 25",
         "clamp 20 5 25",
         "limita 20 tra 5 e 25",
-        "limita 20 da 5 a 25"
+        "limita 20 da 5 a 25",
+        "clamp 20 da 5 a 25"
       ],
       "identifier": "clamp"
     },
@@ -570,7 +585,8 @@
     {
       "prototypeExpressions": [
         "metà di 20",
-        "la metà di 20"
+        "la metà di 20",
+        "meta di 20"
       ],
       "identifier": "halfOf"
     },
@@ -591,14 +607,16 @@
     {
       "prototypeExpressions": [
         "arrotonda 56 per eccesso al 10 più vicino",
-        "arrotonda 56 per eccesso a 10"
+        "arrotonda 56 per eccesso a 10",
+        "56 arrotondato per eccesso al 10 piu vicino"
       ],
       "identifier": "roundUpXToNearestY"
     },
     {
       "prototypeExpressions": [
         "arrotonda 56 per difetto al 10 più vicino",
-        "arrotonda 56 per difetto a 10"
+        "arrotonda 56 per difetto a 10",
+        "56 arrotondato per difetto al 3 piu vicino"
       ],
       "identifier": "roundDownXToNearestY"
     },
@@ -683,7 +701,8 @@
     {
       "prototypeExpressions": [
         "5 come moltiplicatore di sconto su 1",
-        "5 è quale moltiplicatore di sconto su 1"
+        "5 è quale moltiplicatore di sconto su 1",
+        "quale moltiplicatore di sconto è 5 su 1"
       ],
       "identifier": "isWhatMultiplierOff"
     },
@@ -698,6 +717,8 @@
       "prototypeExpressions": [
         "radice quadrata di 100",
         "radice quadrata 100",
+        "radice quadra di 100",
+        "radice quadra 100",
         "squared root 100"
       ],
       "identifier": "squareRoot"
@@ -741,7 +762,8 @@
     {
       "prototypeExpressions": [
         "combinazione di 5 in 3",
-        "5 combinazione 3"
+        "5 combinazione 3",
+        "10 combinazioni 3"
       ],
       "identifier": "combination"
     },
@@ -749,7 +771,8 @@
       "prototypeExpressions": [
         "5 permutation 3",
         "5 permutazione 3",
-        "permutazione di 5 in 3"
+        "permutazione di 5 in 3",
+        "10 permutazioni 3"
       ],
       "identifier": "permutation"
     },
@@ -939,6 +962,33 @@
         "quanto varrà 500 nel __datestamp al __percentage di inflazione"
       ],
       "identifier": "predictedDollarWorthGivenInflation"
+    },
+    {
+      "prototypeExpressions": [
+        "imposta sul reddito di 500 in __country",
+        "imposta sul reddito su 500 in __country",
+        "tasse su 500 in __country",
+        "imposta su 500 in __country",
+        "500 imposta sul reddito in __country"
+      ],
+      "identifier": "incomeTax"
+    },
+    {
+      "prototypeExpressions": [
+        "reddito netto di 500 in __country",
+        "stipendio netto di 500 in __country",
+        "500 al netto delle tasse in __country",
+        "500 netto in __country"
+      ],
+      "identifier": "incomeAfterTax"
+    },
+    {
+      "prototypeExpressions": [
+        "aliquota fiscale su 500 in __country",
+        "aliquota su 500 in __country",
+        "500 aliquota in __country"
+      ],
+      "identifier": "effectiveTaxRate"
     }
   ],
   "videoRelated": [
@@ -1096,7 +1146,8 @@
     {
       "prototypeExpressions": [
         "alba a __timezone",
-        "lever del sole a __timezone",
+        "levar del sole a __timezone",
+        "levare del sole a __timezone",
         "__timezone alba"
       ],
       "identifier": "sunrise"
@@ -1104,6 +1155,8 @@
     {
       "prototypeExpressions": [
         "tramonto a __timezone",
+        "calar del sole a __timezone",
+        "calare del sole a __timezone",
         "__timezone tramonto"
       ],
       "identifier": "sunset"
@@ -1112,6 +1165,8 @@
       "prototypeExpressions": [
         "sorgere della luna a __timezone",
         "levata della luna a __timezone",
+        "levar della luna a __timezone",
+        "levare della luna a __timezone",
         "__timezone sorgere della luna"
       ],
       "identifier": "moonrise"
@@ -1220,14 +1275,16 @@
       "prototypeExpressions": [
         "da 10 a 20 come %",
         "da 10 a 20 è quale %",
-        "variazione % da 10 a 20"
+        "variazione % da 10 a 20",
+        "da 10 a 20 e quale %"
       ],
       "identifier": "xToYIsWhatPercentage"
     },
     {
       "prototypeExpressions": [
         "da 10 a 20 è quale moltiplicatore",
-        "da 10 a 20 come moltiplicatore"
+        "da 10 a 20 come moltiplicatore",
+        "da 20 a 40 come x"
       ],
       "identifier": "xToYIsWhatMultiplier"
     },
@@ -1280,13 +1337,15 @@
     {
       "prototypeExpressions": [
         "__percentage di sconto su 100",
-        "take __percentage off of 100"
+        "take __percentage off of 100",
+        "__percentage in meno su 100"
       ],
       "identifier": "percentOff"
     },
     {
       "prototypeExpressions": [
-        "__percentage su 100"
+        "__percentage su 100",
+        "__percentage in piu su 100"
       ],
       "identifier": "percentOn"
     },
@@ -1294,7 +1353,12 @@
       "prototypeExpressions": [
         "30 è __percentage di cosa",
         "30 è il __percentage di cosa",
-        "30 è la __percentage di cosa"
+        "30 è la __percentage di cosa",
+        "30 e il __percentage di quanto",
+        "30 e __percentage di quanto",
+        "30 è __percentage di quanto",
+        "30 è il __percentage di quanto",
+        "30 è la __percentage di quanto"
       ],
       "identifier": "isPercentOfWhat"
     },
@@ -1308,7 +1372,11 @@
       "prototypeExpressions": [
         "30 è __percentage di sconto su cosa",
         "30 è il __percentage di sconto su cosa",
-        "30 è la __percentage di sconto su cosa"
+        "30 è la __percentage di sconto su cosa",
+        "30 e il __percentage in meno di quanto",
+        "30 è __percentage di sconto su quanto",
+        "30 è il __percentage di sconto su quanto",
+        "30 è la __percentage di sconto su quanto"
       ],
       "identifier": "isPercentOffWhat"
     },
@@ -1324,13 +1392,21 @@
         "30 è il __percentage su cosa",
         "30 è la __percentage su cosa",
         "30 è il __percentage in più su cosa",
-        "30 è la __percentage in più su cosa"
+        "30 è la __percentage in più su cosa",
+        "30 e il __percentage in piu di quanto",
+        "30 è il __percentage in più di quanto",
+        "30 è __percentage su quanto",
+        "30 è il __percentage su quanto",
+        "30 è la __percentage su quanto",
+        "30 è il __percentage in più su quanto",
+        "30 è la __percentage in più su quanto"
       ],
       "identifier": "isPercentOnWhat"
     },
     {
       "prototypeExpressions": [
-        "__percentage su cosa è 30"
+        "__percentage su cosa è 30",
+        "__percentage su quanto è 30"
       ],
       "identifier": "isPercentOnWhatClassic"
     },
@@ -1340,7 +1416,8 @@
         "10 come percento di 20",
         "10 come percentuale di 20",
         "50 è quale % di 200",
-        "10 in % di 20"
+        "10 in % di 20",
+        "30 e quale % di 200"
       ],
       "identifier": "isWhatPercentOf"
     },
@@ -1377,14 +1454,17 @@
         "10 come % di sconto su 20",
         "10 come percentuale di sconto su 20",
         "10 as discount off 20",
-        "10 is what discount off 20"
+        "10 is what discount off 20",
+        "180 e quale % in meno di 200"
       ],
       "identifier": "isWhatPercentOff"
     },
     {
       "prototypeExpressions": [
         "20 come % di aumento su 10",
-        "20 come percentuale di aumento su 10"
+        "20 come percentuale di aumento su 10",
+        "30 e quale % in piu di 10",
+        "20 e quale % in piu di 10"
       ],
       "identifier": "isWhatPercentOn"
     },

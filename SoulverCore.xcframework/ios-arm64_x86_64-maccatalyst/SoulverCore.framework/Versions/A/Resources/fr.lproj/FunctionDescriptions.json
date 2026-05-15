@@ -304,6 +304,7 @@
     {
       "prototypeExpressions": [
         "__timespan à partir du __datestamp",
+        "__timespan à partir de __datestamp",
         "__timespan après le __datestamp"
       ],
       "identifier": "calendarUnitExpressionAfterDate"
@@ -317,7 +318,8 @@
     },
     {
       "prototypeExpressions": [
-        "__timespan depuis"
+        "__timespan depuis",
+        "il y a __timespan"
       ],
       "identifier": "calendarUnitExpressionAgo"
     },
@@ -368,7 +370,8 @@
         "différence de temps entre __timezone et __timezone",
         "différence entre __timezone et __timezone",
         "différence de temps entre __timezone & __timezone",
-        "différence entre __timezone & __timezone"
+        "différence entre __timezone & __timezone",
+        "décalage horaire entre __timezone et __timezone"
       ],
       "identifier": "differenceBetweenTimezones"
     },
@@ -442,7 +445,8 @@
         "mi-chemin entre __datestamp et __datestamp",
         "moitié chemin entre __datestamp et __datestamp",
         "à mi-chemin entre __datestamp et __datestamp",
-        "milieu entre __datestamp et __datestamp"
+        "milieu entre __datestamp et __datestamp",
+        "milieu entre le __datestamp et le __datestamp"
       ],
       "identifier": "halfwayBetweenDates"
     },
@@ -468,7 +472,11 @@
     {
       "prototypeExpressions": [
         "valeur actualisée de 1000 après __timespan à __percentage",
-        "valeur actualisée de 1000 sur __timespan à __percentage"
+        "valeur actualisée de 1000 sur __timespan à __percentage",
+        "valeur actuelle de 1000 après __timespan à __percentage",
+        "valeur actuelle de 1000 apres __timespan à __percentage",
+        "valeur actuelle de 1000 après __timespan a __percentage",
+        "valeur actuelle de 1000 apres __timespan a __percentage"
       ],
       "identifier": "presentValue"
     },
@@ -477,7 +485,10 @@
         "retour annuel de 500 investi 1000 retiré après __timespan",
         "retour annualisé de 500 investi 1000 retiré après __timespan",
         "retour annuel de 500 investi 1000 retiré sur __timespan",
-        "retour annualisé de 500 investi 1000 retiré sur __timespan"
+        "retour annualisé de 500 investi 1000 retiré sur __timespan",
+        "rendement annuel sur 1000 investis 500 recuperes apres __timespan",
+        "rendement __period sur 500 investis 1000 recuperes apres __timespan",
+        "rendement __period sur 500 investis 1000 recuperes sur __timespan"
       ],
       "identifier": "returnOnInvestmentAfter"
     },
@@ -490,7 +501,9 @@
     {
       "prototypeExpressions": [
         "investissement requis pour __unit_rate à __percentage",
-        "investissement requis pour __decimal_rate à __percentage"
+        "investissement requis pour __decimal_rate à __percentage",
+        "depot necessaire pour __unit_rate à __percentage",
+        "depot necessaire pour __decimal_rate à __percentage"
       ],
       "identifier": "investmentRequiredForReturn"
     },
@@ -502,6 +515,7 @@
         "remboursement total sur 10000 pour __timespan à __percentage",
         "remboursement total sur 10000 après __timespan à __percentage",
         "remboursement total sur 10000 sur __timespan à __percentage",
+        "remboursement total sur 10000 sur __timespan a __percentage",
         "paiement total de 10000 pour __timespan à __percentage",
         "paiement total de 10000 après __timespan à __percentage",
         "paiement total de 10000 sur __timespan à __percentage",
@@ -519,6 +533,7 @@
         "remboursement __period sur 10000 pour __timespan à __percentage",
         "remboursement __period sur 10000 après __timespan à __percentage",
         "remboursement __period sur 10000 sur __timespan à __percentage",
+        "remboursement __period sur 10000 sur __timespan a __percentage",
         "paiement __period de 10000 pour __timespan à __percentage",
         "paiement __period de 10000 après __timespan à __percentage",
         "paiement __period de 10000 sur __timespan à __percentage",
@@ -557,7 +572,8 @@
         "100 sur __timespan à __percentage composé __period",
         "100 à __percentage après __timespan composé __period",
         "100 à __percentage pour __timespan composé __period",
-        "100 à __percentage sur __timespan composé __period"
+        "100 à __percentage sur __timespan composé __period",
+        "100 pendant __timespan à __percentage capitalisation __period"
       ],
       "identifier": "compoundInterestCompoundingOverPeriod"
     },
@@ -577,7 +593,12 @@
         "intérêt __period sur 100 pour __timespan à __percentage",
         "intérêt __period sur 100 à __percentage pour __timespan",
         "intérêt sur 100 pour __timespan à __percentage",
-        "intérêt sur 100 à __percentage pour __timespan"
+        "intérêt sur 100 à __percentage pour __timespan",
+        "intérêts sur 100 après __timespan à __percentage",
+        "interets sur 100 apres __timespan à __percentage",
+        "intérêts sur 100 après __timespan __at __percentage",
+        "interets sur 100 apres __timespan __at __percentage",
+        "interets sur 100 après __timespan __at __percentage"
       ],
       "identifier": "compoundInterestSansPrincipal"
     },
@@ -624,9 +645,38 @@
         "que vaudra 500 en __datestamp avec __percentage d'inflation",
         "valeur de 500 en __datestamp avec __percentage d'inflation",
         "pouvoir d'achat de 500 en __datestamp avec __percentage d'inflation",
-        "que vaudra 500 en __datestamp à __percentage d'inflation"
+        "que vaudra 500 en __datestamp à __percentage d'inflation",
+        "valeur de 500 en __datestamp en supposant __percentage d inflation"
       ],
       "identifier": "predictedDollarWorthGivenInflation"
+    },
+    {
+      "prototypeExpressions": [
+        "impôt sur le revenu de 500 en __country",
+        "impôt sur le revenu sur 500 en __country",
+        "impôt sur 500 en __country",
+        "impôts sur 500 en __country",
+        "500 impôt sur le revenu en __country"
+      ],
+      "identifier": "incomeTax"
+    },
+    {
+      "prototypeExpressions": [
+        "revenu net de 500 en __country",
+        "salaire net de 500 en __country",
+        "500 après impôts en __country",
+        "500 net en __country",
+        "net de 500 en __country"
+      ],
+      "identifier": "incomeAfterTax"
+    },
+    {
+      "prototypeExpressions": [
+        "taux d'imposition sur 500 en __country",
+        "taux d'imposition de 500 en __country",
+        "500 taux d'imposition en __country"
+      ],
+      "identifier": "effectiveTaxRate"
     }
   ],
   "general": [
@@ -651,7 +701,8 @@
       "prototypeExpressions": [
         "limiter 20 entre 5 et 25",
         "borner 20 entre 5 et 25",
-        "clamper 20 entre 5 et 25"
+        "clamper 20 entre 5 et 25",
+        "borner 20 de 5 à 25"
       ],
       "identifier": "clamp"
     },
@@ -679,7 +730,8 @@
     {
       "prototypeExpressions": [
         "la moitié de 20",
-        "moitié de 20"
+        "moitié de 20",
+        "moitie de 20"
       ],
       "identifier": "halfOf"
     },
@@ -848,7 +900,8 @@
     {
       "prototypeExpressions": [
         "5 parmi 3",
-        "combinaison de 5 parmi 3"
+        "combinaison de 5 parmi 3",
+        "5 combinaison 3"
       ],
       "identifier": "combination"
     },
@@ -964,7 +1017,9 @@
         "10 sur 20 donne quel pourcentage",
         "10 sur 20 comme pourcentage",
         "10 sur 20 sous forme de pourcentage",
-        "10 sur 20 en tant que pourcentage"
+        "10 sur 20 en tant que pourcentage",
+        "50 a 75 c'est quel %",
+        "40 a 90 en %"
       ],
       "identifier": "xToYIsWhatPercentage"
     },
@@ -978,7 +1033,9 @@
         "10 sur 20 en tant que multiple",
         "10 sur 20 donne quel multiplicateur",
         "10 sur 20 comme multiplicateur",
-        "10 sur 20 en tant que multiplicateur"
+        "10 sur 20 en tant que multiplicateur",
+        "50 a 75 c'est quel x",
+        "20 a 40 en x"
       ],
       "identifier": "xToYIsWhatMultiplier"
     },
@@ -1100,7 +1157,8 @@
     {
       "prototypeExpressions": [
         "50 est quel % de 200",
-        "10 en % de 20"
+        "10 en % de 20",
+        "20 c'est quel % de 200"
       ],
       "identifier": "isWhatPercentOf"
     },
@@ -1146,7 +1204,8 @@
         "30 en % de diminution sur 200",
         "30 en % de réduction sur 200",
         "30 en % ôté de 200",
-        "30 en % enlevé à 200"
+        "30 en % enlevé à 200",
+        "180 c'est quel % en moins de 200"
       ],
       "identifier": "isWhatPercentOff"
     },
@@ -1155,7 +1214,8 @@
         "20 donne quel % sur 10",
         "20 en tant que % sur 10",
         "220 en % d'augmentation sur 200",
-        "220 en % ajouté à 200"
+        "220 en % ajouté à 200",
+        "180 c'est quel % sur 150"
       ],
       "identifier": "isWhatPercentOn"
     },

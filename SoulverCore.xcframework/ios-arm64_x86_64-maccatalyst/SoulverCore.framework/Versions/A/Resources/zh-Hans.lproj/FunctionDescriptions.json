@@ -38,7 +38,9 @@
         "__unit_expression __substance 换算成 __unit",
         "__unit_expression 的 __substance 换算成 __unit",
         "__unit_expression __substance 转换为 __unit",
-        "__unit_expression 的 __substance 转换为 __unit"
+        "__unit_expression 的 __substance 转换为 __unit",
+        "__unit_expression __substance 在 __unit 中的量",
+        "__unit_expression __substance 的 __unit 数"
       ],
       "identifier": "substanceWeightToVolumeConversion"
     },
@@ -111,7 +113,8 @@
         "在 __datestamp 和 __datestamp 之间的 __duration 数",
         "__datestamp 和 __datestamp 之间的 __duration",
         "从 __datestamp 到 __datestamp 之间的 __duration 数",
-        "从 __datestamp 到 __datestamp 之间的 __duration"
+        "从 __datestamp 到 __datestamp 之间的 __duration",
+        "从 __datestamp 到 __datestamp 的 __duration"
       ],
       "identifier": "calendarUnitBetweenDates"
     },
@@ -121,7 +124,9 @@
         "多少 __duration 直到 __datestamp",
         "__duration 到 __datestamp",
         "距 __datestamp 还有多少 __duration",
-        "距 __datestamp 还有 __duration"
+        "距 __datestamp 还有 __duration",
+        "到 __datestamp 的 __duration",
+        "到 __datestamp 还有多少 __duration"
       ],
       "identifier": "calendarUnitToDate"
     },
@@ -173,7 +178,10 @@
         "从 __datestamp 至 __datestamp",
         "__datestamp 到 __datestamp",
         "__datestamp 至 __datestamp",
-        "__datestamp 日到 __datestamp"
+        "__datestamp 日到 __datestamp",
+        "1978 到 2021",
+        "1978 年到 2021 年",
+        "1978 年至 2021 年"
       ],
       "identifier": "intervalBetweenDates"
     },
@@ -233,7 +241,8 @@
         "__datestamp __timespan 后",
         "__datestamp 之后 __timespan",
         "__timespan 后从 __datestamp",
-        "__timespan 后 __datestamp"
+        "__timespan 后 __datestamp",
+        "__datestamp 后 __timespan"
       ],
       "identifier": "calendarUnitExpressionAfterDate"
     },
@@ -541,14 +550,17 @@
     {
       "prototypeExpressions": [
         "5 是 1 的多少倍",
-        "5 是 1 的几倍"
+        "5 是 1 的几倍",
+        "5 作为 1 的 x 倍",
+        "5 作为 1 的乘数"
       ],
       "identifier": "isWhatMultiplierOf"
     },
     {
       "prototypeExpressions": [
         "5 减掉后是 1 的多少倍",
-        "5 减到 1 是多少倍"
+        "5 减到 1 是多少倍",
+        "5 作为 1 的 x 折"
       ],
       "identifier": "isWhatMultiplierOff"
     },
@@ -683,14 +695,20 @@
     {
       "prototypeExpressions": [
         "10000 贷款 __timespan __percentage 利率的总还款额",
-        "10000 __percentage 利率 __timespan 的总还款额"
+        "10000 __percentage 利率 __timespan 的总还款额",
+        "10000 __timespan __percentage 利率的总还款额"
       ],
       "identifier": "totalLoanRepayment"
     },
     {
       "prototypeExpressions": [
         "10000 贷款 __timespan __percentage 利率的 __period 还款额",
-        "10000 __percentage 利率 __timespan 的 __period 还款额"
+        "10000 __percentage 利率 __timespan 的 __period 还款额",
+        "10000 __timespan __percentage 利率的 __period 还款额",
+        "10000 __timespan __percentage 利率 __period 还款额",
+        "10000 6 年 6% 利率的 年度 还款额",
+        "10000 6 年 6% 利率的 每月 还款额",
+        "10000 6 年 6% 利率 年度 还款额"
       ],
       "identifier": "periodicLoanRepayment"
     },
@@ -748,21 +766,25 @@
     {
       "prototypeExpressions": [
         "500 在 __datestamp 值多少",
-        "500 到 __datestamp 的价值"
+        "500 到 __datestamp 的价值",
+        "500 在 __datestamp 值多少钱"
       ],
       "identifier": "dollarWorthFromTodayAdjustedForInflation"
     },
     {
       "prototypeExpressions": [
         "500 从 __datestamp 到今天值多少",
-        "500 __datestamp 的钱现在值多少"
+        "500 __datestamp 的钱现在值多少",
+        "500 从 __datestamp 至今的价值是多少",
+        "500 在 __datestamp"
       ],
       "identifier": "dollarWorthToTodayAdjustedForInflation"
     },
     {
       "prototypeExpressions": [
         "500 在 __datestamp 假设 __percentage 通胀率值多少",
-        "500 到 __datestamp 按 __percentage 通胀率的价值"
+        "500 到 __datestamp 按 __percentage 通胀率的价值",
+        "500 在 __datestamp 的价值 假设 __percentage 通货膨胀"
       ],
       "identifier": "predictedDollarWorthGivenInflation"
     }
@@ -772,7 +794,9 @@
       "prototypeExpressions": [
         "__frametime __frameRate_expression 下",
         "__laptime __frameRate_expression 下",
-        "__timespan __frameRate_expression 下"
+        "__timespan __frameRate_expression 下",
+        "__frametime 在 __frameRate_expression",
+        "__laptime 在 __frameRate_expression"
       ],
       "identifier": "formFrametime"
     },
@@ -1048,14 +1072,16 @@
       "prototypeExpressions": [
         "10 到 20 是百分之多少",
         "10 到 20 变化了百分之多少",
-        "从 10 到 20 的百分比变化"
+        "从 10 到 20 的百分比变化",
+        "从 10 到 20 是多少 %"
       ],
       "identifier": "xToYIsWhatPercentage"
     },
     {
       "prototypeExpressions": [
         "10 到 20 是多少倍",
-        "10 到 20 的倍数"
+        "10 到 20 的倍数",
+        "从 10 到 20 是多少 x 倍"
       ],
       "identifier": "xToYIsWhatMultiplier"
     },
@@ -1161,7 +1187,9 @@
         "30 是多少减 __percentage",
         "30 是多少减去 __percentage",
         "30 是什么减 __percentage",
-        "30 是什么减去 __percentage"
+        "30 是什么减去 __percentage",
+        "30 是多少的 __percentage 减去",
+        "30 是什么的 __percentage 减去"
       ],
       "identifier": "isPercentOffWhat"
     },
@@ -1179,7 +1207,9 @@
         "30 是多少加 __percentage",
         "30 是多少加上 __percentage",
         "30 是什么加 __percentage",
-        "30 是什么加上 __percentage"
+        "30 是什么加上 __percentage",
+        "30 是多少的 __percentage 增加",
+        "30 是什么的 __percentage 增加"
       ],
       "identifier": "isPercentOnWhat"
     },
@@ -1203,7 +1233,9 @@
         "10 是 20 里的占比为",
         "10 在 20 里的占比为",
         "10 占 20 的百分比",
-        "10 占 20 的占比"
+        "10 占 20 的占比",
+        "10 是 20 的多少 %",
+        "10 作为 20 的百分比"
       ],
       "identifier": "isWhatPercentOf"
     },
@@ -1238,14 +1270,16 @@
         "10 是 20 减百分之多少",
         "10 是 20 去掉百分之几",
         "10 是 20 减去百分之几",
-        "10 是 20 减百分之几"
+        "10 是 20 减百分之几",
+        "180 比 200 减少了多少 %"
       ],
       "identifier": "isWhatPercentOff"
     },
     {
       "prototypeExpressions": [
         "20 是 10 加百分之多少",
-        "20 是 10 加上百分之几"
+        "20 是 10 加上百分之几",
+        "180 比 150 增加了多少 %"
       ],
       "identifier": "isWhatPercentOn"
     },

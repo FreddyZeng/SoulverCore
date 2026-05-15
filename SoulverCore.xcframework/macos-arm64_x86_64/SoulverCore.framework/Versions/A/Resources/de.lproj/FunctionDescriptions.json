@@ -224,7 +224,8 @@
     {
       "prototypeExpressions": [
         "gesamtrückzahlung auf 10000 für __timespan bei __percentage",
-        "gesamtrückzahlung auf 10000 bei __percentage für __timespan"
+        "gesamtrückzahlung auf 10000 bei __percentage für __timespan",
+        "gesamtrückzahlung auf 10000 über __timespan bei __percentage"
       ],
       "identifier": "totalLoanRepayment"
     },
@@ -290,7 +291,9 @@
         "500 aus __datestamp ist was wert in __datestamp",
         "500 in __datestamp ist was wert in __datestamp",
         "was ist 500 von __datestamp wert in __datestamp",
-        "was ist 500 aus __datestamp wert in __datestamp"
+        "was ist 500 aus __datestamp wert in __datestamp",
+        "was ist 500 im Jahr __datestamp wert in __datestamp",
+        "500 von __datestamp ist wert was in __datestamp"
       ],
       "identifier": "dollarWorthAdjustedForInflation"
     },
@@ -308,7 +311,9 @@
         "500 aus __datestamp ist was wert heute",
         "was ist 500 von __datestamp wert",
         "wert von 500 aus __datestamp",
-        "500 von __datestamp heute"
+        "500 von __datestamp heute",
+        "was ist 500 von __datestamp",
+        "500 von __datestamp ist heute wie viel wert"
       ],
       "identifier": "dollarWorthToTodayAdjustedForInflation"
     },
@@ -319,6 +324,34 @@
         "kaufkraft von 500 in __datestamp bei __percentage inflation"
       ],
       "identifier": "predictedDollarWorthGivenInflation"
+    },
+    {
+      "prototypeExpressions": [
+        "Einkommensteuer auf 500 in __country",
+        "Einkommensteuer für 500 in __country",
+        "Einkommenssteuer auf 500 in __country",
+        "Steuer auf 500 Einkommen in __country",
+        "500 Einkommensteuer in __country"
+      ],
+      "identifier": "incomeTax"
+    },
+    {
+      "prototypeExpressions": [
+        "Einkommen nach Steuer auf 500 in __country",
+        "Nettoeinkommen auf 500 in __country",
+        "Nettogehalt auf 500 in __country",
+        "500 nach Steuer in __country",
+        "500 netto in __country"
+      ],
+      "identifier": "incomeAfterTax"
+    },
+    {
+      "prototypeExpressions": [
+        "Steuersatz auf 500 in __country",
+        "Steuersatz für 500 in __country",
+        "500 Steuersatz in __country"
+      ],
+      "identifier": "effectiveTaxRate"
     }
   ],
   "percentage": [
@@ -358,7 +391,8 @@
     {
       "prototypeExpressions": [
         "30 ist __percentage off was",
-        "30 ist __percentage rabatt auf was"
+        "30 ist __percentage rabatt auf was",
+        "30 ist __percentage ab von was"
       ],
       "identifier": "isPercentOffWhat"
     },
@@ -426,7 +460,8 @@
         "20 sind welche % auf 10",
         "20 als % auf 10",
         "20 in % auf 10",
-        "20 als % zunahme auf 10"
+        "20 als % zunahme auf 10",
+        "20 ist wieviel % auf 10"
       ],
       "identifier": "isWhatPercentOn"
     },
@@ -1071,7 +1106,8 @@
     {
       "prototypeExpressions": [
         "10 bis 20 ist welcher multiplikator",
-        "10 bis 20 als multiplikator"
+        "10 bis 20 als multiplikator",
+        "10 ist zu 20 wie was ist x"
       ],
       "identifier": "xToYIsWhatMultiplier"
     },
@@ -1083,19 +1119,16 @@
     },
     {
       "prototypeExpressions": [
-        "10 auf 20"
       ],
       "identifier": "xOnY"
     },
     {
       "prototypeExpressions": [
-        "10 ab 20"
       ],
       "identifier": "xOffY"
     },
     {
       "prototypeExpressions": [
-        "10 von 20"
       ],
       "identifier": "xOfY"
     },
@@ -1222,7 +1255,9 @@
     },
     {
       "prototypeExpressions": [
-        "__unit_rate für eine __duration"
+        "__unit_rate für eine __duration",
+        "__unit_rate für ein __duration",
+        "__unit_rate für einen __duration"
       ],
       "identifier": "rateForADuration"
     },
